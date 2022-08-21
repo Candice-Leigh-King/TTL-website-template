@@ -269,6 +269,12 @@ font-family: 'Shrikhand', cursive;*/
   } 
 
 /* -----------------TEXTAREA----------------- */
+
+.textarea-background-color
+  {background-color: #FFFFFF;}
+
+.textarea-text-color
+  {}
  
 .textarea-subheading-color
   {color: #D2966D;} 
