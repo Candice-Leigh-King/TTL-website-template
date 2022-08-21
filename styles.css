@@ -289,7 +289,10 @@ font-family: 'Shrikhand', cursive;*/
   {color: #D2966D;} 
   
 .textarea-subheading-font
-  {font-family: 'Brushwell';}  
+  {
+    font-family: 'Brushwell';
+    font-size: 3rem;
+  }  
   
 .textarea-top-line-color
   {
