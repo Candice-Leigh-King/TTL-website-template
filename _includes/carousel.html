@@ -1,17 +1,18 @@
-<section class="grid-center padded-bottom carousel-background_color featured-bg banner" style="background-image: url('{{item.background_image}}');">
+<section class="grid-center padded carousel-background-color banner" style="background-image: url('{{item.background_image}}');">
   <div class="col-12 padded-bottom" id="{{item.link.link}}">
-    <h2>{{item.heading}}</h2>
+    <h2 class="carousel-heading-color carousel-heading-font">{{item.heading}}</h2>
   </div>
 
-  <div class=" col-12 padded-sides grid-center one-time">
+  <div class=" grid col-9_sm-12 padded-sides  one-time">
     {% for carousel in item.carousel %}
-    <div class="grid-center centered">
-      <div class="col-12-middle padded-review">
-        <hr />
-        <p>{{carousel.textarea}} <br />
-        <span> {{carousel.symbols}} </span>
-        </p>
-        <p class="centered"> {{carousel.ending}} </p>
+    <div class="grid-center radius-leaf carousel-border-color carousel-textarea-background-color white-bg centered">
+      <div class="grid-center padded ">
+        <div class = "col-9 padded ">
+          <p class="carousel-text-color carousel-text-font">{{carousel.textarea}} <br />
+            <span class="carousel-symbols-color"> {{carousel.symbols}} </span>
+            </p>
+            <p class="centered carousel-subheading-font carousel-subheading-color"> {{carousel.ending}} </p>
+        </div>
       </div>
     </div>
     {% endfor %}
