@@ -317,6 +317,9 @@ font-family: 'Shrikhand', cursive;*/
   background-color: #FFFFFF;  
   }
 
+.form-heading-font  
+  {font-family: 'Shrikhand', cursive;}     
+
 /*------------------ HEADER ----------------*/
 
 .hamburger {

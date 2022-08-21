@@ -5,7 +5,7 @@ colors:
   form-top-line-color: '#D2966D'
   form-left-line-color: '#D2966D'
 fonts:
-  form-heading-font: 'Shrikhand', cursive;
+  form-heading-font: Shrikhand, cursive;
   form-subheading-font: Brushwell
   form-text-font: Poppins, sans-serif
 
