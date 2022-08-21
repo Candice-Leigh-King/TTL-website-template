@@ -225,6 +225,9 @@ font-family: 'Shrikhand', cursive;*/
   margin-bottom:0;
   }
 
+
+
+
 /* ----------------CAROUSEL---------------- */
 
 .carousel-background-color
@@ -268,15 +271,19 @@ font-family: 'Shrikhand', cursive;*/
   color: #2f3031; 
   } 
 
+
+
+
 /* -----------------TEXTAREA----------------- */
 
 .textarea-background-color
   {background-color: #FFFFFF;}
 
 .textarea-text-font
-  {}
+  {font-family: 'Poppins', sans-serif;}
+
 .textarea-text-color
-  {}  
+  {color: #2f3031;}  
  
 .textarea-subheading-color
   {color: #D2966D;} 
@@ -301,6 +308,17 @@ font-family: 'Shrikhand', cursive;*/
   }  
  
 
+
+
+/* ---------------- FORM -------------- */
+
+.form-background-color
+  {
+  background-color: #FFFFFF;  
+  }
+
+.form-heading-font  
+  {font-family: 'Shrikhand', cursive;}     
 
 /*------------------ HEADER ----------------*/
 
