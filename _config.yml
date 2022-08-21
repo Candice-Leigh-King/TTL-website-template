@@ -11,17 +11,12 @@ _array_structures:
           link:
             description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
             link:
-      - label: Image and Textarea
-        icon: image
+      - label: Textarea
+        icon: article
         value:
-          _section-type: image-and-textarea
-          background_image:
-          image:
-          tablet_images:
-            top_image:
-            bottom_image:
-          heading:
-          textarea:
+          _section-type: textarea
+          subheading_html:
+          textarea_html:
           link:
             description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
             link:
@@ -92,6 +87,9 @@ _select_data:
     - Maglony
     - Mak
     - Misto
+    - Wonderful Branding
+    - Open Sans, sans-serif
+    - Shrikhand, cursive
     - Dream Avenue
     - Amatic SC, cursive
     - Barlow Condensed, sans-serif
@@ -113,6 +111,9 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Wonderful Branding
+      - Open Sans, sans-serif
+      - Shrikhand, cursive
       - Dream Avenue
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
@@ -134,6 +135,9 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Wonderful Branding
+      - Open Sans, sans-serif
+      - Shrikhand, cursive
       - Dream Avenue
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
@@ -155,6 +159,9 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Wonderful Branding
+      - Open Sans, sans-serif
+      - Shrikhand, cursive
       - Dream Avenue  
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
