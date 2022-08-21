@@ -99,7 +99,10 @@
             --carouselTextFont: Poppins, sans-serif;
 
             /* --------------TEXTAREA------------------ */
-            ---textareaBackgroundColor: ;
+            --textareaBackgroundColor: #FFFFFF;
+            --textareaTopLineColor: #D2966D; 
+            --textareaLeftLineColor: #D2966D; 
+
             --formBackgroundColor: #e4dddf;
             --formArcheBackgroundColor: #ebebeb;
             --formTextColor: #7c7a79;
@@ -158,6 +161,8 @@
 
           /* ----------------TEXTAREA--------------- */
           .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
+          .textarea-top-line-color {border-top: var(--textareaTopLineColor) solid 2px;}
+          .textarea-left-line-color {border-left: var(--textareaLeftLineColor) solid 2px;}
 
           .form-background_color {background-color: var(--formBackgroundColor);}
 
@@ -371,7 +376,7 @@
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[3]">
         <span class="cms-editor-button"></span>
-      <section class="grid-middle padded textarea-background-color white-bg banner"  id="about">
+      <section class="grid-middle padded textarea-background-color white-bg"  id="about">
   <div class="col-8_sm-12 left reveal padded fade-left" id="">
     <p class="">Welcome to King Code, your digital creative solution.
 
@@ -383,9 +388,9 @@ We are your full-service digital marketing company specialising in website devel
   
   <div class="col-4_sm-12 grid center top padded-sides reveal fade-right">
     <div class="col-12 grid-center" >
-      <hr class="top-line col-8 ">
+      <hr class="top-line col-8 textarea-top-line-color ">
     </div>
-    <hr class="col-1 left-line">
+    <hr class="col-1 left-line textarea-left-line-color">
     <h4 class="col-11 padded-top">Creators make <br>dreams a reality</h4>
   </div>
 </section>

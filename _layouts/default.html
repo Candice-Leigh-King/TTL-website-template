@@ -99,7 +99,10 @@
             --carouselTextFont: {{site.data.carousel.fonts.carousel-text-font}};
 
             /* --------------TEXTAREA------------------ */
-            ---textareaBackgroundColor: {{site.data.textarea.colors.textarea-background-color}};
+            --textareaBackgroundColor: {{site.data.textarea.colors.textarea-background-color}};
+            --textareaTopLineColor: {{site.data.textarea.colors.textarea-top-line-color}}; 
+            --textareaLeftLineColor: {{site.data.textarea.colors.textarea-left-line-color}}; 
+
             --formBackgroundColor: {{site.data.colors.form-colors.form-background_color}};
             --formArcheBackgroundColor: {{site.data.colors.form-colors.form-arche-background_color}};
             --formTextColor: {{site.data.colors.form-colors.form-text_color}};
@@ -158,6 +161,8 @@
 
           /* ----------------TEXTAREA--------------- */
           .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
+          .textarea-top-line-color {border-top: var(--textareaTopLineColor) solid 2px;}
+          .textarea-left-line-color {border-left: var(--textareaLeftLineColor) solid 2px;}
 
           .form-background_color {background-color: var(--formBackgroundColor);}
 
