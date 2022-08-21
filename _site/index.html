@@ -101,10 +101,14 @@
             /* --------------TEXTAREA------------------ */
             --textareaBackgroundColor: #FFFFFF;
             --textareaTextColor: #2f3031;
+            --textareaTextFont: Poppins, sans-serif;
             --textareaSubheadingColor: #D2966D;
+            --textareaSubheadingFont: Brushwell;
             --textareaTopLineColor: #D2966D; 
-            --textareaLeftLineColor: #D2966D; 
-
+            --textareaLeftLineColor: #D2966D;
+            
+            /* --------------------FORM ----------------*/
+            --formHeadingColor: #859F9F;
             --formBackgroundColor: #e4dddf;
             --formArcheBackgroundColor: #ebebeb;
             --formTextColor: #7c7a79;
@@ -164,11 +168,16 @@
           /* ----------------TEXTAREA--------------- */
           .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
           .textarea-text-color {color: var(--textareaTextColor);}
+          .textarea-text-font {font-family: var(--textareaTextFont);}
           .textarea-subheading-color {color: var(--textareaSubheadingColor);}
+          .textarea-subheading-font {font-family: var(--textareaSubheadingFont);}
           .textarea-top-line-color {border-top: var(--textareaTopLineColor) solid 2px;}
           .textarea-left-line-color {border-left: var(--textareaLeftLineColor) solid 2px;}
 
-          .form-background_color {background-color: var(--formBackgroundColor);}
+          /* -------------------FORM--------------- */
+          .form-background-color {background-color: var(--formBackgroundColor);}
+          .form-heading-color {color: var(--formHeadingColor);}
+
 
           .form-arche-background_color {background-color: var(--formArcheBackgroundColor);}
 
@@ -382,7 +391,7 @@
         <span class="cms-editor-button"></span>
       <section class="grid-middle padded textarea-background-color white-bg"  id="about">
   <div class="col-8_sm-12 left reveal padded fade-left" id="">
-    <p class="textarea-text-color">Welcome to King Code, your digital creative solution.
+    <p class=" textarea-text-color textarea-text-font">Welcome to King Code, your digital creative solution.
 
 King Code is an online marketing agency in Phuket providing online marketing services to businesses in Thailand, The USA, UK, Laos, Australia, South Africa, Zanzibar and all the countries in between.
 
@@ -402,10 +411,10 @@ We are your full-service digital marketing company specialising in website devel
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[4]">
         <span class="cms-editor-button"></span>
-      <section class="padded grid-center form-background_color featured-bg banner" style="background-image: url('');">
+      <section class="padded grid-center form-background-color banner" style="background-image: url('');">
+  <h2 class="reveal fade-up form-heading-color">Contact</h2>
   <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
   <div class="light-bg form-arche-background_color col-8_md-9_sm-12 padded radius " style="background-image: url('');" id="contact">
-    <h2 class="reveal fade-up">Contact</h2>
       <div class="grid padded-sides">
       <div class="col-1_sm-12 relative reveal fade-left">
         <h3 class="sm-bold vertical-form-text "> basic info</h3>

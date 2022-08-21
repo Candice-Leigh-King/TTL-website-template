@@ -1,0 +1,12 @@
+colors:
+  form-background-color: '#FFFFFF'
+  form-heading-color: '#859F9F'
+  form-subheading-color: '#D2966D'
+  form-top-line-color: '#D2966D'
+  form-left-line-color: '#D2966D'
+fonts:
+  form-subheading-font: Brushwell
+  form-text-font: Poppins, sans-serif
+
+  
+    
