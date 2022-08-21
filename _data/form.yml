@@ -6,7 +6,7 @@ colors:
   form-left-line-color: '#D2966D'
 fonts:
   form-heading-font: Shrikhand, cursive;
-  form-subheading-font: Brushwell
+  form-subheading-font: Poppins, sans-serif
   form-text-font: Poppins, sans-serif
 
   

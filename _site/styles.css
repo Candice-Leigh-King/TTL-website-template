@@ -318,7 +318,10 @@ font-family: 'Shrikhand', cursive;*/
   }
 
 .form-heading-font  
-  {font-family: 'Shrikhand', cursive;}     
+  {font-family: 'Shrikhand', cursive;}  
+
+.form-subheading-font 
+  {} 
 
 /*------------------ HEADER ----------------*/
 
