@@ -1,14 +1,12 @@
 colors:
   textarea-background-color: '#FFFFFF'
+  textarea-subheading-color: '#D2966D'
   textarea-top-line-color: '#D2966D'
   textarea-left-line-color: '#D2966D'
-  carousel-heading-color: '#FFFFFF'
-  carousel-subheading-color: '#2f3031'
   carousel-text-color: '#2f3031'
   carousel-symbols-color: '#859F9F'
 fonts:
-  carousel-heading-font: Shrikhand, cursive
-  carousel-subheading-font: Brushwell
+  textarea-subheading-font: Brushwell
   carousel-text-font: Poppins, sans-serif
 
   

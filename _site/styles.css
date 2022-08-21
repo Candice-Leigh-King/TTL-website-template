@@ -174,22 +174,8 @@ font-family: 'Shrikhand', cursive;*/
     height: 474px;
     top: 893px;
     }
-  
- .textarea-top-line-color
-    {
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-top: #D2966D solid 2px ;
-    }
 
- .textarea-left-line-color {
-  border-bottom: none;
-  border-right: none;
-  border-top: none;
-  border-left: #D2966D solid 2px ;
  
-  }  
 
 /* General typography */
 
@@ -281,7 +267,30 @@ font-family: 'Shrikhand', cursive;*/
   {
   color: #2f3031; 
   } 
+
+/* -----------------TEXTAREA----------------- */
  
+.textarea-subheading-color
+  {color: #D2966D;} 
+  
+.textarea-subheading-font
+  {font-family: 'Brushwell';}  
+  
+.textarea-top-line-color
+  {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: #D2966D solid 2px ;
+  }
+
+.textarea-left-line-color 
+  {
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  border-left: #D2966D solid 2px ;
+  }  
  
 
 
