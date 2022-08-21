@@ -4,11 +4,14 @@ colors:
   form-border-color: '#859F9F'
   form-heading-color: '#859F9F'
   form-subheading-color: '#D2966D'
-  form-text-color: '#FFFFFF'
+  form-text-color: '#859F9F'
+  button-color: '#D2966D'
+  button-text-color: '#FFFFFF'
 fonts:
   form-heading-font: Shrikhand, cursive;
   form-subheading-font: Poppins, sans-serif
   form-text-font: Poppins, sans-serif
+  button-font: Poppins, sans-serif
 
   
     

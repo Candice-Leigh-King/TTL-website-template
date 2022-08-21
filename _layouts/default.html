@@ -115,10 +115,11 @@
             --formSubheadingFont: {{site.data.form.fonts.form-subheading-font}};
             --formTextareaBackgroundColor:{{site.data.form.colors.form-textarea-background-color}};
             --formBorderColor: {{site.data.form.colors.form-border-color}};
-            --formTextColor: {{site.data.colors.form-colors.form-text-color}};
-            
-            --buttonColor: {{site.data.colors.form-colors.button_color}};
-            --buttonTextColor: {{site.data.colors.form-colors.button-text_color}};
+            --formTextColor: {{site.data.form.colors.form-text-color}};
+            --buttonColor: {{site.data.form.colors.button-color}};
+            --buttonTextColor: {{site.data.form.colors.button-text-color}};
+            --buttonFont: {{site.data.form.fonts.button-text-font}};
+
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
             --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
             --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}};
@@ -188,7 +189,6 @@
           .form-subheading-color {color: var(--formSubheadingColor);}
           .form-subheading-font {font-family: var(--formSubheadingFont);}
           .form-text-color {color: var(--formTextColor);}
-
           .input-text
             {
             border-bottom: solid 2px var(--formTextColor);
@@ -197,17 +197,16 @@
             input::placeholder {color: var(--formTextColor);}
             textarea::placeholder {color: var(--formTextColor);}
             input, select, option, textarea {color: var(--formTextColor);}
-
-          .button_color {
+          .button-text-color {color: var(--buttonTextColor);}
+          .button-color {
             background-color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
-
-          .button_color:hover {
+          .button-color:hover {
             background-color: transparent;
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
-
-          .button-text_color {color: var(buttonTextColor);}
+          .button-font {font-family: var(--buttonFont);}  
+          
 
           .media-kit-button
             {

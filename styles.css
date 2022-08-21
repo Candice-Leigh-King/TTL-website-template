@@ -326,7 +326,9 @@ font-family: 'Shrikhand', cursive;*/
 .form-subheading-font 
   {font-family: 'Poppins', sans-serif;}
 
-.form-border-color {{border: solid 4px  #859F9F;}}
+.form-border-color {border: solid 4px  #859F9F;}
+
+.form-button-font {font-family: 'Poppins', sans-serif;}
 
 
 

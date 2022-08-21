@@ -115,10 +115,11 @@
             --formSubheadingFont: Poppins, sans-serif;
             --formTextareaBackgroundColor:#FFFFFF;
             --formBorderColor: #859F9F;
-            --formTextColor: ;
-            
-            --buttonColor: #ffffff;
-            --buttonTextColor: #4c4c4c;
+            --formTextColor: #859F9F;
+            --buttonColor: #D2966D;
+            --buttonTextColor: #FFFFFF;
+            --buttonFont: ;
+
             --mediaKitButton: #7c8094;
             --mediaKitButtonHover: #FDFAF0;
             --navigationBackgroundColor: #e3d6cb;
@@ -188,7 +189,6 @@
           .form-subheading-color {color: var(--formSubheadingColor);}
           .form-subheading-font {font-family: var(--formSubheadingFont);}
           .form-text-color {color: var(--formTextColor);}
-
           .input-text
             {
             border-bottom: solid 2px var(--formTextColor);
@@ -197,17 +197,16 @@
             input::placeholder {color: var(--formTextColor);}
             textarea::placeholder {color: var(--formTextColor);}
             input, select, option, textarea {color: var(--formTextColor);}
-
-          .button_color {
+          .button-text-color {color: var(--buttonTextColor);}
+          .button-color {
             background-color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
-
-          .button_color:hover {
+          .button-color:hover {
             background-color: transparent;
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
-
-          .button-text_color {color: var(buttonTextColor);}
+          .button-font {font-family: var(--buttonFont);}  
+          
 
           .media-kit-button
             {
@@ -472,9 +471,9 @@ We are your full-service digital marketing company specialising in website devel
         </div>
       </div>
       <div class="padded grid-center">
-        <input type="hidden" name="inbox_key" value="hello@kingcode.uk">
+        <input type="hidden" name="_to" value="hello@kingcode.uk">
         <input type="text" name="_gotcha" style="display: none;" />
-        <input type="submit" value="Send Message" class="center button-solid button_color button-text_color" />
+        <input type="submit" value="SEND MESSAGE" class="center form-button-font button-solid button-color button-text-color" />
       </div>
     </div>
   </form>
