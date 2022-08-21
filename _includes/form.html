@@ -3,7 +3,7 @@
   <h2 class="reveal fade-up form-heading-font form-heading-color  ">{{item.heading}}</h2>
   
   <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-  <div class="light-bg form-arche-background_color col-8_md-9_sm-12 padded radius " style="background-image: url('{{item.arch-background_image}}');" id="{{item.link.link}}">
+  <div class=" form-textarea-background-color col-8_md-9_sm-12 padded radius-quarter form-border-color" style="background-image: url('{{item.arch-background_image}}');" id="{{item.link.link}}">
       <div class="grid padded-sides">
       <div class="col-1_sm-12 relative reveal fade-left">
         <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color"> {{item.top.vertical-subheading}}</h3>
@@ -11,17 +11,17 @@
 
       <div class="col-10_sm-12 form-padded">
         <div class="floating-input ">
-          <input type="text" name="{{item.top.text-option-1}}" placeholder="{{item.top.text-option-1}}" class=" input-text form-text_color" required="" />
+          <input type="text" name="{{item.top.text-option-1}}" placeholder="{{item.top.text-option-1}}" class=" input-text form-text-color" required="" />
           <label class="input-label">{{item.top.text-option-1}}</label>
         </div>
 
         <div class="floating-input ">
-          <input type="text" name="{{item.top.text-option-2}}" placeholder="{{item.top.text-option-2}}" class="input-text form-text_color" required="" />
+          <input type="text" name="{{item.top.text-option-2}}" placeholder="{{item.top.text-option-2}}" class="input-text form-text-color" required="" />
           <label class="input-label">{{item.top.text-option-2}}</label>
         </div>
 
         <div class="floating-input ">
-          <input type="text" name="{{item.top.text-option-3}}" placeholder="{{item.top.text-option-3}}" class="input-text form-text_color" />
+          <input type="text" name="{{item.top.text-option-3}}" placeholder="{{item.top.text-option-3}}" class="input-text form-text-color" />
           <label class="input-label">{{item.top.text-option-3}}</label>
         </div>
 
@@ -33,19 +33,19 @@
         <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color">{{item.bottom.vertical-subheading}} </h3>
       </div>
 
-      <div class="col-10_sm-12 form-padded form-text_color">
+      <div class="col-10_sm-12 form-padded form-text-color">
         <div class="floating-input ">
-          <textarea name="{{item.bottom.message}}" placeholder="{{item.bottom.message}}" class="input-text form-text_color"></textarea>
+          <textarea name="{{item.bottom.message}}" placeholder="{{item.bottom.message}}" class="input-text form-text-color"></textarea>
           <label class="input-label">{{item.bottom.message}}</label>
         </div>
 
         <div class="floating-input input-text input-text r">
           <select name="services " id="services" required="">
-            <option class="input-text form-text_color">{{item.option-box.subheading}}</option>
-            <option class="input-text form-text_color" value="{{item.option-box.option-1}}">{{item.option-box.option-1}}</option>
-            <option class="input-text form-text_color" value="{{item.option-box.option-2}}">{{item.option-box.option-2}}</option>
-            <option class="input-text form-text_color" value="{{item.option-box.option-3}}">{{item.option-box.option-3}}</option>
-            <option class="input-text form-text_color" value="{{item.option-box.option-4}}">{{item.option-box.option-4}}</option>
+            <option class="input-text form-text-color">{{item.option-box.subheading}}</option>
+            <option class="input-text form-text-color" value="{{item.option-box.option-1}}">{{item.option-box.option-1}}</option>
+            <option class="input-text form-text-color" value="{{item.option-box.option-2}}">{{item.option-box.option-2}}</option>
+            <option class="input-text form-text-color" value="{{item.option-box.option-3}}">{{item.option-box.option-3}}</option>
+            <option class="input-text form-text-color" value="{{item.option-box.option-4}}">{{item.option-box.option-4}}</option>
           </select>
         </div>
         </div>

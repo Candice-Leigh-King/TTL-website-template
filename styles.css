@@ -145,8 +145,8 @@ font-family: 'Shrikhand', cursive;*/
 
   .radius {border-radius: 500px 500px 0px 0px;}
   .radius-leaf {border-radius: 400px 0px 400px 0px;}
-  .bottom-radius
-  {border-radius: 0px 0px 310px 310px;}
+  .radius-quarter {border-radius: 0px 400px 0px 0px;}
+  .bottom-radius {border-radius: 0px 0px 310px 310px;}
   .circle {border-radius: 500px;}
   .border {border: solid 1px #CE967A;}
   
@@ -317,11 +317,18 @@ font-family: 'Shrikhand', cursive;*/
   background-color: #FFFFFF;  
   }
 
+.form-textarea-background-color  
+  { background-color: #FFFFFF;   }
+
 .form-heading-font  
   {font-family: 'Shrikhand', cursive;}  
 
 .form-subheading-font 
-  {} 
+  {font-family: 'Poppins', sans-serif;}
+
+.form-border-color {{border: solid 4px  #859F9F;}}
+
+
 
 /*------------------ HEADER ----------------*/
 

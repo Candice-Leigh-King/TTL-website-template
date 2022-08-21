@@ -108,13 +108,15 @@
             --textareaLeftLineColor: #D2966D;
             
             /* --------------------FORM ----------------*/
-            --formBackgroundColor: ;
+            --formBackgroundColor: #FFFFFF;
             --formHeadingColor: #859F9F;
             --formHeadingFont: Shrikhand, cursive;;
             --formSubheadingColor: #D2966D;
             --formSubheadingFont: Poppins, sans-serif;
-            --formArcheBackgroundColor: #ebebeb;
-            --formTextColor: #7c7a79;
+            --formTextareaBackgroundColor:#FFFFFF;
+            --formBorderColor: #859F9F;
+            --formTextColor: ;
+            
             --buttonColor: #ffffff;
             --buttonTextColor: #4c4c4c;
             --mediaKitButton: #7c8094;
@@ -179,18 +181,18 @@
 
           /* -------------------FORM--------------- */
           .form-background-color {background-color: var(--formBackgroundColor);}
+          .form-textarea-background-color {background-color: var(--formTextareaBackgroundColor);}
+          .form-border-color {border: solid 4px var(--formBorderColor);}
           .form-heading-color {color: var(--formHeadingColor);}
           .form-heading-font {font-family: var(--formHeadingFont);}
           .form-subheading-color {color: var(--formSubheadingColor);}
           .form-subheading-font {font-family: var(--formSubheadingFont);}
-
-
-          .form-arche-background_color {background-color: var(--formArcheBackgroundColor);}
+          .form-text-color {color: var(--formTextColor);}
 
           .input-text
             {
             border-bottom: solid 2px var(--formTextColor);
-            background-color: var(--formArcheBackgroundColor);
+            background-color: var(--formTextareaBackgroundColor);
             }
             input::placeholder {color: var(--formTextColor);}
             textarea::placeholder {color: var(--formTextColor);}

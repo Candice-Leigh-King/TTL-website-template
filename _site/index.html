@@ -108,13 +108,15 @@
             --textareaLeftLineColor: #D2966D;
             
             /* --------------------FORM ----------------*/
-            --formBackgroundColor: ;
+            --formBackgroundColor: #FFFFFF;
             --formHeadingColor: #859F9F;
             --formHeadingFont: Shrikhand, cursive;;
             --formSubheadingColor: #D2966D;
             --formSubheadingFont: Poppins, sans-serif;
-            --formArcheBackgroundColor: #ebebeb;
-            --formTextColor: #7c7a79;
+            --formTextareaBackgroundColor:#FFFFFF;
+            --formBorderColor: #859F9F;
+            --formTextColor: ;
+            
             --buttonColor: #ffffff;
             --buttonTextColor: #4c4c4c;
             --mediaKitButton: #7c8094;
@@ -179,18 +181,18 @@
 
           /* -------------------FORM--------------- */
           .form-background-color {background-color: var(--formBackgroundColor);}
+          .form-textarea-background-color {background-color: var(--formTextareaBackgroundColor);}
+          .form-border-color {border: solid 4px var(--formBorderColor);}
           .form-heading-color {color: var(--formHeadingColor);}
           .form-heading-font {font-family: var(--formHeadingFont);}
           .form-subheading-color {color: var(--formSubheadingColor);}
           .form-subheading-font {font-family: var(--formSubheadingFont);}
-
-
-          .form-arche-background_color {background-color: var(--formArcheBackgroundColor);}
+          .form-text-color {color: var(--formTextColor);}
 
           .input-text
             {
             border-bottom: solid 2px var(--formTextColor);
-            background-color: var(--formArcheBackgroundColor);
+            background-color: var(--formTextareaBackgroundColor);
             }
             input::placeholder {color: var(--formTextColor);}
             textarea::placeholder {color: var(--formTextColor);}
@@ -422,7 +424,7 @@ We are your full-service digital marketing company specialising in website devel
   <h2 class="reveal fade-up form-heading-font form-heading-color  ">Contact</h2>
   
   <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-  <div class="light-bg form-arche-background_color col-8_md-9_sm-12 padded radius " style="background-image: url('');" id="contact">
+  <div class=" form-textarea-background-color col-8_md-9_sm-12 padded radius-quarter form-border-color" style="background-image: url('');" id="contact">
       <div class="grid padded-sides">
       <div class="col-1_sm-12 relative reveal fade-left">
         <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color"> basic info</h3>
@@ -430,17 +432,17 @@ We are your full-service digital marketing company specialising in website devel
 
       <div class="col-10_sm-12 form-padded">
         <div class="floating-input ">
-          <input type="text" name="Your Name" placeholder="Your Name" class=" input-text form-text_color" required="" />
+          <input type="text" name="Your Name" placeholder="Your Name" class=" input-text form-text-color" required="" />
           <label class="input-label">Your Name</label>
         </div>
 
         <div class="floating-input ">
-          <input type="text" name="Your Email Address" placeholder="Your Email Address" class="input-text form-text_color" required="" />
+          <input type="text" name="Your Email Address" placeholder="Your Email Address" class="input-text form-text-color" required="" />
           <label class="input-label">Your Email Address</label>
         </div>
 
         <div class="floating-input ">
-          <input type="text" name="Your WhatsApp (if preferred)" placeholder="Your WhatsApp (if preferred)" class="input-text form-text_color" />
+          <input type="text" name="Your WhatsApp (if preferred)" placeholder="Your WhatsApp (if preferred)" class="input-text form-text-color" />
           <label class="input-label">Your WhatsApp (if preferred)</label>
         </div>
 
@@ -452,19 +454,19 @@ We are your full-service digital marketing company specialising in website devel
         <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color">your brand </h3>
       </div>
 
-      <div class="col-10_sm-12 form-padded form-text_color">
+      <div class="col-10_sm-12 form-padded form-text-color">
         <div class="floating-input ">
-          <textarea name="Tell us a little bit about your business or brand" placeholder="Tell us a little bit about your business or brand" class="input-text form-text_color"></textarea>
+          <textarea name="Tell us a little bit about your business or brand" placeholder="Tell us a little bit about your business or brand" class="input-text form-text-color"></textarea>
           <label class="input-label">Tell us a little bit about your business or brand</label>
         </div>
 
         <div class="floating-input input-text input-text r">
           <select name="services " id="services" required="">
-            <option class="input-text form-text_color">What services do you require?</option>
-            <option class="input-text form-text_color" value="Content Creation">Content Creation</option>
-            <option class="input-text form-text_color" value="Social Media Management">Social Media Management</option>
-            <option class="input-text form-text_color" value="Influencer Marketing">Influencer Marketing</option>
-            <option class="input-text form-text_color" value="Other">Other</option>
+            <option class="input-text form-text-color">What services do you require?</option>
+            <option class="input-text form-text-color" value="Content Creation">Content Creation</option>
+            <option class="input-text form-text-color" value="Social Media Management">Social Media Management</option>
+            <option class="input-text form-text-color" value="Influencer Marketing">Influencer Marketing</option>
+            <option class="input-text form-text-color" value="Other">Other</option>
           </select>
         </div>
         </div>
