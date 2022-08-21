@@ -9,7 +9,7 @@ beige = #EFEBE6
 black= #
 
 FONTS
-font-family: Wonderful Branding;
+font-family: Brushwell;
  */
 
 /* GOOGLE FONTS FOR YOU */
@@ -90,8 +90,8 @@ font-family: 'Shrikhand', cursive;*/
 
 @font-face 
   {
-  font-family: Wonderful Branding;
-  src: url(/fonts/wonderful-branding.otf);
+  font-family: Brushwell;
+  src: url(/fonts/brushwell.otf);
   }
   
   body {
@@ -202,7 +202,7 @@ font-family: 'Shrikhand', cursive;*/
     }
 
  h2, h3 {font-family: 'Shrikhand', cursive;}    
- h4, h5, h6 {font-family: Wonderful Branding;}
+ h4, h5, h6 {font-family: 'Brushwell';}
   
   h1 {
     color: #FDFAF0;
@@ -260,7 +260,7 @@ font-family: 'Shrikhand', cursive;*/
   {color: #2f3031;}
 
 .carousel-subheading-font 
-  {font-family: 'Wonderful Branding';}  
+  {font-family: 'Brushwell';}  
 
 .carousel-text-color 
   {color: #2f3031;}  
