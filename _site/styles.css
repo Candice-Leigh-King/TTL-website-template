@@ -260,7 +260,10 @@ font-family: 'Shrikhand', cursive;*/
   {color: #2f3031;}
 
 .carousel-subheading-font 
-  {font-family: 'Brushwell';}  
+  {
+  font-family: 'Brushwell';
+  font-size: 2rem;
+  }  
 
 .carousel-text-color 
   {color: #2f3031;}  
