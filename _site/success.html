@@ -82,11 +82,24 @@
             --links: #7c8094;
             --linksHover: #FDFAF0;
             --hamburgerColor: #FDFAF0;
-            --imageAndText: #e4dddf;
+            --textarea: ;
             --projectsBackgroundColor: #e3d6cb;
             --mainProjectBackgroundColor: #e3d6cb;
             --projectsTextBackgroundColor: #eae1dc;
-            --carouselBackgroundColor: #e3d6cb;
+            /* -----------------CAROUSEL--------------- */
+            --carouselBackgroundColor: ;
+            --carouselTextareaBackgroundColor: ;
+            --carouselBorderColor: ;
+            --carouselSymbolsColor: ;
+            --carouselHeadingColor: ;
+            --carouselHeadingFont: ;
+            --carouselSubheadingColor: ;
+            --carouselSubheadingFont: ;
+            --carouselTextColor: ;
+            --carouselTextFont: ;
+
+            /* --------------TEXTAREA------------------ */
+            ---textareaBackgroundColor: ;
             --formBackgroundColor: #e4dddf;
             --formArcheBackgroundColor: #ebebeb;
             --formTextColor: #7c7a79;
@@ -124,15 +137,27 @@
 
           .hamburger_color {color: var(--hamburgerColor);}
 
-          .image-and-text-background_color {background-color: var(--imageAndText);}
+          .textarea-background_color {background-color: var(--textarea);}
 
           .projects-background_color {background-color: var(--projectsBackgroundColor);}
 
           .main-project-background_color {background-color: var(--mainProjectBackgroundColor);}
 
           .projects-text-background_color {background-color: var(--projectsTextBackgroundColor);}
+      
+    
+        /*---------------- CAROUSEL ---------------*/
+          .carousel-background-color {background-color: var(--carouselBackgroundColor);}
+          .carousel-textarea-background-color {background-color: var(--carouselTextareaBackgroundColor);}
+          .carousel-heading-color {color: var(--carouselHeadingColor);}
+          .carousel-heading-font {font-family: var(--carouselHeadingFont);}
+          .carousel-subheading-color {color: var(--carouselSubheadingColor);}
+          .carousel-subheading-font {font-family: var(--carouselSubheadingFont);}
+          .carousel-border-color {border: solid 4px var(--carouselBorderColor);}
+          .carousel-symbols-color {color: var(--carouselSymbolsColor);}
 
-          .carousel-background_color {background-color: var(--carouselBackgroundColor);}
+          /* ----------------TEXTAREA--------------- */
+          .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
 
           .form-background_color {background-color: var(--formBackgroundColor);}
 
@@ -156,7 +181,7 @@
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
 
-          .button-text_color: {color: var(buttonTextColor);}
+          .button-text_color {color: var(buttonTextColor);}
 
           .media-kit-button
             {
@@ -181,7 +206,7 @@
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
 
-          .button-text_color: {color: var(buttonTextColor);}
+          .button-text_color {color: var(buttonTextColor);}
 
           .media-kit-button
             {

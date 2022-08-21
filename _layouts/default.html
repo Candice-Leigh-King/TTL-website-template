@@ -82,11 +82,24 @@
             --links: {{site.data.colors.text-colors.link_color}};
             --linksHover: {{site.data.colors.text-colors.links-hover_color}};
             --hamburgerColor: {{site.data.colors.text-colors.hamburger_color}};
-            --imageAndText: {{site.data.colors.background-colors.image-and-text-background_color}};
+            --textarea: {{site.data.colors.background-colors.textarea-background_color}};
             --projectsBackgroundColor: {{site.data.colors.background-colors.projects-background_color}};
             --mainProjectBackgroundColor: {{site.data.colors.background-colors.main-project-background_color}};
             --projectsTextBackgroundColor: {{site.data.colors.background-colors.projects-text-background_color}};
-            --carouselBackgroundColor: {{site.data.colors.background-colors.carousel-background_color}};
+            /* -----------------CAROUSEL--------------- */
+            --carouselBackgroundColor: {{site.data.carousel.colors.carousel-background-color}};
+            --carouselTextareaBackgroundColor: {{site.data.carousel.colors.carousel-textarea-background-color}};
+            --carouselBorderColor: {{site.data.carousel.colors.carousel-border-color}};
+            --carouselSymbolsColor: {{site.data.carousel.colors.carousel-symbols-color}};
+            --carouselHeadingColor: {{site.data.carousel.colors.carousel-heading-color}};
+            --carouselHeadingFont: {{site.data.carousel.fonts.carousel-heading-font}};
+            --carouselSubheadingColor: {{site.data.carousel.colors.carousel-subheading-color}};
+            --carouselSubheadingFont: {{site.data.carousel.fonts.carousel-subheading-font}};
+            --carouselTextColor: {{site.data.carousel.colors.carousel-text-font}};
+            --carouselTextFont: {{site.data.carousel.fonts.carousel-text-font}};
+
+            /* --------------TEXTAREA------------------ */
+            ---textareaBackgroundColor: {{site.data.textarea.colors.textarea-background-color}};
             --formBackgroundColor: {{site.data.colors.form-colors.form-background_color}};
             --formArcheBackgroundColor: {{site.data.colors.form-colors.form-arche-background_color}};
             --formTextColor: {{site.data.colors.form-colors.form-text_color}};
@@ -124,15 +137,27 @@
 
           .hamburger_color {color: var(--hamburgerColor);}
 
-          .image-and-text-background_color {background-color: var(--imageAndText);}
+          .textarea-background_color {background-color: var(--textarea);}
 
           .projects-background_color {background-color: var(--projectsBackgroundColor);}
 
           .main-project-background_color {background-color: var(--mainProjectBackgroundColor);}
 
           .projects-text-background_color {background-color: var(--projectsTextBackgroundColor);}
+      
+    
+        /*---------------- CAROUSEL ---------------*/
+          .carousel-background-color {background-color: var(--carouselBackgroundColor);}
+          .carousel-textarea-background-color {background-color: var(--carouselTextareaBackgroundColor);}
+          .carousel-heading-color {color: var(--carouselHeadingColor);}
+          .carousel-heading-font {font-family: var(--carouselHeadingFont);}
+          .carousel-subheading-color {color: var(--carouselSubheadingColor);}
+          .carousel-subheading-font {font-family: var(--carouselSubheadingFont);}
+          .carousel-border-color {border: solid 4px var(--carouselBorderColor);}
+          .carousel-symbols-color {color: var(--carouselSymbolsColor);}
 
-          .carousel-background_color {background-color: var(--carouselBackgroundColor);}
+          /* ----------------TEXTAREA--------------- */
+          .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
 
           .form-background_color {background-color: var(--formBackgroundColor);}
 
@@ -156,7 +181,7 @@
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
 
-          .button-text_color: {color: var(buttonTextColor);}
+          .button-text_color {color: var(buttonTextColor);}
 
           .media-kit-button
             {
@@ -181,7 +206,7 @@
             color: var(--buttonColor);
             border: 1px solid var(--buttonColor);}
 
-          .button-text_color: {color: var(buttonTextColor);}
+          .button-text_color {color: var(buttonTextColor);}
 
           .media-kit-button
             {
