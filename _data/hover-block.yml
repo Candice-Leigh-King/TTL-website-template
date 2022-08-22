@@ -3,7 +3,7 @@ colors:
   hover-block-textarea-background-color: '#FFFFFF'
   hover-block-border-color: '#859F9F'
   hover-block-heading-color: '#FFFFFF'
-  hover-block-subheading-hover-color: '#2f3031'
+  hover-overlay: '#2f3031'
   hover-block-textarea-color: '#2f3031'
 fonts:
   hover-block-heading-font: Shrikhand, cursive

@@ -129,10 +129,8 @@
             /* ------------HOVER BLOCK ---------- */
             --hoverBlockHeadingColor: {{site.data.hover-block.colors.hover-block-heading-color}};
             --hoverBlockHeadingFont: {{site.data.hover-block.fonts.hover-block-heading-font}};
-            --hoverBlockSubheadingColor: {{site.data.hover-block.colors.hover-block-subheading-color}};
-            --hoverBlockSubheadingHoverColor: {{site.data.hover-block.colors.hover-block-subheading-hover-color}};
             --hoverBlockSubheadingFont: {{site.data.hover-block.fonts.hover-block-subheading-font}};
-            --hoverBlockTextareaColor: {{site.data.hover-block.colors.hover-block-textarea-color}};
+            --hoverBlockHoverOverlayColor: {{site.data.hover-block.colors.hover-block-hover-overly}};
             --hoverBlockTextareaFont: {{site.data.hover-block.fonts.hover-block-textarea-font}};
 
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
@@ -214,9 +212,11 @@
           /* ---------HOVER GRID----------- */
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
-          .hover-overlay {color: var(--hoverBlockSubheadingColor);}
-          .hover-overlay:hover {color: var(--hoverBlockSubheadingHoverColor);}
+          .hover-block-subheading-color {color: var(--hoverBlockSubheadingColor);}
+          .hover-overlay:hover {color: var(--hoverBlockHoverOverlayColor);}
           .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
+          .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
+          .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);}
 
           .media-kit-button
             {

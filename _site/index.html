@@ -129,10 +129,8 @@
             /* ------------HOVER BLOCK ---------- */
             --hoverBlockHeadingColor: #FFFFFF;
             --hoverBlockHeadingFont: Shrikhand, cursive;
-            --hoverBlockSubheadingColor: ;
-            --hoverBlockSubheadingHoverColor: #2f3031;
             --hoverBlockSubheadingFont: Shrikhand, cursive;
-            --hoverBlockTextareaColor: #2f3031;
+            --hoverBlockHoverOverlayColor: ;
             --hoverBlockTextareaFont: ;
 
             --mediaKitButton: #7c8094;
@@ -214,9 +212,11 @@
           /* ---------HOVER GRID----------- */
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
-          .hover-overlay {color: var(--hoverBlockSubheadingColor);}
-          .hover-overlay:hover {color: var(--hoverBlockSubheadingHoverColor);}
+          .hover-block-subheading-color {color: var(--hoverBlockSubheadingColor);}
+          .hover-overlay:hover {color: var(--hoverBlockHoverOverlayColor);}
           .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
+          .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
+          .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);}
 
           .media-kit-button
             {
@@ -305,7 +305,7 @@
   <div class="grid">
     
     <div class="col-6_sm-12">
-      <div class="hover-container" style="background-image:url('/images/through-the-lyns-content.jpeg')">
+      <div class="hover-container" style="background-image:url('/images/through-the-lyns-content.JPEG')">
         <div class="top-hover-overlay">
           <div class="hover-inner">
             <h2 class="hover-block-heading-color hover-block-heading-font"> Services </h2>
