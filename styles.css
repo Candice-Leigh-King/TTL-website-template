@@ -630,7 +630,10 @@ footer {
       left: 0rem;
       }
 
-      /* --------CAROUSEL-------- */
+  /* --------FORM-------- */
+  .radius-quarter {border-radius: 0px 150px 0px 0px;}
+
+  /* --------CAROUSEL-------- */
    .radius-leaf {border-radius: 220px 0px 220px 0px;}
    .carousel-symbols-color {font-size: 1.8rem;}
    .carousel-subheading-font {font-size: 1.6rem;}
