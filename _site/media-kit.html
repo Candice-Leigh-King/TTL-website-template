@@ -71,16 +71,16 @@
         <link rel="stylesheet" href="/styles.css" />
         <style>
           :root {
-            --hero: #FDFAF0;
+            --hero: ;
             --heroFont: La Obrige;
             /* --heroSizeNumber: rem; */
-            --headings: #655451;
+            --headings: ;
             --headingsFont: Dream Avenue;
-            --subheadings: #655451;
+            --subheadings: ;
             --subheadingsFont: Brushwell;
-            --text: #4c4c4c;
+            --text: ;
             --textFont: Poppins, sans-serif;
-            --links: #7c8094;
+            --links: ;
             --linksHover: #FDFAF0;
             --hamburgerColor: #FDFAF0;
             --textarea: ;
@@ -126,6 +126,14 @@
             --galleryHeadingColor: #859F9F;
             --galleryHeadingFont: Shrikhand, cursive;
 
+            /* ------------HOVER BLOCK ---------- */
+            --hoverBlockHeadingColor: #FFFFFF;
+            --hoverBlockHeadingFont: Shrikhand, cursive;
+            --hoverBlockSubheadingColor: transparent;
+            --hoverBlockSubheadingFont: Brushwell;
+            --hoverBlockTextareaColor: ;
+            --hoverBlockTextareaFont: ;
+
             --mediaKitButton: #7c8094;
             --mediaKitButtonHover: #FDFAF0;
             --navigationBackgroundColor: #e3d6cb;
@@ -133,6 +141,7 @@
             --footerBackgroundColor: #e4dddf;
             --socialIconsColor: #e9e5e6;
             --iconColor: #e4dddf;
+            
           }
           h1 {
             color: var(--hero);
@@ -183,8 +192,8 @@
           .textarea-text-font {font-family: var(--textareaTextFont);}
           .textarea-subheading-color {color: var(--textareaSubheadingColor);}
           .textarea-subheading-font {font-family: var(--textareaSubheadingFont);}
-          .textarea-top-line-color {border-top: var(--textareaTopLineColor) solid 2px;}
-          .textarea-left-line-color {border-left: var(--textareaLeftLineColor) solid 2px;}
+          .textarea-top-line-color {border-top: var(--textareaTopLineColor) solid 4px;}
+          .textarea-left-line-color {border-left: var(--textareaLeftLineColor) solid 4px;}
 
           /* -------------------FORM--------------- */
           .form-background-color {background-color: var(--formBackgroundColor);}
@@ -215,6 +224,13 @@
           .gallery-heading-color {color: var(--galleryHeadingColor);}
           .gallery-heading-font {font-family: var(--galleryHeadingFont);}
           
+          /* ---------HOVER GRID----------- */
+          .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
+          .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
+          .hover-block-subheading-color h3 {color: var(--hoverBlockSubheadingColor);}
+          .hover-block-subheading-font h2 {font-family: var(--hoverBlockSubheadingFont);}
+          .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
+          .hover-block-textarea-font  {color: var(--hoverBlockTextareaFont);}
 
           .media-kit-button
             {

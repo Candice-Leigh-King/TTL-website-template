@@ -295,13 +295,13 @@ font-family: 'Shrikhand', cursive;*/
     font-family: 'Brushwell';
     font-size: 3rem;
   }  
-  
-.textarea-top-line-color
+
+  .textarea-top-line-color
   {
   border-bottom: none;
   border-left: none;
   border-right: none;
-  border-top: #D2966D solid 2px ;
+  border-top: #D2966D solid 4px ;
   }
 
 .textarea-left-line-color 
@@ -309,9 +309,65 @@ font-family: 'Shrikhand', cursive;*/
   border-bottom: none;
   border-right: none;
   border-top: none;
-  border-left: #D2966D solid 2px ;
+  border-left: #D2966D solid 4px ;
   }  
  
+
+  /*------------- HOVER GRID--------------- */
+
+  .hover-container 
+    {
+    background-size: cover;
+    background-position: center;
+    background-color: #EFEBE6;
+    }
+  
+  .hover-container .hover-image 
+    {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    background-size: cover;
+    border: #FFFFFF solid 4px;
+    }
+
+  .hover-container .hover-image:hover 
+    {border: transparent }
+
+  .hover-overlay {
+    position: relative;
+    padding-bottom: 100%;
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+    transition: all 0.3s;
+  }
+
+  .top-hover-overlay 
+    {
+    position: relative;
+    padding-bottom: 100%;
+    background-color: rgba(133, 159, 159, 0.5);
+    position: relative;
+    }
+
+  .hover-overlay:hover 
+    {
+    background-color: #EFEBE6;
+    color: white; 
+   }
+
+  .hover-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .hover-inner p {margin-bottom: 0;}
+  
+
 
 
 

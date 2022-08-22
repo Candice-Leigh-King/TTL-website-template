@@ -169,4 +169,41 @@ content-blocks:
         If you don't want this section to link from the navigation, you can
         simply leave it out.
       link: services
+left:
+  heading: Services
+  textarea_html:
+  background-image: /images/through-the-lyns-content.JPEG 
+right:
+  heading: Photography
+  textarea_html: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni veniam harum minus voluptas dolore dolor laudantium id totam nisi et vel alias odio officia necessitatibus vitae ratione, rem sit dicta!
+  background-image: /images/content-creators-website-template.JPG 
 ---
+<section class="center">
+  <div class="grid">
+    
+    <div class="col-6_sm-12">
+      <div class="hover-container" style="background-image:url('{{page.left.background-image}}')">
+        <div class="top-hover-overlay">
+          <div class="hover-inner">
+            <h2 class="hover-block-heading-color hover-block-heading-font"> {{page.left.heading}} </h2>
+            <p class="hover-block-text-color hover-block-textarea-font"> {{page.left.textarea_html}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6_sm-12 hover-block-subheading-color hover-block-subheading-font">
+      <div class="hover-container padded">
+        <div class="hover-image" style="background-image:url('{{page.right.background-image}}')">
+          <div class="hover-overlay">
+            <div class="hover-inner">
+              <h2 class=""> {{page.right.heading}} </h2>
+              <p class="hover-block-text-color hover-block-textarea-font"> {{page.right.textarea_html}}</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    
+</div>    
+</section>

@@ -1,9 +1,9 @@
 text-colors:
-  hero_color: '#FDFAF0'
-  headings_color: '#655451'
-  subheadings_color: '#655451'
-  text_color: '#4c4c4c'
-  link_color: '#7c8094'
+  # hero_color: '#FDFAF0'
+  # headings_color: '#655451'
+  # subheadings_color: '#655451'
+  # text_color: '#4c4c4c'
+  # link_color: '#7c8094'
   links-hover_color: '#FDFAF0'
   hamburger_color: '#FDFAF0'
 background-colors:

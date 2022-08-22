@@ -1,0 +1,15 @@
+colors:
+  hover-block-background-color: '#BCCACA'
+  hover-block-textarea-background-color: '#FFFFFF'
+  hover-block-border-color: '#859F9F'
+  hover-block-heading-color: '#FFFFFF'
+  hover-block-subheading-color: 'transparent'
+  hover-block-text-color: '#2f3031'
+  hover-block-symbols-color: '#859F9F'
+fonts:
+  hover-block-heading-font: Shrikhand, cursive
+  hover-block-subheading-font: Brushwell
+  hover-block-text-font: Poppins, sans-serif
+
+  
+    
