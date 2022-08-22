@@ -8,7 +8,7 @@ colors:
   hover-block-symbols-color: '#859F9F'
 fonts:
   hover-block-heading-font: Shrikhand, cursive
-  hover-block-subheading-font: Brushwell
+  hover-block-subheading-font: Shrikhand, cursive
   hover-block-text-font: Poppins, sans-serif
 
   
