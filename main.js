@@ -49,6 +49,22 @@ $(document).ready(function() {
 
 			window.addEventListener("scroll", reveal);
 
+			
+			$('[data-fancybox="gallery"]').fancybox({
+			  loop: true,
+			  buttons: [
+				"zoom",
+				"slideShow",
+				"thumbs",
+				"close"
+				],
+				animationEffect: "zoom",
+				transitionEffect: "zoom-in-out",
+			});
+ 
+			
+
+
 // 			if (window.inEditorMode) {
 //   alert('Inside CloudCannon!');
 // } else {

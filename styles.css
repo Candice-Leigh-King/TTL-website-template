@@ -336,6 +336,20 @@ font-family: 'Shrikhand', cursive;*/
 .form-button-font {font-family: 'Poppins', sans-serif;}
 
 
+/* ---------GALLERY--------- */
+
+.padded-gallery {padding: 5% 10%;}
+
+.square {
+  padding-bottom: 100%; 
+  display: block; 
+  border: 4px solid white;
+  background-size: cover;
+  background-position: center;
+  background-color: #BCCACA;
+  background-repeat: no-repeat; }
+
+
 
 /*------------------ HEADER ----------------*/
 
