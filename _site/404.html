@@ -130,8 +130,9 @@
             --hoverBlockHeadingColor: #FFFFFF;
             --hoverBlockHeadingFont: Shrikhand, cursive;
             --hoverBlockSubheadingColor: transparent;
+            --hoverBlockSubheadingHoverColor: #2f3031;
             --hoverBlockSubheadingFont: Shrikhand, cursive;
-            --hoverBlockTextareaColor: ;
+            --hoverBlockTextareaColor: #2f3031;
             --hoverBlockTextareaFont: ;
 
             --mediaKitButton: #7c8094;
@@ -142,20 +143,6 @@
             --socialIconsColor: #e9e5e6;
             --iconColor: #e4dddf;
             
-          }
-          h1 {
-            color: var(--hero);
-            font-family: var(--heroFont);
-            /* font-size: var(--heroSizeNumber); */
-          }
-          h2 {
-            color: var(--headings);
-            font-family: var(--headingsFont);
-          }
-
-          h3, h4, h5, h6 {
-            color: var(--subheadings);
-            font-family: var(--subheadingsFont);
           }
 
           p {
@@ -227,10 +214,11 @@
           /* ---------HOVER GRID----------- */
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
-          .hover-block-subheading-color h3 {color: var(--hoverBlockSubheadingColor);}
-          .hover-block-subheading-font h2 {font-family: var(--hoverBlockSubheadingFont);}
-          .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
-          .hover-block-textarea-font  {color: var(--hoverBlockTextareaFont);}
+          .hover-overlay {color: var(--hoverBlockSubheadingColor);}
+          .hover-overlay:hover {color: var(--hoverBlockSubheadingHoverColor);}
+          .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
+          /* .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
+          .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);} */
 
           .media-kit-button
             {

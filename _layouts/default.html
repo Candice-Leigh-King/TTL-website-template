@@ -130,6 +130,7 @@
             --hoverBlockHeadingColor: {{site.data.hover-block.colors.hover-block-heading-color}};
             --hoverBlockHeadingFont: {{site.data.hover-block.fonts.hover-block-heading-font}};
             --hoverBlockSubheadingColor: {{site.data.hover-block.colors.hover-block-subheading-color}};
+            --hoverBlockSubheadingHoverColor: {{site.data.hover-block.colors.hover-block-subheading-hover-color}};
             --hoverBlockSubheadingFont: {{site.data.hover-block.fonts.hover-block-subheading-font}};
             --hoverBlockTextareaColor: {{site.data.hover-block.colors.hover-block-textarea-color}};
             --hoverBlockTextareaFont: {{site.data.hover-block.fonts.hover-block-textarea-font}};
@@ -142,20 +143,6 @@
             --socialIconsColor: {{site.data.colors.footer-colors.social-icons_color}};
             --iconColor: {{site.data.colors.footer-colors.social-icons-inner_color}};
             
-          }
-          h1 {
-            color: var(--hero);
-            font-family: var(--heroFont);
-            /* font-size: var(--heroSizeNumber); */
-          }
-          h2 {
-            color: var(--headings);
-            font-family: var(--headingsFont);
-          }
-
-          h3, h4, h5, h6 {
-            color: var(--subheadings);
-            font-family: var(--subheadingsFont);
           }
 
           p {
@@ -227,10 +214,11 @@
           /* ---------HOVER GRID----------- */
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
-          .hover-block-subheading-color h3 {color: var(--hoverBlockSubheadingColor);}
-          .hover-block-subheading-font h2 {font-family: var(--hoverBlockSubheadingFont);}
-          .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
-          .hover-block-textarea-font  {color: var(--hoverBlockTextareaFont);}
+          .hover-overlay {color: var(--hoverBlockSubheadingColor);}
+          .hover-overlay:hover {color: var(--hoverBlockSubheadingHoverColor);}
+          .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
+          /* .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
+          .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);} */
 
           .media-kit-button
             {
