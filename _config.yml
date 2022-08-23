@@ -57,7 +57,7 @@ _array_structures:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
-          - _section-type: fig-hover-block
+          _section-type: fig-hover-block
           left:
             heading: 
             textarea_html:
@@ -70,7 +70,7 @@ _array_structures:
       - label: Zuko Hover Block
         icon: pets
         value: 
-          - _section-type: zuko-hover-block
+          _section-type: zuko-hover-block
           left:
             heading: 
             textarea_html:
