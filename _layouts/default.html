@@ -127,11 +127,14 @@
             --galleryHeadingFont: {{site.data.gallery.fonts.gallery-heading-font}};
 
             /* ------------HOVER BLOCK ---------- */
+            --hoverBlockOverlayColor: {{site.data.hover-block.colors.hover-block-overlay-color}};
+            --hoverBlockBackgroundColor: {{site.data.hover-block.colors.hover-block-background-color}};
             --hoverBlockHeadingColor: {{site.data.hover-block.colors.hover-block-heading-color}};
             --hoverBlockHeadingFont: {{site.data.hover-block.fonts.hover-block-heading-font}};
             --hoverBlockSubheadingFont: {{site.data.hover-block.fonts.hover-block-subheading-font}};
             --hoverTextColor: {{site.data.hover-block.colors.hover-text-color}};
             --hoverBlockTextareaFont: {{site.data.hover-block.fonts.hover-block-textarea-font}};
+            --hoverBlockBorderColor: {{site.data.hover-block.colors.hover-block-border-color}};
 
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
             --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
@@ -210,10 +213,13 @@
           .gallery-heading-font {font-family: var(--galleryHeadingFont);}
           
           /* ---------HOVER GRID----------- */
+          .top-hover-overlay {background-color: var(--hoverBlockOverlayColor);}
+          .hover-container {background-color: var(--hoverBlockBackgroundColor);}
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
           .hover-block-subheading-color {color: var(--hoverBlockSubheadingColor);}
           .hover-text-color:hover {color: var(--hoverTextColor);}
+          .hover-container .hover-image { border: var(--hoverBlockBorderColor) solid 4px;}
           .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
           .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
           .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);}

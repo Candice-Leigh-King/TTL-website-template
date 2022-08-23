@@ -127,11 +127,14 @@
             --galleryHeadingFont: Shrikhand, cursive;
 
             /* ------------HOVER BLOCK ---------- */
+            --hoverBlockOverlayColor: rgba(133, 159, 159, 0.5);
+            --hoverBlockBackgroundColor: #EFEBE6;
             --hoverBlockHeadingColor: #FFFFFF;
             --hoverBlockHeadingFont: Shrikhand, cursive;
             --hoverBlockSubheadingFont: Shrikhand, cursive;
             --hoverTextColor: ;
             --hoverBlockTextareaFont: ;
+            --hoverBlockBorderColor: #FFFFFF;
 
             --mediaKitButton: #7c8094;
             --mediaKitButtonHover: #FDFAF0;
@@ -210,10 +213,13 @@
           .gallery-heading-font {font-family: var(--galleryHeadingFont);}
           
           /* ---------HOVER GRID----------- */
+          .top-hover-overlay {background-color: var(--hoverBlockOverlayColor);}
+          .hover-container {background-color: var(--hoverBlockBackgroundColor);}
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--hoverBlockHeadingFont);}
           .hover-block-subheading-color {color: var(--hoverBlockSubheadingColor);}
           .hover-text-color:hover {color: var(--hoverTextColor);}
+          .hover-container .hover-image { border: var(--hoverBlockBorderColor) solid 4px;}
           .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
           .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
           .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);}

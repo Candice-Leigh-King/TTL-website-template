@@ -1,7 +1,8 @@
 colors:
-  hover-block-background-color: '#BCCACA'
+  hover-block-overlay-color: 'rgba(133, 159, 159, 0.5)'
+  hover-block-background-color: '#EFEBE6'
   hover-block-textarea-background-color: '#FFFFFF'
-  hover-block-border-color: '#859F9F'
+  hover-block-border-color: '#FFFFFF'
   hover-block-heading-color: '#FFFFFF'
   hover-overlay: '#2f3031'
   hover-block-textarea-color: '#2f3031'
