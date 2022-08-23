@@ -1,13 +1,13 @@
-<section class="grid-middle padded textarea-background-color white-bg"  id="{{item.link.link}}">
+<section style="background-color: {{item.colors.background-color}};"class="grid-middle padded textarea-background-color"  id="{{item.link.link}}">
   <div class="col-8_sm-12 left reveal padded fade-left" id="{{page.links.textarea}}">
-    <p class=" textarea-text-color textarea-text-font">{{item.textarea_html}}</p>
+    <p style="color: {{item.colors.text-color}}; font-family: {{item.fonts.text-font}}" class=" textarea-text-color textarea-text-font">{{item.textarea_html}}</p>
   </div>
   
   <div class="col-4_sm-12 grid center top padded-sides reveal fade-right">
     <div class="col-12 grid-center" >
-      <hr class="top-line col-8 textarea-top-line-color ">
+      <hr style="border-bottom: none; border-left: none; border-right: none; border-top: 4px solid {{item.colors.top-line-color}} ;" class="top-line col-8 textarea-top-line-color ">
     </div>
-    <hr class="col-1 left-line textarea-left-line-color">
-    <h3 class="col-11 textarea-subheading-color textarea-subheading-font">{{item.subheading_html}}</h3>
+    <hr style="border-bottom: none; border-right: none; border-top: none; border-left: solid 4px {{item.colors.left-line-color}} ;" class="col-1 left-line textarea-left-line-color">
+    <h3 style="color: {{item.colors.subheading-color}} font-family: {{item.fonts.subheading-font}} ;" class="col-11 textarea-subheading-color textarea-subheading-font">{{item.subheading_html}}</h3>
   </div>
 </section>
