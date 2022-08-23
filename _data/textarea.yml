@@ -1,9 +1,0 @@
-colors:
-  textarea-background-color: '#ffffff'
-  textarea-text-color: '#2f3031'
-  textarea-subheading-color: '#d2966d'
-  textarea-top-line-color: '#d2966d'
-  textarea-left-line-color: '#d2966d'
-fonts:
-  textarea-subheading-font: Brushwell
-  textarea-text-font: Poppins, sans-serif
