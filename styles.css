@@ -333,14 +333,16 @@ font-family: 'Shrikhand', cursive;*/
   .hover-container .hover-image:hover 
     {border: transparent }
 
-  .hover-overlay {
+  .hover-overlay 
+    {
     position: relative;
     padding-bottom: 100%;
     color: rgba(255, 255, 255, 0);
     position: relative;
     /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
     transition: all 0.3s;
-  }
+    }
+
 
   .top-hover-overlay 
     {
@@ -354,17 +356,24 @@ font-family: 'Shrikhand', cursive;*/
     {
     background-color: #EFEBE6;
     color: white; 
-   }
+    }
 
-  .hover-inner {
+  .hover-inner 
+    {
     position: absolute;
     width: 100%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+    }
 
   .hover-inner p {margin-bottom: 0;}
+
+  .hover-block-button-color:hover 
+  { background-color: #D2966D;
+    color: #2f3031;
+    transition: all 0.3s;
+    padding: .8rem 2rem .6rem;}
   
 
 
@@ -373,9 +382,7 @@ font-family: 'Shrikhand', cursive;*/
 /* ---------------- FORM -------------- */
 
 .form-background-color
-  {
-  background-color: #FFFFFF;  
-  }
+  {background-color: #FFFFFF;}
 
 .form-textarea-background-color  
   { background-color: #FFFFFF;   }
@@ -386,9 +393,11 @@ font-family: 'Shrikhand', cursive;*/
 .form-subheading-font 
   {font-family: 'Poppins', sans-serif;}
 
-.form-border-color {border: solid 4px  #859F9F;}
+.form-border-color 
+  {border: solid 4px  #859F9F;}
 
-.form-button-font {font-family: 'Poppins', sans-serif;}
+.form-button-font 
+  {font-family: 'Poppins', sans-serif;}
 
 
 /* ---------GALLERY--------- */

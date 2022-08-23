@@ -87,6 +87,7 @@
             --projectsBackgroundColor: {{site.data.colors.background-colors.projects-background_color}};
             --mainProjectBackgroundColor: {{site.data.colors.background-colors.main-project-background_color}};
             --projectsTextBackgroundColor: {{site.data.colors.background-colors.projects-text-background_color}};
+
             /* -----------------CAROUSEL--------------- */
             --carouselBackgroundColor: {{site.data.carousel.colors.carousel-background-color}};
             --carouselTextareaBackgroundColor: {{site.data.carousel.colors.carousel-textarea-background-color}};
@@ -135,6 +136,8 @@
             --hoverTextColor: {{site.data.hover-block.colors.hover-text-color}};
             --hoverBlockTextareaFont: {{site.data.hover-block.fonts.hover-block-textarea-font}};
             --hoverBlockBorderColor: {{site.data.hover-block.colors.hover-block-border-color}};
+            --hoverBlockButtonBackgroundColor: {{site.data.hover-block.colors.hover-block-button-background-color}};
+            --hoverBlockTextColor: {{site.data.hover-block.colors.hover-block-button-text-color}};
 
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
             --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
@@ -212,7 +215,7 @@
           .gallery-heading-color {color: var(--galleryHeadingColor);}
           .gallery-heading-font {font-family: var(--galleryHeadingFont);}
           
-          /* ---------HOVER GRID----------- */
+          /* ---------HOVER BLOCK----------- */
           .top-hover-overlay {background-color: var(--hoverBlockOverlayColor);}
           .hover-container {background-color: var(--hoverBlockBackgroundColor);}
           .hover-block-heading-color {color: var(--hoverBlockHeadingColor);}
@@ -223,6 +226,11 @@
           .hover-block-subheading-font  {font-family: var(--hoverBlockSubheadingFont);}
           .hover-block-textarea-color  {color: var(--hoverBlockTextareaColor);}
           .hover-block-textarea-font  {font-family: var(--hoverBlockTextareaFont);}
+          .hover-block-button-color:hover 
+            {
+            background-color: var(--hoverBlockButtonBackgroundColor);
+            color: var(--hoverBlockTextColor);
+            }
 
           .media-kit-button
             {

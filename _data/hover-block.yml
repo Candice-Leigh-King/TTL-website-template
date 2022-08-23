@@ -6,6 +6,8 @@ colors:
   hover-block-heading-color: '#FFFFFF'
   hover-overlay: '#2f3031'
   hover-block-textarea-color: '#2f3031'
+  hover-block-button-background-color: '#D2966D'
+  hover-block-button-text-color: '#2f3031'
 fonts:
   hover-block-heading-font: Shrikhand, cursive
   hover-block-subheading-font: Shrikhand, cursive
