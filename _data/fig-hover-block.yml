@@ -1,17 +1,17 @@
 colors:
-  hover-block-overlay-color: 'rgba(133, 159, 159, 0.5)'
-  hover-block-background-color: '#EFEBE6'
-  hover-block-textarea-background-color: '#FFFFFF'
-  hover-block-border-color: '#FFFFFF'
-  hover-block-heading-color: '#FFFFFF'
-  hover-overlay: '#2f3031'
-  hover-block-textarea-color: '#2f3031'
-  hover-block-button-background-color: '#D2966D'
-  hover-block-button-text-color: '#2f3031'
+  overlay-color: 'rgba(133, 159, 159, 0.5)'
+  background-color: '#EFEBE6'
+  textarea-background-color: '#FFFFFF'
+  border-color: '#FFFFFF'
+  heading-color: '#FFFFFF'
+  hover-overlay-color: '#2f3031'
+  textarea-color: '#2f3031'
+  button-background-color: '#D2966D'
+  button-text-color: '#2f3031'
 fonts:
-  hover-block-heading-font: Shrikhand, cursive
-  hover-block-subheading-font: Shrikhand, cursive
-  hover-block-text-font: Poppins, sans-serif
+  heading-font: Shrikhand, cursive
+  subheading-font: Shrikhand, cursive
+  areatext-font: Poppins, sans-serif
 
   
     
