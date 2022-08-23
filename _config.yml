@@ -59,8 +59,7 @@ _array_structures:
         value: 
           _section-type: fig-hover-block
           left:
-            heading: 
-            textarea_html:
+            heading:
             background-image: 
           right:
             heading: 
