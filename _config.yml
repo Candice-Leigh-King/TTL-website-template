@@ -114,7 +114,12 @@ _array_structures:
             bottom-image: 
           right:
             top-image:
-            bottom-image:   
+            bottom-image:
+          colors:
+            background-color:
+            heading-color:
+          fonts:
+            heading-font:    
       - label: Form
         icon: email
         value:
