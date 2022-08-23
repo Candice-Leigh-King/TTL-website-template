@@ -51,7 +51,8 @@ _array_structures:
             textarea:
             symbols:
             ending:
-          icon: palette  
+          icon: palette 
+          value: 
             colors:
               carousel-background-color: 
               carousel-textarea-background-color: 
