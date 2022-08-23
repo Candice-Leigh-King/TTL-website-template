@@ -1,12 +1,10 @@
 <section class="padded grid-center form-background-color banner" style="background-image: url('{{item.background_image}}');">
-
-  <h2 class="reveal fade-up form-heading-font form-heading-color  ">{{item.heading}}</h2>
-  
+  <h2 class="reveal form-heading-color form-heading-font  fade-up">{{item.heading}}</h2>
   <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-  <div class=" form-textarea-background-color col-8_md-9_sm-12 padded radius-quarter form-border-color" style="background-image: url('{{item.arch-background_image}}');" id="{{item.link.link}}">
+  <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" style="background-image: url('{{item.arch-background_image}}');" id="{{item.link.link}}">
       <div class="grid padded-sides">
       <div class="col-1_sm-12 relative reveal fade-left">
-        <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color"> {{item.top.vertical-subheading}}</h3>
+        <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> {{item.top.vertical-subheading}}</h3>
       </div>
 
       <div class="col-10_sm-12 form-padded">
@@ -30,7 +28,7 @@
     <div class="grid padded-sides">
 
       <div class="col-1_sm-12 relative reveal fade-left">
-        <h3 class="sm-bold vertical-form-text form-subheading-font form-subheading-color">{{item.bottom.vertical-subheading}} </h3>
+        <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">{{item.bottom.vertical-subheading}} </h3>
       </div>
 
       <div class="col-10_sm-12 form-padded form-text-color">
@@ -39,7 +37,7 @@
           <label class="input-label">{{item.bottom.message}}</label>
         </div>
 
-        <div class="floating-input input-text input-text r">
+        <div class="floating-input input-text ">
           <select name="services " id="services" required="">
             <option class="input-text form-text-color">{{item.option-box.subheading}}</option>
             <option class="input-text form-text-color" value="{{item.option-box.option-1}}">{{item.option-box.option-1}}</option>
@@ -51,10 +49,50 @@
         </div>
       </div>
       <div class="padded grid-center">
-        <input type="hidden" name="_to" value="{{site.data.general.basics.email-address}}">
+        <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
         <input type="text" name="_gotcha" style="display: none;" />
-        <input type="submit" value="{{item.button}}" class="center form-button-font button-solid button-color button-text-color" />
+        <input type="submit" value="Send Message" class="center button-solid button-color button-text-color" />
       </div>
     </div>
   </form>
 </section>
+
+<!-- <style>
+  :root {
+       
+    /* --------------------FORM ----------------*/
+    --backgroundColor: {{item.colors.background-color}};
+    --headingColor: {{item.colors.heading-color}};
+    --headingFont: {{item.fonts.heading-font}};
+    --subheadingColor: {{item.colors.subheading-color}};
+    --subheadingFont: {{item.fonts.subheading-font}};
+    --textareaBackgroundColor:{{item.form.colors.textarea-background-color}};
+    --borderColor: {{item.form.colors.border-color}};
+    --textColor: {{item.form.colors.text-color}};
+    --buttonColor: {{item.form.colors.button-color}};
+    --buttonTextColor: {{item.form.colors.button-text-color}};
+    --buttonFont: {{item.form.fonts.button-text-font}};
+    
+  }
+
+.background-color {background-color: var(--backgroundColor);}
+.textarea-background-color {background-color: var(--textareaBackgroundColor);}
+.border-color {border: solid 4px var(--borderColor);}
+.heading-color {color: var(--headingColor);}
+.heading-font {font-family: var(--headingFont);}
+.subheading-color {color: var(--subheadingColor);}
+.subheading-font {font-family: var(--subheadingFont);}
+.text-color {color: var(--textColor);}
+.input-text{border-bottom: solid 2px var(--textColor);}
+  input::placeholder {color: var(--textColor);}
+  textarea::placeholder {color: var(--textColor);}
+  input, select, option, textarea {color: var(--textColor);}
+.button-text-color {color: var(--buttonTextColor);}
+.button-color {
+  background-color: var(--buttonColor);
+  border: 1px solid var(--buttonColor);}
+.button-color:hover {
+  background-color: transparent;
+  color: var(--buttonColor);
+  border: 1px solid var(--buttonColor);}
+.button-font {font-family: var(--buttonFont);} -->

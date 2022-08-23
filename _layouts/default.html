@@ -89,17 +89,17 @@
             --projectsTextBackgroundColor: {{site.data.colors.background-colors.projects-text-background_color}};
             
             /* --------------------FORM ----------------*/
-            --formBackgroundColor: {{site.data.form.colors.form-background-color}};
-            --formHeadingColor: {{site.data.form.colors.form-heading-color}};
-            --formHeadingFont: {{site.data.form.fonts.form-heading-font}};
-            --formSubheadingColor: {{site.data.form.colors.form-subheading-color}};
-            --formSubheadingFont: {{site.data.form.fonts.form-subheading-font}};
-            --formTextareaBackgroundColor:{{site.data.form.colors.form-textarea-background-color}};
-            --formBorderColor: {{site.data.form.colors.form-border-color}};
-            --formTextColor: {{site.data.form.colors.form-text-color}};
-            --buttonColor: {{site.data.form.colors.button-color}};
-            --buttonTextColor: {{site.data.form.colors.button-text-color}};
-            --buttonFont: {{site.data.form.fonts.button-text-font}};
+            --formBackgroundColor: {{item.colors.background-color}};
+            --formHeadingColor: {{item.colors.heading-color}};
+            --formHeadingFont: {{item.fonts.heading-font}};
+            --formSubheadingColor: {{item.colors.subheading-color}};
+            --formSubheadingFont: {{item.fonts.subheading-font}};
+            --formTextareaBackgroundColor:{{item.colors.textarea-background-color}};
+            --formBorderColor: {{item.colors.border-color}};
+            --formTextColor: {{item.colors.text-color}};
+            --buttonColor: {{item.colors.button-color}};
+            --buttonTextColor: {{item.colors.button-text-color}};
+            --buttonFont: {{item.fonts.button-text-font}};
 
             /* ------------HOVER BLOCK ---------- */
             --figHoverBlockOverlayColor: {{site.data.fig-hover-block.colors.overlay-color}};
@@ -141,6 +141,7 @@
           .projects-text-background_color {background-color: var(--projectsTextBackgroundColor);}
 
           /* -------------------FORM--------------- */
+
           .form-background-color {background-color: var(--formBackgroundColor);}
           .form-textarea-background-color {background-color: var(--formTextareaBackgroundColor);}
           .form-border-color {border: solid 4px var(--formBorderColor);}
