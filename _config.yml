@@ -67,7 +67,7 @@ _array_structures:
             textarea_html:
             background-image:
             button_html:
-       - label: Zuko Hover Block
+      - label: Zuko Hover Block
         icon: pets
         value: 
           - _section-type: hover-block
