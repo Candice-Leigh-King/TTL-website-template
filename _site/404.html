@@ -50,7 +50,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:ital,wght@1,300;1,400;1,500;1,600&family=Shrikhand&display=swap" rel="stylesheet">
 
       <!-- iconify icons -->
-      <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
      
 
         <!-- Viewport meta tag -->
@@ -82,7 +82,7 @@
             --textFont: Poppins, sans-serif;
             --links: ;
             --linksHover: #FDFAF0;
-            --hamburgerColor: #FDFAF0;
+            --hamburgerColor: #859F9F;
             --textarea: ;
             --projectsBackgroundColor: #e3d6cb;
             --mainProjectBackgroundColor: #e3d6cb;
@@ -101,7 +101,7 @@
             --buttonTextColor: ;
             --buttonFont: ;
 
-            /* ------------HOVER BLOCK ---------- */
+            /* ------------FIG HOVER BLOCK ---------- */
             --figHoverBlockOverlayColor: rgba(133, 159, 159, 0.5);
             --figHoverBlockBackgroundColor: #EFEBE6;
             --figHoverBlockHeadingColor: #FFFFFF;
@@ -113,10 +113,23 @@
             --figHoverBlockButtonBackgroundColor: #D2966D;
             --figHoverBlockTextColor: #2f3031;
 
+            /* ------------ZUKOHOVER BLOCK ---------- */
+            --zukoHoverBlockOverlayColor: rgba(133, 159, 159, 0.5);
+            --zukoHoverBlockBackgroundColor: #EFEBE6;
+            --zukoHoverBlockHeadingColor: #FFFFFF;
+            --zukoHoverBlockHeadingFont: Shrikhand, cursive;
+            --zukoHoverBlockSubheadingFont: Shrikhand, cursive;
+            --zukoHoverTextColor: #2f3031;
+            --zukoHoverBlockTextareaFont: ;
+            --zukoHoverBlockBorderColor: #FFFFFF;
+            --zukoHoverBlockButtonBackgroundColor: #D2966D;
+            --zukoHoverBlockTextColor: #2f3031;
+
             --mediaKitButton: #7c8094;
             --mediaKitButtonHover: #FDFAF0;
-            --navigationBackgroundColor: #e3d6cb;
-            --navigationArcheBackgroundColor: #e4dddf;
+            --navigationBackgroundColor: #859F9F;
+            --navigationArcheBackgroundColor: #BCCACA;
+            --navigationArcheBorderColor: white;
             --footerBackgroundColor: #e4dddf;
             --socialIconsColor: #e9e5e6;
             --iconColor: #e4dddf;
@@ -165,14 +178,14 @@
           .button-font {font-family: var(--buttonFont);} 
           
           
-          /* ---------HOVER BLOCK----------- */
+          /* ---------FIG HOVER BLOCK----------- */
           .top-hover-overlay {background-color: var(--figHoverBlockOverlayColor);}
           .hover-container {background-color: var(--figHoverBlockBackgroundColor);}
           .hover-block-heading-color {color: var(--figHoverBlockHeadingColor);}
           .hover-block-heading-font {font-family: var(--figHoverBlockHeadingFont);}
           .hover-block-subheading-color {color: var(--figHoverBlockSubheadingColor);}
           .hover-text-color:hover {color: var(--figHoverTextColor);}
-          .hover-container .hover-image { border: var(--figHoverBlockBorderColor) solid 4px;}
+          .hover-container .border-hover-image  { border: var(--figHoverBlockBorderColor) solid 4px;}
           .hover-block-subheading-font  {font-family: var(--figHoverBlockSubheadingFont);}
           .hover-block-textarea-color  {color: var(--figHoverBlockTextareaColor);}
           .hover-block-textarea-font  {font-family: var(--figHoverBlockTextareaFont);}
@@ -181,6 +194,24 @@
             background-color: var(--figHoverBlockButtonBackgroundColor);
             color: var(--figHoverBlockTextColor);
             }
+
+          /* -------ZUKO HOVER BLOCK------   */
+          .zuko-top-hover-overlay {background-color: var(--zukoHoverBlockOverlayColor);}
+          .zuko-hover-container {background-color: var(--zukoHoverBlockBackgroundColor);}
+          .zuko-hover-block-heading-color {color: var(--zukoHoverBlockHeadingColor);}
+          .zuko-hover-block-heading-font {font-family: var(--zukoHoverBlockHeadingFont);}
+          .zuko-hover-block-subheading-color {color: var(--fzukoHoverBlockSubheadingColor);}
+          .zuko-hover-text-color:hover {color: var(--zukoHoverTextColor);}
+          .zuko-hover-container .border-hover-image { border: var(--zukoHoverBlockBorderColor) solid 4px;}
+          .zuko-hover-block-subheading-font  {font-family: var(--zukoHoverBlockSubheadingFont);}
+          .zuko-hover-block-textarea-color  {color: var(--zukoHoverBlockTextareaColor);}
+          .zuko-hover-block-textarea-font  {font-family: var(--zukoHoverBlockTextareaFont);}
+          .zuko-hover-block-button-color:hover 
+            {
+            background-color: var(--zukoHoverBlockButtonBackgroundColor);
+            color: var(--zukoHoverBlockTextColor);
+            }
+
 
           .media-kit-button
             {
@@ -221,7 +252,10 @@
           .input-text:focus   {border-bottom: 2px solid var(--buttonColor);}
 
           .navigation-background_color {background-color: var(--navigationBackgroundColor);}
-          .navigation-arche-background_color {background-color: var(--navigationArcheBackgroundColor);}
+          .navigation-arche-background_color {
+            background-color: var(--navigationArcheBackgroundColor);
+            border: 4px solid var(--navigationArcheBorderColor);
+          }
 
           .footer-background_color {background-color: var(--footerBackgroundColor);}
           .social-icons_color a {
@@ -241,29 +275,40 @@
 
 
     <header class="grid-center">
-
-        <p class=" col-1-middle hamburger_color hamburger editable">
-          _<br />_<br />_
+      <div class=" col-11 center mob-hide">
+        <a href="/" class="logo-home center "> 
+          <img src="/images/logo.png" alt="Through the Lyns Logo" /></a>
+      </div>
+      <p class=" col-1-middle fixed hamburger_color hamburger editable"> ☰
+      </p>
+      <nav class="grid-middle navigation-background_color page-nav mobile-menu banner" style="background-image: url('');">
+        <p class="cross exit right col-12"> ╳
         </p>
-
-        <nav class="grid-middle navigation-background_color page-nav mobile-menu banner" style="background-image: url('');">
-          <div class="featured-bg navigation-arche-background_color radius banner" style="background-image: url('');">
-            <p class="cross exit right">
-              ╳
-            </p>
-            <div class="padded-top-nav  ">
-              <a href="/" class="logo center grow exit"> <img src="/images/logo.png" alt="Through the Lyns Logo" /></a>
-              <div class="editable">
-                <p><a class="padded-sides text-med exit" href="/#about">about</a></p>
-                <p><a class="padded-sides text-med exit" href="/#services">services</a></p>
-                <p><a class="padded-sides text-med exit" href="/#reviews">reviews</a></p>
-                <p><a class="padded-sides text-med exit" href="/#contact">contact</a></p>
-              </div>
+        <div class="featured-bg navigation-arche-background_color radius banner col-12 grid-middle" style="background-image: url('');">
+         
+          <div class=" col-12-middle grid-center ">
+            <a href="/" class="logo center grow col-12 exit"> 
+              <img src="/images/logo.png" alt="Through the Lyns Logo" />
+            </a>
+            <div class="editable col-12 padded">
+              <p><a class="padded-sides text-med exit" href="/#services">services</a></p>
+              <p><a class="padded-sides text-med exit" href="/#reviews">reviews</a></p>
+              <p><a class="padded-sides text-med exit" href="/#gallery">gallery</a></p>
+              <p><a class="padded-sides text-med exit" href="/#contact">contact</a></p>
             </div>
-          </div>
-        </nav>
+            <div class=" col-6_xs-9 grid-center navigation-socials">
+              <a class="padded-s" href="https://www.instagram.com/candy_and_the_king/"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
+              <a class="padded-s" href="https://www.facebook.com/candy.and.the.king/"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
+              <a class="padded-s" href="//www.tiktok.com/@candy_and_the_king"><span class="iconify" data-icon="brandico:facebook"></span></a>
+              <a class="padded-s" href="https://www.youtube.com/c/candyandtheking"><span class="iconify" data-icon="dashicons:youtube"></span></a> 
 
+          </div>
+            
+           </div>
+        </div>
+      </nav>
     </header>
+   
 
     <section class="grid-center padded projects-background_color featured-bg featured bg-brown">
   <h1 class="success padded-top editable centered center col-12"> Oops!</h1>

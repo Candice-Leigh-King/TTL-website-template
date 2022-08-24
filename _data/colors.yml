@@ -1,6 +1,6 @@
 text-colors:
   links-hover_color: '#FDFAF0'
-  hamburger_color: '#FDFAF0'
+  hamburger_color: '#859F9F'
 background-colors:
   image-and-text-background_color: '#e4dddf'
   projects-background_color: '#e3d6cb'
@@ -14,8 +14,9 @@ form-colors:
   button_color: '#ffffff'
   button-text_color: '#4c4c4c'
 navigation-colors:
-  navigation-background_color: '#e3d6cb'
-  navigation-arche-background_color: '#e4dddf'
+  navigation-background_color: '#859F9F'
+  navigation-arche-background_color: '#BCCACA'
+  navigation-arched-border-color: 'white'
   navigation-background_image:
   navigation-arch-background_image:
 footer-colors:

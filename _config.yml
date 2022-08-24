@@ -6,6 +6,7 @@ _array_structures:
         icon: star
         value:
           _section-type: hero
+          content-block-link:
           hero_image:
           hero:
           link:
@@ -15,6 +16,7 @@ _array_structures:
         icon: article
         value:
           _section-type: textarea
+          content-block-link:
           textarea_html:
           subheading_html:
           link:
@@ -29,38 +31,17 @@ _array_structures:
           fonts:
             subheading-font: 
             text-font:   
-      - label: Projects
-        icon: work
-        value:
-          _section-type: projects
-          background_image:
-          heading:
-          first-project:
-            image:
-            subheading:
-            textarea:
-          second-project:
-            image:
-            subheading:
-            textarea:
-          third-project:
-            image:
-            subheading:
-            textarea:
-          link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-            link:
       - label: Carousel
         icon: view_carousel
         value:
           _section-type: carousel
+          content-block-link:
           background_image:
           heading:
           carousel:
             textarea:
             symbols:
             ending:
-          icon: palette  
           colors:
             carousel-background-color: 
             carousel-textarea-background-color: 
@@ -80,6 +61,7 @@ _array_structures:
         icon: emoji_nature
         value: 
           _section-type: fig-hover-block
+          content-block-link:
           left:
             heading:
             background-image: 
@@ -92,6 +74,7 @@ _array_structures:
         icon: pets
         value: 
           _section-type: zuko-hover-block
+          content-block-link:
           left:
             heading: 
             textarea_html:
@@ -105,6 +88,7 @@ _array_structures:
         icon: photo_camera
         value:
           _section-type: gallery
+          content-block-link:
           heading: Gallery
           left:
             top-image:  
@@ -124,6 +108,7 @@ _array_structures:
         icon: email
         value:
           _section-type: form
+          content-block-link:
           background_image:
           arch-background_image:
           heading:

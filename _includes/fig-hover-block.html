@@ -1,4 +1,4 @@
-<section class="center">
+<section id="{{item.content-block-link}}" class="center">
     <div class="grid">
       <div class="col-6_sm-12">
         <div class="hover-container" style="background-image:url('{{item.left.background-image}}')">
@@ -12,11 +12,11 @@
       </div>
       <div class="col-6_sm-12 ">
         <div style="background-color: {{item.background-color}} ;" class="hover-container padded">
-          <div class="hover-image" style="background-image:url('{{item.right.background-image}}'); border: 4px solid {{item.colors.border-color}};">
+          <div class="hover-image radius border-hover-image " style="background-image:url('{{item.right.background-image}}'); border: 4px solid {{item.colors.border-color}};">
             <div style="{{item.colors.hover-overlay-color}}; " class="hover-overlay hover-text-color ">
               <div class="hover-inner">
-                <h2 class=" hover-block-subheading-font"> {{item.right.heading}} </h2>
-                <p class="hover-block-textarea-font"> {{item.right.textarea_html}}</p>
+                <h3 class=" hover-block-subheading-font"> {{item.right.subheading}} </h3>
+                <p class="hover-block-textarea-font padded"> {{item.right.textarea_html}}</p>
                 <p> <a href="/contact" class=" hover-block-button-color"> <b>{{item.right.button_html}}</b></a></p>
               </div>
             </div>
