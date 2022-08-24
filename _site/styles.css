@@ -117,7 +117,7 @@ font-family: 'Shrikhand', cursive;*/
   .right    {  text-align: right;    }
   .center {  text-align: center;   }
   
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 5% !important;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-sides {padding: 0% 5%;}
@@ -148,6 +148,7 @@ font-family: 'Shrikhand', cursive;*/
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   .radius {border-radius: 500px 500px;}
+  .radius-arch {border-radius: 500px 500px 0px 0px;}
   .radius-leaf {border-radius: 400px 0px 400px 0px;}
   .radius-quarter {border-radius: 0px 400px 0px 0px;}
   .bottom-radius {border-radius: 0px 0px 310px 310px;}

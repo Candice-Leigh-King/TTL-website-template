@@ -20,9 +20,9 @@ navigation-colors:
   navigation-background_image:
   navigation-arch-background_image:
 footer-colors:
-  footer-background_color: '#e4dddf'
-  social-icons_color: '#e9e5e6'
-  social-icons-inner_color: '#e4dddf'
+  footer-background_color: '#BCCACA'
+  social-icons_color: '#859F9F'
+  social-icons-inner_color: '#BCCACA'
 media-kit:
   button_color: '#7c8094'
   button-hover_color: '#FDFAF0'
