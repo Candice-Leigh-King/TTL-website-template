@@ -1,24 +1,58 @@
 <style>
-  #section-{{forloop.index0}} 
-  .hover-overlay:hover 
-    {
-    background-color:{{item.colors.hover-overlay-color}}; 
-    color: {{item.hover-text-color}};
-    } 
+   #content-blocks-{{forloop.index0}}
+
   .hover-container .hover-image:hover 
-    {border: transparent }  
+    {border: 4px solid {{item.colors.background-color}};}  
+  
+  .border-hover-image 
+   {border: 4px solid {{item.colors.border-color}};}
+
+  .hover-container 
+   {background-color: {{item.colors.background-color}};}
+
+  .top-hover-overlay 
+   {background-color: {{item.colors.overlay-color}};}
+  
+  .hover-text-color:hover {color: {{item.colors.hover-text-color}};}
+
+  .hover-overlay:hover 
+  {background-color:{{item.colors.background-color}};}
+
+  .heading-color 
+    {color: {{item.colors.heading-color}};}
+
+  .heading-font 
+    {font-family: {{item.fonts.heading-font}};}
+
+  .textarea-color 
+    {colors: {{item.colors.textarea-color}};}
+
+  .textarea-font 
+    {font-family: {{item.fonts.textarea-font}};}
+  
+  .subheading-color
+    {color: {{item.colors.subheading-color}};}
+
+  .subheading-font
+    {font-family: {{item.fonts.subheading-font}};}
+   
+  .button-color:hover
+   {
+   background-color: {{item.colors.button-background-color}};
+   color: {{item.colors.button-text-color}};
+   }  
 </style>
 
-<section id="section-{{forloop.index0}}" class="center">
+<section id="content-blocks-{{forloop.index0}}" class="center">
     <div id="{{item.content-block-link}}" class="grid">
       <div class="col-6_sm-12 ">
-        <div style="background-color: {{item.colors.background-color}} ;" class="hover-container padded">
-          <div class="hover-image border-hover-image " style="background-image:url('{{item.left.background-image}}'); border: 4px solid {{item.colors.border-color}};">
-            <div style="{{item.colors.hover-overlay-color}}; " class="hover-overlay hover-text-color ">
+        <div class="hover-container padded">
+          <div class="hover-image border-hover-image " style="background-image:url('{{item.left.background-image}}'); ">
+            <div class="hover-overlay hover-text-color ">
               <div class="hover-inner">
-                <h3 class=" hover-block-subheading-font"> {{item.left.subheading}} </h3>
-                <p class="hover-block-textarea-font padded"> {{item.left.textarea_html}}</p>
-                <p> <a href="/contact" class=" hover-block-button-color"> <b>{{item.left.button_html}}</b></a></p>
+                <h3 class=" subheading-font"> {{item.left.subheading}} </h3>
+                <p class="textarea-font padded"> {{item.left.textarea_html}}</p>
+                <p> <a href="/contact" class="button-color"> <b>{{item.left.button_html}}</b></a></p>
               </div>
             </div>
           </div> 
