@@ -1,5 +1,5 @@
 <style>
-  #section-{{forloop.index0}}
+  #content-blocks-{{forloop.index0}}
 
   .hover-container .hover-image:hover 
     {border: 4px solid {{item.colors.background-color}};}  
@@ -44,7 +44,7 @@
 
 </style>
 
-<section id="section-{{forloop.index0}}" class="center">
+<section id="content-blocks-{{forloop.index0}}" class="center">
   <div id="{{item.content-block-link}}" class="grid">
       <div class="col-6_sm-12">
         <div class="hover-container" style="background-image:url('{{item.left.background-image}}')">
