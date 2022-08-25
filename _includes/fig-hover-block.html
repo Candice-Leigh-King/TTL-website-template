@@ -52,6 +52,9 @@
             <div class="hover-inner">
               <h2 class="heading-color heading-font"> {{item.left.heading}} </h2>
               <p class="textarea-color textarea-font"> {{item.left.textarea_html}}</p>
+              <p> 
+                <a href="{{item.left.button-link}}" class=" button-color"> <b>{{item.left.button}}</b></a>
+              </p>
             </div>
           </div>
         </div>
@@ -63,7 +66,9 @@
               <div class="hover-inner">
                 <h3 class=" subheading-font subheading-color"> {{item.right.subheading}} </h3>
                 <p class="textarea-font padded"> {{item.right.textarea_html}}</p>
-                <p> <a href="/contact" class=" button-color"> <b>{{item.right.button_html}}</b></a></p>
+                <p> 
+                  <a href="{{item.right.button-link}}" class=" button-color"> <b>{{item.right.button}}</b></a>
+                </p>
               </div>
             </div>
           </div> 
