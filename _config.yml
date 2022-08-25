@@ -92,30 +92,32 @@ _array_structures:
         icon: pets
         value: 
           _section-type: zuko-hover-block
+          content-block-link:
           left:
-            heading:
-            textarea_html:
-            background-image:
-            button: 
-            button-link:
-          right:
             subheading:
             textarea_html:
             background-image: 
+            button:
+            button-link: 
+          right:
+            subheading: 
+            textarea_html:
+            background-image:
             button: 
-            button-link:
+            button-link: 
           colors:
             overlay-color: 
             background-color:
             border-color: 
             heading-color: 
-            hover-text-color: 
+            hover-overlay-color: 
+            textarea-color: 
             button-background-color:
             button-text-color: 
           fonts:
             heading-font:
             subheading-font:
-            textarea-font:              
+            textarea-font:          
       - label: Gallery
         icon: photo_camera
         value:
