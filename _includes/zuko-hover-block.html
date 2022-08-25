@@ -1,5 +1,16 @@
-<section id="{{item.content-block-link}}" class="center">
-    <div class="grid">
+<style>
+  #section-{{forloop.index0}} 
+  .hover-overlay:hover 
+    {
+    background-color:{{item.colors.hover-overlay-color}}; 
+    color: {{item.hover-text-color}};
+    } 
+  .hover-container .hover-image:hover 
+    {border: transparent }  
+</style>
+
+<section id="section-{{forloop.index0}}" class="center">
+    <div id="{{item.content-block-link}}" class="grid">
       <div class="col-6_sm-12 ">
         <div style="background-color: {{item.colors.background-color}} ;" class="hover-container padded">
           <div class="hover-image border-hover-image " style="background-image:url('{{item.left.background-image}}'); border: 4px solid {{item.colors.border-color}};">
