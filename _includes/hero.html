@@ -1,5 +1,18 @@
-<section id="{{.item.content-block-link}}"  class=" padded-sides banner grid center" style="background-image: url('{{item.hero_image}}');" id="{{item.link.link}}">
-  <div class="col-12-middle" >
-    <h1 class="reveal fade-up">{{item.hero}}</h1>
-  </div>
+<style>
+  #content-blocks-{{forloop.index0}}
+
+  .hero-color
+   {color: {{item.hero-color}};}
+  
+  .hero-font
+    {font-family: {{item.hero-font}};}
+
+</style>
+
+<section id="content-blocks-{{forloop.index0}}" class="center">
+  <section id="{{.item.content-block-link}}"  class=" padded-sides banner grid center" style="background-image: url('{{item.hero-image}}');">
+    <div class="col-12-middle" >
+      <h1 class="reveal fade-up hero-color hero-font">{{item.hero}}</h1>
+    </div>
+  </section>
 </section>
