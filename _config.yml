@@ -64,12 +64,28 @@ _array_structures:
           content-block-link:
           left:
             heading:
-            background-image: 
-          right:
-            heading: 
             textarea_html:
             background-image:
-            button_html:
+            button: 
+            button-link:
+          right:
+            subheading:
+            textarea_html:
+            background-image: 
+            button: 
+            button-link:
+          colors:
+            overlay-color: 
+            background-color:
+            border-color: 
+            heading-color: 
+            hover-text-color: 
+            button-background-color:
+            button-text-color: 
+          fonts:
+            heading-font:
+            subheading-font:
+            areatext-font: 
       - label: Zuko Hover Block
         icon: pets
         value: 
