@@ -372,7 +372,7 @@ font-family: 'Shrikhand', cursive;*/
 
   .hover-inner p {margin-bottom: 0;}
 
-  .hover-block-button-color:hover 
+  .button-color:hover 
   { background-color: #D2966D;
     color: #2f3031;
     transition: all 0.3s;
