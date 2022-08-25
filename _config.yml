@@ -85,7 +85,7 @@ _array_structures:
           fonts:
             heading-font:
             subheading-font:
-            areatext-font: 
+            textarea-font: 
       - label: Zuko Hover Block
         icon: pets
         value: 
