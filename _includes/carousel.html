@@ -1,26 +1,54 @@
-<section id="{{item.content-block-link}}" class="grid-center padded carousel-background-color banner" style="background-image: url('{{item.background_image}}'); background-color: {{item.colors.background-color}};">
-  <div class="col-12 padded-bottom" id="{{item.link.link}}">
-    <h2 style="color: {{item.colors.heading-color}}; font-family: {{item.fonts.heading-font}};" class="">{{item.heading}}</h2>
-  </div>
-  <div class=" grid col-9_sm-11 padded-sidess one-time">
-    {% for carousel in item.carousel %}
-    <div style="background-color: {{item.colors.textarea-background-color}}; border: 4px solid {{item.colors.border-color}}" class="grid-center radius-leaf carousel-border-color carousel-textarea-background-color centered">
-      <div class="grid-center padded ">
-        <div class = "col-9_xs-12 padded ">
-          <p style=" color: {{item.colors.text-color}}; font-family: {{item.fonts.text-font}}"class="carousel-text-color carousel-text-font">{{carousel.textarea}} <br />
-            <span style="color: {{item.colors.symbols-color}};" class="carousel-symbols-color"> {{carousel.symbols}} </span>
+<style>
+  #content-blocks-{{forloop.index0}} .carousel-background-color 
+    {background-color: {{item.colors.background-color}};}
+
+  #content-blocks-{{forloop.index0}} .heading-color {color: 
+    {{item.colors.heading-color}};}
+
+  #content-blocks-{{forloop.index0}} .heading-font 
+    {font-family: {{item.fonts.heading-font}};}
+    
+
+  #content-blocks-{{forloop.index0}} .textarea-background-color 
+    {background-color: {{item.colors.background-color}};}
+
+  #content-blocks-{{forloop.index0}} .carousel-border-color
+    {border: 4px solid {{item.colors.border-color}};}
+
+  #content-blocks-{{forloop.index0}} .text-color 
+    {color: {{item.colors.text-color}};}
+
+  #content-blocks-{{forloop.index0}} .text-font
+    {font-family: {{item.fonts.text-font}};}
+
+  #content-blocks-{{forloop.index0}} .carousel-symbols-color
+    {color: {{item.colors.symbols-color}};}
+
+  #content-blocks-{{forloop.index0}} .carousel-subheading-font 
+    {color: {{item.colors.subheading-color}};}
+
+  #content-blocks-{{forloop.index0}} .carousel-subheading-color 
+    {font-family: {{item.fonts.subheading-font}};}
+</style>
+
+<section id="content-blocks-{{forloop.index0}}">
+  <section class="grid-center padded carousel-background-color banner" style="background-image: url('{{item.background_image}}');">
+    <div class="col-12 padded-bottom" id="{{item.content-block-link}}">
+      <h2 class="heading-color heading-font">{{item.heading}}</h2>
+    </div>
+    <div class=" grid col-9_sm-11 padded-sidess one-time">
+      {% for carousel in item.carousel %}
+      <div class="grid-center radius-leaf carousel-border-color textarea-background-color centered">
+        <div class="grid-center padded ">
+          <div class = "col-9_xs-12 padded ">
+            <p class="text-color text-font">{{carousel.textarea}} <br />
+              <span class="carousel-symbols-color"> {{carousel.symbols}} </span>
             </p>
-            <p style="color: 
-              {{item.colors.subheading-color}};
-              font-family: {{item.fonts.subheading-font}};
-               "class="centered carousel-subheading-font carousel-subheading-color"> 
-             {{carousel.ending}} 
-            </p>
+            <p class="centered carousel-subheading-font carousel-subheading-color"> {{carousel.ending}} </p>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
-
-  
+  </section>
 </section>
