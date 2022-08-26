@@ -5,6 +5,8 @@ colors:
   border-color: '#FFFFFF'
   link-color: '#2f3031'
   hover-link-color: '#FFFFFF'
+  exit-color: '#2f3031'
+  exit-hover-color: '#FFFFFF'
 social-link-colors:
   icon-color: '#859f9f'
   background-color: '#FFFFFF'
