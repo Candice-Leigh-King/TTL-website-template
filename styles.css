@@ -384,7 +384,18 @@ font-family: 'Shrikhand', cursive;*/
     transform: translateY(-50%);
     }
 
+  .hover-inner-1
+    {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
   .hover-inner p {margin-bottom: 0;}
+
+  .hover-inner-1 p {margin-bottom: 0;}
 
   .button-color:hover 
     {
@@ -394,10 +405,6 @@ font-family: 'Shrikhand', cursive;*/
     padding: .8rem 2rem .6rem;
     }
   
-
-
-
-
 /* ---------------- FORM -------------- */
 
 .form-background-color
@@ -508,7 +515,8 @@ header
   border-bottom: 1px solid #D2966D;
   } 
 
-  .fixed-socials a:hover {color:#D2966D;}
+.fixed-socials a:hover 
+  {color:#D2966D;}
 
 .fixed-socials a 
   {font-size: 1.2rem;} 

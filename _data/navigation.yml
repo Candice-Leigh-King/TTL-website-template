@@ -1,3 +1,7 @@
-left-image: /images/professional-website-for-creator.JPEG
-middle-image: /images/website-template-by-chas.JPEG
-right-image: /images/professional-website-for-content-creators.JPEG
+colors:
+  hamburger-color: '#FFFFFF'
+  background-color: '#859f9f'
+  textarea-background-color: '#bccaca'
+  border-color: '#FFFFFF'
+  link-color: '#2f3031'
+  hover-link-color: '#FFFFFF'
