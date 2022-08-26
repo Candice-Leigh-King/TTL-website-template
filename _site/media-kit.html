@@ -80,15 +80,14 @@
             --BorderColor: #FFFFFF;
             --linkColor: #2f3031;
             --HoverLinkColor: #FFFFFF;
+            --iconColor: #859f9f;
+            --iconBackgroundColor: #FFFFFF;
+            --iconBorderColor: #D2966D;
+            --iconHoverColor: #D2966D;
             
             --mediaKitButton: ;
             --mediaKitButtonHover: ;
-            --navigationBackgroundColor: ;
-            --navigationArcheBackgroundColor: ;
-            --navigationArcheBorderColor: ;
-            --footerBackgroundColor: ;
-            --socialIconsColor: ;
-            --iconColor: ;
+        
             
           }
 
@@ -96,7 +95,7 @@
             color: var(--text);
             font-family: var(--textFont);}
 
-          a {color: var(--links);}
+          /* a {color: var(--links);} */
           a:hover {color: var(--linksHover);}
 
           /* --------NAVIGTION--------- */
@@ -109,7 +108,20 @@
             border: 4px solid var(--BorderColor);
             }
           .navigation-links a {color: var(--linkColor);} 
-          .navigation-links a:hover {color: var(--HoverLinkColor);}   
+          .navigation-links a:hover {color: var(--HoverLinkColor);} 
+          
+          .fixed-socials 
+            {
+            background-color: var(--iconBackgroundColor);
+            border-top: 1px solid var(--iconBorderColor);
+            border-left: 1px solid var(--iconBorderColor);
+            border-bottom: 1px solid var(--iconBorderColor);
+            }
+
+          .fixed-socials a { color: var(--iconColor);}  
+ 
+          .fixed-socials a:hover 
+            {color:var(--iconHoverColor);}
 
           .media-kit-button
             {

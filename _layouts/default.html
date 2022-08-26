@@ -80,15 +80,14 @@
             --BorderColor: {{site.data.navigation.colors.border-color}};
             --linkColor: {{site.data.navigation.colors.link-color}};
             --HoverLinkColor: {{site.data.navigation.colors.hover-link-color}};
+            --iconColor: {{site.data.navigation.social-link-colors.icon-color}};
+            --iconBackgroundColor: {{site.data.navigation.social-link-colors.background-color}};
+            --iconBorderColor: {{site.data.navigation.social-link-colors.border-color}};
+            --iconHoverColor: {{site.data.navigation.social-link-colors.icon-hover-color}};
             
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
             --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
-            --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}};
-            --navigationArcheBackgroundColor: {{site.data.colors.navigation-colors.navigation-arche-background_color}};
-            --navigationArcheBorderColor: {{site.data.colors.navigation-colors.navigation-arched-border-color}};
-            --footerBackgroundColor: {{site.data.colors.footer-colors.footer-background_color}};
-            --socialIconsColor: {{site.data.colors.footer-colors.social-icons_color}};
-            --iconColor: {{site.data.colors.footer-colors.social-icons-inner_color}};
+        
             
           }
 
@@ -96,7 +95,7 @@
             color: var(--text);
             font-family: var(--textFont);}
 
-          a {color: var(--links);}
+          /* a {color: var(--links);} */
           a:hover {color: var(--linksHover);}
 
           /* --------NAVIGTION--------- */
@@ -109,7 +108,20 @@
             border: 4px solid var(--BorderColor);
             }
           .navigation-links a {color: var(--linkColor);} 
-          .navigation-links a:hover {color: var(--HoverLinkColor);}   
+          .navigation-links a:hover {color: var(--HoverLinkColor);} 
+          
+          .fixed-socials 
+            {
+            background-color: var(--iconBackgroundColor);
+            border-top: 1px solid var(--iconBorderColor);
+            border-left: 1px solid var(--iconBorderColor);
+            border-bottom: 1px solid var(--iconBorderColor);
+            }
+
+          .fixed-socials a { color: var(--iconColor);}  
+ 
+          .fixed-socials a:hover 
+            {color:var(--iconHoverColor);}
 
           .media-kit-button
             {
