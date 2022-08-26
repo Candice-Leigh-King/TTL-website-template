@@ -21,6 +21,7 @@
  #content-block-{{forloop.index0}} .form-subheading-color
   {color: {{item.colors.subheading-color}};}
 
+
  #content-block-{{forloop.index0}} .input-text 
   {border-bottom: solid 2px {{item.colors.text-color}}; }
 
@@ -29,7 +30,10 @@
  
   /* Chrome/Opera/Safari */
  #content-block-{{forloop.index0}} input::-webkit-input-placeholder 
-  { color: {{item.colors.{{item.colors.text-color}};}
+  { 
+  color: {{item.colors.text-color}};
+  font-family: {{item.fonts.text-font}};
+  }
 
   /* Chrome/Opera/Safari */
  #content-block-{{forloop.index0}} input::-webkit-input-placeholder:focus 
@@ -44,38 +48,62 @@
 
   /* IE 10+ */
  #content-block-{{forloop.index0}} input::-ms-input-placeholder 
-    {color: {{item.colors.text-color}};}
+    {
+    color: {{item.colors.text-color}};
+    font-family: {{item.fonts.text-font}};
+    }
 
  #content-block-{{forloop.index0}} input::-ms-input-placeholder:focus
   {border-bottom: solid 2px {{item.colors.subheading-color}}; }  
 
   /* Firefox 18- */
  #content-block-{{forloop.index0}} input::-moz-placeholder 
-    { color: {{item.colors.text-color}};}
+    {
+    color: {{item.colors.text-color}};
+    font-family: {{item.fonts.text-font}};
+    }
   
   #content-block-{{forloop.index0}} input::-moz-placeholder:focus 
     {border-bottom: solid 2px {{item.colors.subheading-color}}; }
 
  #content-block-{{forloop.index0}} input::-moz-placeholder
-  {color: {{item.colors.text-color}};}
+  {
+  color: {{item.colors.text-color}};
+  font-family: {{item.fonts.text-font}};
+  }
  
  #content-block-{{forloop.index0}} input::placeholder:focus
     {border-bottom: solid 2px {{item.colors.subheading-color}}; }
 
  #content-block-{{forloop.index0}} input::placeholder 
-    {color: {{item.colors.text-color}};}
+    {
+    color: {{item.colors.text-color}};
+    font-family: {{item.fonts.text-font}};
+    }
 
  #content-block-{{forloop.index0}} input, textarea, select, option
-    {color: {{item.colors.text-color}};}
+    {
+    color: {{item.colors.text-color}};
+    font-family: {{item.fonts.text-font}};
+    }
   
  #content-block-{{forloop.index0}}  input:focus, textarea:focus,
     {border-bottom: 2px solid {{item.colors.subheading-color}};}
 
  #content-block-{{forloop.index0}} textarea::placeholder 
-  {color: {{item.colors.text-color}};}
+  {
+  color: {{item.colors.text-color}};
+  font-family: {{item.fonts.text-font}};
+  }
 
  #content-block-{{forloop.index0}} .button-text-color
-  {color: {{item.colors.button-text-color}};}
+  {
+  color: {{item.colors.button-text-color}};
+  font-family: {{item.fonts.text-font}};
+  }
+
+ #content-block-{{forloop.index0}} .button-font 
+  {font-family: {{item.fonts.button-font}};} 
 
  #content-block-{{forloop.index0}} .button-text-color:hover
   {color: {{item.colors.button-color}};}
@@ -88,6 +116,7 @@
 
  #content-block-{{forloop.index0}} .button-color:hover
   {background-color: transparent;}
+ 
 
 </style>
 
@@ -145,7 +174,7 @@
         <div class="padded grid-center">
           <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
           <input type="text" name="_gotcha" style="display: none;" />
-          <input type="submit" value="{{item.button}}" class="center button-solid button-color button-text-color" />
+          <input type="submit" value="{{item.button}}" class="center button-solid button-font button-color button-text-color" />
         </div>
       </div>
     </form>
