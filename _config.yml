@@ -4,6 +4,7 @@ _array_structures:
     values:
       - label: Floating Socials
         icon: groups
+        description: To change the colors go to data → general → social links
         value: 
           _section-type: floating-socials
       - label: Hero
