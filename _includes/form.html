@@ -1,43 +1,105 @@
 <style>
 
  #content-block-{{forloop.index0}} .form-background-color
-  {{{item.colors.background-color}};}
+  {background-color: {{item.colors.background-color}};}
 
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
- #content-block-{{forloop.index0}}
+ #content-block-{{forloop.index0}} .form-heading-color
+  {color: {{item.colors.heading-color}};}
 
-   /* Chrome/Opera/Safari */
-  #content-block-{{forloop.index0}} ::-webkit-input-placeholder 
-  { color: {{item.}};}
+ #content-block-{{forloop.index0}} .form-heading-font
+  {font-family: {{item.fonts.heading-font}};}
+
+ #content-block-{{forloop.index0}} .form-border-color
+  {border: solid 4px {{item.colors.border-color}};}
+
+ #content-block-{{forloop.index0}} .textarea-background-color
+  {background-color: {{item.colors.textarea-background-color}};}
+
+ #content-block-{{forloop.index0}} .form-subheading-font
+  {font-family: {{item.fonts.subheading-font}};}
+
+ #content-block-{{forloop.index0}} .form-subheading-color
+  {color: {{item.colors.subheading-color}};}
+
+ #content-block-{{forloop.index0}} .input-text 
+  {border-bottom: solid 2px {{item.colors.text-color}}; }
+
+  #content-block-{{forloop.index0}} .input-text:focus 
+  {border-bottom: solid 2px {{item.colors.subheading-color}}; }
+ 
+  /* Chrome/Opera/Safari */
+ #content-block-{{forloop.index0}} input::-webkit-input-placeholder 
+  { color: {{item.colors.{{item.colors.text-color}};}
+
+  /* Chrome/Opera/Safari */
+ #content-block-{{forloop.index0}} input::-webkit-input-placeholder:focus 
+  {border-bottom: solid 2px {{item.colors.subheading-color}}; }
 
   /* Firefox 19+ */
-  #content-block-{{forloop.index0}} ::-moz-placeholder 
-  { color: pink;}
+ #content-block-{{forloop.index0}} input::-moz-placeholder 
+    {color: {{item.colors.text-color}};}
+
+ #content-block-{{forloop.index0}} input::-moz-placeholder:focus
+  {border-bottom: solid 2px {{item.colors.subheading-color}}; }
 
   /* IE 10+ */
-  #content-block-{{forloop.index0}} ::-ms-input-placeholder 
-  { color: pink;}
+ #content-block-{{forloop.index0}} input::-ms-input-placeholder 
+    {color: {{item.colors.text-color}};}
 
-    /* Firefox 18- */
-  #content-block-{{forloop.index0}} ::-moz-placeholder 
-  { color: pink;}
+ #content-block-{{forloop.index0}} input::-ms-input-placeholder:focus
+  {border-bottom: solid 2px {{item.colors.subheading-color}}; }  
+
+  /* Firefox 18- */
+ #content-block-{{forloop.index0}} input::-moz-placeholder 
+    { color: {{item.colors.text-color}};}
+  
+  #content-block-{{forloop.index0}} input::-moz-placeholder:focus 
+    {border-bottom: solid 2px {{item.colors.subheading-color}}; }
+
+ #content-block-{{forloop.index0}} input::-moz-placeholder
+  {color: {{item.colors.text-color}};}
+ 
+ #content-block-{{forloop.index0}} input::placeholder:focus
+    {border-bottom: solid 2px {{item.colors.subheading-color}}; }
+
+ #content-block-{{forloop.index0}} input::placeholder 
+    {color: {{item.colors.text-color}};}
+
+ #content-block-{{forloop.index0}} input, textarea, select, option
+    {color: {{item.colors.text-color}};}
+  
+ #content-block-{{forloop.index0}}  input:focus, textarea:focus,
+    {border-bottom: 2px solid {{item.colors.subheading-color}};}
+
+ #content-block-{{forloop.index0}} textarea::placeholder 
+  {color: {{item.colors.text-color}};}
+
+ #content-block-{{forloop.index0}} .button-text-color
+  {color: {{item.colors.button-text-color}};}
+
+ #content-block-{{forloop.index0}} .button-text-color:hover
+  {color: {{item.colors.button-color}};}
+
+ #content-block-{{forloop.index0}} .button-color
+  {
+  background-color: {{item.colors.button-color}};
+  border: 1px solid {{item.colors.button-color}};
+  }
+
+ #content-block-{{forloop.index0}} .button-color:hover
+  {background-color: transparent;}
 
 </style>
 
-<section id="section-{{forloop.index0}}"> 
+<section id="content-block-{{forloop.index0}}"> 
   <section class="padded grid-center form-background-color banner" style="background-image: url('{{item.background_image}}');">
     <h2 class="reveal form-heading-color form-heading-font  fade-up">{{item.heading}}</h2>
     <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-    <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" style="background-image: url('{{item.arch-background_image}}');" id="{{item.content-block-link}}">
+      <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" id="{{item.content-block-link}}">
         <div class="grid padded-sides">
-        <div class="col-1_sm-12 relative reveal fade-left">
-          <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> {{item.top.vertical-subheading}}</h3>
-        </div>
+          <div class="col-1_sm-12 relative reveal fade-left">
+            <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> {{item.top.subheading}}</h3>
+          </div>
 
         <div class="col-10_sm-12 form-padded">
           <div class="floating-input ">
@@ -60,7 +122,7 @@
       <div class="grid padded-sides">
 
         <div class="col-1_sm-12 relative reveal fade-left">
-          <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">{{item.bottom.vertical-subheading}} </h3>
+          <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">{{item.bottom.subheading}} </h3>
         </div>
 
         <div class="col-10_sm-12 form-padded form-text-color">
@@ -69,9 +131,9 @@
             <label class="input-label">{{item.bottom.message}}</label>
           </div>
 
-          <div class="floating-input input-text ">
-            <select name="services " id="services" required="">
-              <option class="input-text form-text-color">{{item.option-box.subheading}}</option>
+          <div class="floating-input  ">
+            <select class="input-text" name="services " id="services" required="">
+              <option class="input-text form-text-color">{{item.option-box.subject}}</option>
               <option class="input-text form-text-color" value="{{item.option-box.option-1}}">{{item.option-box.option-1}}</option>
               <option class="input-text form-text-color" value="{{item.option-box.option-2}}">{{item.option-box.option-2}}</option>
               <option class="input-text form-text-color" value="{{item.option-box.option-3}}">{{item.option-box.option-3}}</option>
@@ -83,7 +145,7 @@
         <div class="padded grid-center">
           <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
           <input type="text" name="_gotcha" style="display: none;" />
-          <input type="submit" value="Send Message" class="center button-solid button-color button-text-color" />
+          <input type="submit" value="{{item.button}}" class="center button-solid button-color button-text-color" />
         </div>
       </div>
     </form>
@@ -94,16 +156,16 @@
   :root {
        
     /* --------------------FORM ----------------*/
-    --backgroundColor: {{item.colors.background-color}};
-    --headingColor: {{item.colors.heading-color}};
-    --headingFont: {{item.fonts.heading-font}};
-    --subheadingColor: {{item.colors.subheading-color}};
-    --subheadingFont: {{item.fonts.subheading-font}};
-    --textareaBackgroundColor:{{item.form.colors.textarea-background-color}};
-    --borderColor: {{item.form.colors.border-color}};
+
+    --headingColor: 
+    --headingFont: 
+    --subheadingColor: 
+    --subheadingFont: 
+    --textareaBackgroundColor:
+    --borderColor: 
     --textColor: {{item.form.colors.text-color}};
-    --buttonColor: {{item.form.colors.button-color}};
-    --buttonTextColor: {{item.form.colors.button-text-color}};
+    --buttonColor:
+    --buttonTextColor: 
     --buttonFont: {{item.form.fonts.button-text-font}};
     
   }

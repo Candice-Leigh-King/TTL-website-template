@@ -681,6 +681,9 @@ option
   color: rgb(120,120,125);
   }
 select {padding: 0.7rem 0 0.5rem}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
 
 .input-text:focus {border-color:  #CE967A;}
 
