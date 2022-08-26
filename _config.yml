@@ -144,26 +144,38 @@ _array_structures:
           _section-type: form
           content-block-link:
           background_image:
-          arch-background_image:
           heading:
           top:
-            vertical-subheading:
+            subheading:
             text-option-1:
             text-option-2:
             text-option-3:
           bottom:
-            vertical-subheading:
+            subheading: 
             message:
           option-box:
-            subheading:
-            option-1:
-            option-2:
+            subject:
+            option-1: 
+            option-2: 
             option-3:
-            option-4:
-          button:  
+            option-4: 
+          button:
           link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-            link:
+            description:
+          colors:
+            background-color:
+            textarea-background-color: 
+            border-color: 
+            heading-color:
+            subheading-color:
+            text-color:
+            button-color: 
+            button-text-color:
+          fonts:
+            heading-font:
+            subheading-font:
+            text-font: 
+            button-font:
 _select_data:
   fonts:
       - Cyrene
