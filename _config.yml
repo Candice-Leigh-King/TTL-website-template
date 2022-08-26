@@ -2,6 +2,10 @@ page_blocks: []
 _array_structures:
   content-blocks:
     values:
+      - label: Floating Socials
+        icon:
+        value: 
+          _section-type: floating-socials
       - label: Hero
         icon: star
         value:
