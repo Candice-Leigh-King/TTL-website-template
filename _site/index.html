@@ -88,43 +88,8 @@
             --mainProjectBackgroundColor: #e3d6cb;
             --projectsTextBackgroundColor: #eae1dc;
             
-            /* --------------------FORM ----------------*/
-            --formBackgroundColor: ;
-            --formHeadingColor: ;
-            --formHeadingFont: ;
-            --formSubheadingColor: ;
-            --formSubheadingFont: ;
-            --formTextareaBackgroundColor:;
-            --formBorderColor: ;
-            --formTextColor: ;
-            --buttonColor: ;
-            --buttonTextColor: ;
-            --buttonFont: ;
 
-            /* ------------FIG HOVER BLOCK ---------- */
-            --figHoverBlockOverlayColor: rgba(133, 159, 159, 0.5);
-            --figHoverBlockBackgroundColor: #EFEBE6;
-            --figHoverBlockHeadingColor: #FFFFFF;
-            --figHoverBlockHeadingFont: Shrikhand, cursive;
-            --figHoverBlockSubheadingFont: Shrikhand, cursive;
-            --figHoverTextColor: #2f3031;
-            --figHoverBlockTextareaFont: ;
-            --figHoverBlockBorderColor: #FFFFFF;
-            --figHoverBlockButtonBackgroundColor: #D2966D;
-            --figHoverBlockTextColor: #2f3031;
-
-            /* ------------ZUKOHOVER BLOCK ---------- */
-            --zukoHoverBlockOverlayColor: rgba(133, 159, 159, 0.5);
-            --zukoHoverBlockBackgroundColor: #EFEBE6;
-            --zukoHoverBlockHeadingColor: #FFFFFF;
-            --zukoHoverBlockHeadingFont: Shrikhand, cursive;
-            --zukoHoverBlockSubheadingFont: Shrikhand, cursive;
-            --zukoHoverTextColor: #2f3031;
-            --zukoHoverBlockTextareaFont: ;
-            --zukoHoverBlockBorderColor: #FFFFFF;
-            --zukoHoverBlockButtonBackgroundColor: #D2966D;
-            --zukoHoverBlockTextColor: #2f3031;
-
+            
             --mediaKitButton: #7c8094;
             --mediaKitButtonHover: #FDFAF0;
             --navigationBackgroundColor: #859F9F;
@@ -153,32 +118,13 @@
 
           .projects-text-background_color {background-color: var(--projectsTextBackgroundColor);}
 
-          /* -------------------FORM--------------- */
-/* 
-          .form-background-color {background-color: var(--formBackgroundColor);}
-          .form-textarea-background-color {background-color: var(--formTextareaBackgroundColor);}
-          .form-border-color {border: solid 4px var(--formBorderColor);}
-          .form-heading-color {color: var(--formHeadingColor);}
-          .form-heading-font {font-family: var(--formHeadingFont);}
-          .form-subheading-color {color: var(--formSubheadingColor);}
-          .form-subheading-font {font-family: var(--formSubheadingFont);}
-          .form-text-color {color: var(--formTextColor);}
-          .input-text{border-bottom: solid 2px var(--formTextColor);}
-            input::placeholder {color: var(--formTextColor);}
-            textarea::placeholder {color: var(--formTextColor);}
-            input, select, option, textarea {color: var(--formTextColor);}
-          .button-text-color {color: var(--buttonTextColor);} */
-          /* .button-color {
-            background-color: var(--buttonColor);
-            border: 1px solid var(--buttonColor);} */
-          /* .button-color:hover {
+          .media-kit-button
+            {
             background-color: transparent;
-            color: var(--buttonColor);
-            border: 1px solid var(--buttonColor);} */
-          /* .button-font {font-family: var(--buttonFont);}  */
-          
+            border: 1px solid var(--mediaKitButton);
+            }
 
-
+          .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
           .media-kit-button
             {
@@ -188,27 +134,6 @@
 
           .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
-          input:focus, textarea:focus, select:focus, option:focus
-          {
-          border-bottom: 2px solid var(--buttonColor);
-          }
-          .input-text:focus   {border-bottom: 2px solid var(--buttonColor);}
-
-
-          .button-text_color {color: var(buttonTextColor);}
-
-          .media-kit-button
-            {
-            background-color: transparent;
-            border: 1px solid var(--mediaKitButton);
-            }
-
-          .media-kit-button:hover {border: 1px solid var(--linksHover);}
-
-          input:focus, textarea:focus, select:focus, option:focus {
-            border-bottom: 2px solid var(--buttonColor);}
-
-          .input-text:focus   {border-bottom: 2px solid var(--buttonColor);}
 
           .navigation-background_color {background-color: var(--navigationBackgroundColor);}
           .navigation-arche-background_color {
@@ -426,7 +351,10 @@ We are your full-service digital marketing company specialising in website devel
       <style>
    
   #content-blocks-3 .hover-container .hover-image:hover 
-    {border: 4px solid #FFFFFF;}  
+    {border: 4px solid #FFFFFF;} 
+    
+  #content-blocks-3 .hover-container-2 .hover-image 
+    {border: none;}  
   
   #content-blocks-3 .border-hover-image 
    {border: 4px solid #FFFFFF;}
@@ -483,7 +411,7 @@ We are your full-service digital marketing company specialising in website devel
         </div>
       </div> 
         <div class="col-6_sm-12 ">
-          <div style="background-image:url('/images/through-the-lyns.JPEG')" class="hover-container">
+          <div style="background-image:url('/images/through-the-lyns.JPEG')" class="hover-container-2">
             <div class="hover-image" style="background-color: rgba(210, 150, 109, 0.5);">
               <div style="; " class="hover-overlay hover-text-color ">
                 <div class="hover-inner">
@@ -740,10 +668,10 @@ We are your full-service digital marketing company specialising in website devel
 </style>
 
 <section id="content-block-6"> 
-  <section class="padded grid-center form-background-color banner" style="background-image: url('');">
+  <section id="contact" class="padded grid-center form-background-color banner" style="background-image: url('');">
     <h2 class="reveal form-heading-color form-heading-font  fade-up">Work with me</h2>
     <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-      <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" id="">
+      <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" >
         <div class="grid padded-sides">
           <div class="col-1_sm-12 relative reveal fade-left">
             <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> basic info</h3>

@@ -1,7 +1,10 @@
 <style>
    
   #content-blocks-{{forloop.index0}} .hover-container .hover-image:hover 
-    {border: 4px solid {{item.colors.background-color}};}  
+    {border: 4px solid {{item.colors.background-color}};} 
+    
+  #content-blocks-{{forloop.index0}} .hover-container-2 .hover-image 
+    {border: none;}  
   
   #content-blocks-{{forloop.index0}} .border-hover-image 
    {border: 4px solid {{item.colors.border-color}};}
@@ -58,7 +61,7 @@
         </div>
       </div> 
         <div class="col-6_sm-12 ">
-          <div style="background-image:url('{{item.right.background-image}}')" class="hover-container">
+          <div style="background-image:url('{{item.right.background-image}}')" class="hover-container-2">
             <div class="hover-image" style="background-color: {{item.colors.overlay-color}};">
               <div style="{{item.colors.hover-overlay-color}}; " class="hover-overlay hover-text-color ">
                 <div class="hover-inner">
