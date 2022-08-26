@@ -3,7 +3,7 @@ _array_structures:
   content-blocks:
     values:
       - label: Floating Socials
-        icon:
+        icon: groups
         value: 
           _section-type: floating-socials
       - label: Hero
