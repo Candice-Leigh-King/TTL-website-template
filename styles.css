@@ -817,6 +817,16 @@ footer {
     {font-size: 1rem;}   
   
   h1 {font-size: 2rem;}
+
+  h2 {font-size: 1.9rem;}
+
+  h3 {font-size: 1.7rem;}
+
+  h4 {font-size: 1.5rem;}
+
+  h5 {font-size: 1.3rem;}
+
+  .vertical-form-text {font-size: 1.4rem;}
   
   .padded-review {padding: 0% 8%;}
   
@@ -828,7 +838,7 @@ footer {
   
   .input-text
     {
-    font-size: 0.8rem;
+    font-size: 0.76rem;
     }
   
   .input-label
@@ -844,8 +854,13 @@ footer {
       font-size: 0.8rem;
       }
   
-  .vertical-form-text {
-  margin: -3%;}
+  .vertical-form-text {margin: -3%;}
+
+  .textarea-content-block h3 
+    {
+    margin: 0;
+    padding-top: 1.2rem;
+    }
 
    /* ----------GALLERY--------- */
    .square {padding-bottom: 50%;} 
