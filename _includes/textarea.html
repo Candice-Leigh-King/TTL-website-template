@@ -1,13 +1,43 @@
-<section id="{{item.content-block-link}}" style="background-color: {{item.colors.background-color}};"class="grid-middle padded textarea-background-color"  id="{{item.link.link}}">
-  <div class="col-8_sm-12 left reveal padded-sides fade-left" id="{{page.links.textarea}}">
-    <p style="color: {{item.colors.text-color}}; font-family: {{item.fonts.text-font}}" class=" textarea-text-color textarea-text-font">{{item.textarea_html}}</p>
-  </div>
+<style>
+  #content-blocks-{{forloop.index0}} .background-color {background-color: {{item.colors.background-color}};}
+
+  #content-blocks-{{forloop.index0}} .textarea-color {color: {{item.colors.textarea-color}};}
+
+  #content-blocks-{{forloop.index0}} .textarea-font {font-family: {{item.fonts.textarea-font}};}
+
+  #content-blocks-{{forloop.index0}} .top-line-color 
+    {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 4px solid {{item.colors.top-line-color}};
+    }
+
+  #content-blocks-{{forloop.index0}} .left-line-color 
+    {
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-left: solid 4px {{item.colors.left-line-color}};
+    } 
   
-  <div class="col-4_sm-12 grid center top padded-sides reveal fade-right">
-    <div class="col-12 grid-center" >
-      <hr style="border-bottom: none; border-left: none; border-right: none; border-top: 4px solid {{item.colors.top-line-color}} ;" class="top-line col-8 textarea-top-line-color ">
+  #content-blocks-{{forloop.index0}} .subheading-color {color: {{item.colors.subheading-color}};}
+
+  #content-blocks-{{forloop.index0}} .subheading-font {font-family: {{item.fonts.subheading-font}};}
+  
+</style>
+
+<section id="content-blocks-{{forloop.index0}}" class="center">
+  <section id="{{item.content-block-link}}" class="grid-middle padded background-color">
+    <div class="col-8_sm-12 left reveal padded-sides fade-left">
+      <p class=" textarea-color textarea-font">{{item.textarea_html}}</p>
     </div>
-    <hr style="border-bottom: none; border-right: none; border-top: none; border-left: solid 4px {{item.colors.left-line-color}} ;" class="col-1 left-line textarea-left-line-color">
-    <h3 style="color: {{item.colors.subheading-color}} font-family: {{item.fonts.subheading-font}} ;" class="col-11 textarea-subheading-color textarea-subheading-font">{{item.subheading_html}}</h3>
-  </div>
+    <div class="col-4_sm-12 grid center top padded-sides reveal fade-right">
+      <div class="col-12 grid-center" >
+        <hr class="top-line col-8 top-line-color ">
+      </div>
+      <hr class="col-1 left-line left-line-color">
+      <h3 class="col-11 subheading-color subheading-font">{{item.subheading_html}}</h3>
+    </div>
+  </section>
 </section>
