@@ -79,6 +79,7 @@
             --textareaBackgroundColor: #bccaca;
             --BorderColor: #ffffff;
             --linkColor: #2f3031;
+            --linkFont: Shrikhand, cursive;;
             --HoverLinkColor: #ffffff;
             --iconColor: #859f9f;
             --iconBackgroundColor: #ffffff;
@@ -92,6 +93,7 @@
             --footerBorderColor: #D2966D;
             --socialIconsBackgroundColor: #D2966D;
             --subfooterHoverColor: #859F9F;
+            --subfooterFont: Raleway, sans-serif;
             
             
             --mediaKitButton: ;
@@ -117,7 +119,11 @@
             border: 4px solid var(--BorderColor);
             }
             
-          .navigation-links a {color: var(--linkColor);} 
+          .navigation-links a
+            {
+            color: var(--linkColor);
+            font-family: var(--linkFont);
+            } 
 
           .navigation-links a:hover {color: var(--HoverLinkColor);} 
 
@@ -171,9 +177,17 @@
 
           .built {background-color: var(--footerBackgroundColor);}
 
-          .built a { color: var(--socialIconsBackgroundColor);}
+          .built a 
+            {
+            color: var(--socialIconsBackgroundColor);
+            font-family: var(--subfooterFont);
+            }
 
-          .built p {color: var(--socialIconsBackgroundColor);}
+          .built p 
+            {
+            color: var(--socialIconsBackgroundColor);
+            font-family: var(--subfooterFont);
+            }
 
           .built a:hover {color: var(--subfooterHoverColor);}
 

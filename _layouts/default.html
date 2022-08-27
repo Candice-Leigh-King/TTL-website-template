@@ -79,6 +79,7 @@
             --textareaBackgroundColor: {{site.data.navigation.colors.textarea-background-color}};
             --BorderColor: {{site.data.navigation.colors.border-color}};
             --linkColor: {{site.data.navigation.colors.link-color}};
+            --linkFont: {{site.data.navigation.fonts.link-font}};
             --HoverLinkColor: {{site.data.navigation.colors.hover-link-color}};
             --iconColor: {{site.data.navigation.social-link-colors.icon-color}};
             --iconBackgroundColor: {{site.data.navigation.social-link-colors.background-color}};
@@ -91,7 +92,8 @@
             --footerBackgroundColor: {{site.data.footer.colors.background-color}};
             --footerBorderColor: {{site.data.footer.colors.border-color}};
             --socialIconsBackgroundColor: {{site.data.footer.colors.social-icons-background-color}};
-            --subfooterHoverColor: {{site.data.footer.colors.subfoorer-hover-color}};
+            --subfooterHoverColor: {{site.data.footer.colors.subfooter-hover-color}};
+            --subfooterFont: {{site.data.footer.fonts.subfooter-font}};
             
             
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
@@ -117,7 +119,11 @@
             border: 4px solid var(--BorderColor);
             }
             
-          .navigation-links a {color: var(--linkColor);} 
+          .navigation-links a
+            {
+            color: var(--linkColor);
+            font-family: var(--linkFont);
+            } 
 
           .navigation-links a:hover {color: var(--HoverLinkColor);} 
 
@@ -171,9 +177,17 @@
 
           .built {background-color: var(--footerBackgroundColor);}
 
-          .built a { color: var(--socialIconsBackgroundColor);}
+          .built a 
+            {
+            color: var(--socialIconsBackgroundColor);
+            font-family: var(--subfooterFont);
+            }
 
-          .built p {color: var(--socialIconsBackgroundColor);}
+          .built p 
+            {
+            color: var(--socialIconsBackgroundColor);
+            font-family: var(--subfooterFont);
+            }
 
           .built a:hover {color: var(--subfooterHoverColor);}
 
