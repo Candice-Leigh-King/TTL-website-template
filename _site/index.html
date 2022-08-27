@@ -86,6 +86,13 @@
             --iconHoverColor: #D2966D;
             --exitColor: #2f3031;
             --exitHoverColor: #FFFFFF;
+
+            /* -------------FOOTER----------- */
+            --footerBackgroundColor: #FFFFFF;
+            --footerBorderColor: #D2966D;
+            --socialIconsBackgroundColor: #D2966D;
+            --subfooterHoverColor: #859F9F;
+            
             
             --mediaKitButton: ;
             --mediaKitButtonHover: ;
@@ -140,6 +147,37 @@
           .fixed-socials a:hover 
             {color:var(--iconHoverColor);}
 
+          /* ----------FOOTER---------- */
+
+          .footer-background-color 
+            {
+            background-color: var(--footerBackgroundColor);
+            border-top: 1px solid var(--footerBorderColor);
+            }
+
+          .social-icons-color a 
+            {
+            color: var(--footerBackgroundColor);
+            background-color: var(--socialIconsBackgroundColor);
+            border: solid var(--socialIconsBackgroundColor);
+            }
+          
+          .social-icons-color a:hover
+            {
+            color: var(--socialIconsBackgroundColor);
+            background-color: transparent;
+            border: solid var(--socialIconsBackgroundColor);
+            }
+
+          .built {background-color: var(--footerBackgroundColor);}
+
+          .built a { color: var(--socialIconsBackgroundColor);}
+
+          .built p {color: var(--socialIconsBackgroundColor);}
+
+          .built a:hover {color: var(--subfooterHoverColor);}
+
+
           .media-kit-button
             {
             background-color: transparent;
@@ -156,24 +194,8 @@
 
           .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
+          
 
-          .navigation-background_color {background-color: var(--navigationBackgroundColor);}
-          .navigation-arche-background_color {
-            background-color: var(--navigationArcheBackgroundColor);
-            border: 4px solid var(--navigationArcheBorderColor);
-          }
-
-          .footer-background_color {background-color: var(--footerBackgroundColor);}
-          .social-icons_color a {
-            color: var(--iconColor);
-            background-color: var(--socialIconsColor);
-            border: solid var(--socialIconsColor);}
-          .built p {color: var(--links);}
-
-          .social-icons_color a:hover{
-            color: var(--socialIconsColor);
-            background-color: transparent;
-            border: solid var(--socialIconsColor);}
           </style>
     </head>
 
@@ -809,8 +831,8 @@ We are your full-service digital marketing company specialising in website devel
 
     
 
-    <footer class="grid-center padded-top footer-background_color featured-bg">
-      <div class="col-12 social-icons_color socials">
+    <footer class="grid-center padded-top footer-background-color featured-bg">
+      <div class="col-12 social-icons-color socials">
         <a href="" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
         <a href="" class="margin fb "><span class="iconify" data-icon="brandico:facebook"></span></a>
         <a href="" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
@@ -819,7 +841,7 @@ We are your full-service digital marketing company specialising in website devel
     </footer>
 
 
-    <div class="col-12-middle center built footer-background_color featured-bg">
+    <div class="col-12-middle center built ">
         <p> <a href="https://www.kingcode.uk" class="padded-sides"> Website by King Code </a> x <br class="desktop-hide" /><a href="https://www.candyandtheking.com" class="padded-sides">  Candy and the King </a>
         <a href="/" class="padded-right"> © Website for Content Creators</a>
         </p>

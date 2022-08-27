@@ -86,6 +86,13 @@
             --iconHoverColor: {{site.data.navigation.social-link-colors.icon-hover-color}};
             --exitColor: {{site.data.navigation.colors.exit-color}};
             --exitHoverColor: {{site.data.navigation.colors.exit-hover-color}};
+
+            /* -------------FOOTER----------- */
+            --footerBackgroundColor: {{site.data.footer.colors.background-color}};
+            --footerBorderColor: {{site.data.footer.colors.border-color}};
+            --socialIconsBackgroundColor: {{site.data.footer.colors.social-icons-background-color}};
+            --subfooterHoverColor: {{site.data.footer.colors.subfoorer-hover-color}};
+            
             
             --mediaKitButton: {{site.data.colors.media-kit.button_color}};
             --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
@@ -140,6 +147,37 @@
           .fixed-socials a:hover 
             {color:var(--iconHoverColor);}
 
+          /* ----------FOOTER---------- */
+
+          .footer-background-color 
+            {
+            background-color: var(--footerBackgroundColor);
+            border-top: 1px solid var(--footerBorderColor);
+            }
+
+          .social-icons-color a 
+            {
+            color: var(--footerBackgroundColor);
+            background-color: var(--socialIconsBackgroundColor);
+            border: solid var(--socialIconsBackgroundColor);
+            }
+          
+          .social-icons-color a:hover
+            {
+            color: var(--socialIconsBackgroundColor);
+            background-color: transparent;
+            border: solid var(--socialIconsBackgroundColor);
+            }
+
+          .built {background-color: var(--footerBackgroundColor);}
+
+          .built a { color: var(--socialIconsBackgroundColor);}
+
+          .built p {color: var(--socialIconsBackgroundColor);}
+
+          .built a:hover {color: var(--subfooterHoverColor);}
+
+
           .media-kit-button
             {
             background-color: transparent;
@@ -156,24 +194,8 @@
 
           .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
+          
 
-          .navigation-background_color {background-color: var(--navigationBackgroundColor);}
-          .navigation-arche-background_color {
-            background-color: var(--navigationArcheBackgroundColor);
-            border: 4px solid var(--navigationArcheBorderColor);
-          }
-
-          .footer-background_color {background-color: var(--footerBackgroundColor);}
-          .social-icons_color a {
-            color: var(--iconColor);
-            background-color: var(--socialIconsColor);
-            border: solid var(--socialIconsColor);}
-          .built p {color: var(--links);}
-
-          .social-icons_color a:hover{
-            color: var(--socialIconsColor);
-            background-color: transparent;
-            border: solid var(--socialIconsColor);}
           </style>
     </head>
 
@@ -224,8 +246,8 @@
       {% include {{item._section-type}}.html %}
     {% endfor %}
 
-    <footer class="grid-center padded-top footer-background_color featured-bg">
-      <div class="col-12 social-icons_color socials">
+    <footer class="grid-center padded-top footer-background-color featured-bg">
+      <div class="col-12 social-icons-color socials">
         <a href="{{site.data.social-links.instagram}}" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
         <a href="{{site.data.social-links.facebook}}" class="margin fb "><span class="iconify" data-icon="brandico:facebook"></span></a>
         <a href="{{site.data.social-links.tiktok}}" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
@@ -234,7 +256,7 @@
     </footer>
 
 
-    <div class="col-12-middle center built footer-background_color featured-bg">
+    <div class="col-12-middle center built ">
         <p> <a href="https://www.kingcode.uk" class="padded-sides"> Website by King Code </a> x <br class="desktop-hide" /><a href="https://www.candyandtheking.com" class="padded-sides">  Candy and the King </a>
         <a href="/" class="padded-right"> © {{site.data.general.basics.your-brand-name}}</a>
         </p>
