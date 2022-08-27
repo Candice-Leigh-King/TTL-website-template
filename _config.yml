@@ -30,6 +30,7 @@ _array_structures:
             top-line-color: 
             left-line-color:
             link-color:
+            hover-color:
           fonts:
             subheading-font: 
             text-font:   
@@ -41,7 +42,7 @@ _array_structures:
           background_image:
           heading:
           carousel:
-            textarea:
+            textarea_html:
             symbols:
             ending:
           colors:
@@ -52,6 +53,8 @@ _array_structures:
             carousel-subheading-color: 
             carousel-text-color: 
             carousel-symbols-color:
+            link-color:
+            link-hover-color:
           fonts:
             carousel-heading-font:
             carousel-subheading-font:
