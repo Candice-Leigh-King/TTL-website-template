@@ -332,19 +332,6 @@ font-family: 'Shrikhand', cursive;*/
     background-size: cover;
     }
 
-  .hover-container-2
-    {
-    background-size: cover;
-    background-position: center;
-    background-color: #EFEBE6;
-    }
-  
-  .hover-container-2 .hover-image 
-    {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    }
 
   .hover-container .hover-image:hover 
     {border: transparent }
@@ -358,6 +345,7 @@ font-family: 'Shrikhand', cursive;*/
     /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
     transition: all 0.3s;
     }
+
 
 
   .top-hover-overlay 
@@ -383,18 +371,9 @@ font-family: 'Shrikhand', cursive;*/
     transform: translateY(-50%);
     }
 
-  .hover-inner-1
-    {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    }
 
   .hover-inner p {margin-bottom: 0;}
 
-  .hover-inner-1 p {margin-bottom: 0;}
 
   .button-color:hover 
     {

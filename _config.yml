@@ -16,9 +16,6 @@ _array_structures:
           hero:
           hero-color:
           hero-font:
-          link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-            link:
       - label: Textarea
         icon: article
         value:
@@ -26,9 +23,6 @@ _array_structures:
           content-block-link:
           textarea_html:
           subheading_html:
-          link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-            link:
           colors:
             background-color: 
             text-color: 
@@ -61,9 +55,6 @@ _array_structures:
             carousel-heading-font:
             carousel-subheading-font:
             carousel-text-font: 
-          link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-            link:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
@@ -165,8 +156,6 @@ _array_structures:
             option-3:
             option-4: 
           button:
-          link:
-            description:
           colors:
             background-color:
             textarea-background-color: 
@@ -204,3 +193,11 @@ _select_data:
       - Quicksand, sans-serif
       - Raleway, sans-serif
       - Roboto, sans-serif
+
+      #  description: >-
+      #   If you would like that awesome scroll feature that happens when someone
+      #   clicks on a link in the navigation, then you'll need to add a page id.
+      #   The page id can be added in the below box labeled "link". Your id is a
+      #   short word describing the section it is leading to. For example- about.
+      #   If you don't want this section to link from the navigation, you can
+      #   simply leave it out.
