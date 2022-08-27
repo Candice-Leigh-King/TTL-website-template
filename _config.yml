@@ -29,6 +29,7 @@ _array_structures:
             subheading-color: 
             top-line-color: 
             left-line-color:
+            link-color:
           fonts:
             subheading-font: 
             text-font:   
