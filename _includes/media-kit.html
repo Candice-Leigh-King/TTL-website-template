@@ -1,0 +1,43 @@
+<style>
+  #content-blocks-{{forloop.index0}} .background-color 
+    {background: linear-gradient(0deg,{{item.colors.bottom-background-color}} 50%,{{item.colors.top-background-color}} 0%);}
+    
+  #content-blocks-{{forloop.index0}}  
+    {}
+    
+</style>
+    
+<section id="content-blocks-{{forloop.index0}}" class="center">
+  <section class="padded grid-center background-color">
+    <div class="col-4 media-kit padded" style="background-image:url('{{item.image}}')"></div>
+      <div class="col-8 grid-center padded">
+        <h3 class="col-12 center">{{item.heading}}</h3>
+        <h4 class="col-12 center  niche-font niche-color">{{item.niche}}</h4>
+        <p class="col-12 center number-font number-color">{{item.follower-count}}</p>
+        <p class="col-12 center"> {{item.followers}}</p>
+        <p class="col-12 center username">{{item.username}}</p>
+        <div class="grid-center center col-9">
+          <div class="grid-center center col-3 padded ">
+            <p class="col-12-center number center radius media-kit-border"> {{item.demographics.location-percentage}}</p>
+            <p class="col-12 center">{{item.demographics.top-location}}</p>
+          </div>
+          <div class="grid-center center col-3 padded ">
+            <p class="col-12-center number center radius media-kit-border"> {{item.reach}}</p>
+            <p class="col-12 center">From UK</p>
+          </div>
+          <div class="grid-center center col-3 padded ">
+            <p class="col-12-center number center radius media-kit-border"> 83%</p>
+            <p class="col-12 center">From UK</p>
+          </div>
+          <div class="grid-center center col-3 padded ">
+            <p class="col-12-center number center radius media-kit-border"> 83%</p>
+            <p class="col-12 center">From UK</p>
+          </div>
+        </div>
+      </div>  
+  </section>
+  <section class="grid padded-sides">
+      <h4 class="col-12 left">{{item.subheader}}</h4>
+      <p class="col-12 left">{{item.textarea_html}}</p>
+  </section>
+</section>
