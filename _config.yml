@@ -174,29 +174,71 @@ _array_structures:
             subheading-font:
             text-font: 
             button-font:
-_select_data:
-  fonts:
-      - Cyrene
-      - La Obrige
-      - Lineal Simples
-      - Maglony
-      - Mak
-      - Misto
-      - Brushwell
-      - Open Sans, sans-serif
-      - Shrikhand, cursive
-      - Dream Avenue
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+      - label: Form
+        icon: email
+        value:
+          - _section-type: media-kit
+            image: 
+            heading: 
+            niche: 
+            follower-count:
+            followers: 
+            username: 
+            subheader: 
+            textarea_html: 
+            demographics:
+              top-location:
+              location-percentage: 
+              reach: 
+              reach-in-numbers: 
+              gender:  
+              gender-percentage: 
+              engagement:
+              engagement-rate-percentage: 
+            colors:
+              top-background-color: 
+              bottom-background-color: 
+              heading-color: 
+              niche-color: 
+              line-color: 
+              reach-color: 
+              text-color: 
+              demographics-number-color: 
+              demographics-text-color: 
+              subheading-color: 
+              textarea-color: 
+            fonts:
+              heading-font: 
+              niche-font: 
+              reach-font: 
+              text-font:
+              demographics-number-fonts: 
+              demographics-text-font: 
+              subheading-font: 
+              textarea-font: 
+        _select_data:
+          fonts:
+              - Cyrene
+              - La Obrige
+              - Lineal Simples
+              - Maglony
+              - Mak
+              - Misto
+              - Brushwell
+              - Open Sans, sans-serif
+              - Shrikhand, cursive
+              - Dream Avenue
+              - Amatic SC, cursive
+              - Barlow Condensed, sans-serif
+              - Belleza, sans-serif
+              - Kaushan Script, cursive
+              - Montserrat, sans-serif
+              - Oooh Baby, cursive
+              - Playfair Display, serif
+              - Poppins, sans-serif
+              - Quicksand, sans-serif
+              - Raleway, sans-serif
+              - Roboto, sans-serif
 
       #  description: >-
       #   If you would like that awesome scroll feature that happens when someone

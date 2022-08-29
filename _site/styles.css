@@ -444,7 +444,7 @@ font-family: 'Shrikhand', cursive;*/
   min-height: 50vh; 
   }
 
-.media-kit h4 {font-size: 2rem;}
+.media-kit .subheading-font {font-size: 2rem;}
 
 .media-kit .text-font 
   {
