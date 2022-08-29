@@ -130,6 +130,7 @@ font-family: 'Shrikhand', cursive;*/
   .margin-shapes {  margin: 0px 15px 15px;}
   .margin-sides {margin: 0px 15px;}
   .padded-s {padding: 3%;}
+  .no-margin {margin: 0;}
 
   
 .dark-bg      {  background-color: #CE967A;     }
@@ -300,13 +301,14 @@ font-family: 'Shrikhand', cursive;*/
     font-size: 3rem;
   }  
 
-  .textarea-top-line-color
+.textarea-top-line-color
   {
   border-bottom: none;
   border-left: none;
   border-right: none;
   border-top: #D2966D solid 4px ;
   }
+
 
 .textarea-left-line-color 
   {
@@ -442,11 +444,34 @@ font-family: 'Shrikhand', cursive;*/
   min-height: 50vh; 
   }
 
+.media-kit h4 {font-size: 2rem;}
+
+.media-kit .text-font 
+  {
+  font-size: 1.5rem;
+  }  
+
+.media-kit-line-height {line-height: 0;}
+
 .media-kit-border 
   {
   border: 2px solid #2f3031;
   padding: 0.6rem 0.5rem;
   }
+
+.media-kit-line-color
+  {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: #D2966D solid 2px ;
+  }
+
+.media-kit h3 {font-size: 3rem;}
+
+.follower-number {font-size: 2rem;}
+
+.media-kit-padded-bottom {padding-bottom: 20px;}
 
 .number {font-size: 2rem;}
 

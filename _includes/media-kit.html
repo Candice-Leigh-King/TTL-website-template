@@ -1,9 +1,49 @@
 <style>
   #content-blocks-{{forloop.index0}} .background-color 
     {background: linear-gradient(0deg,{{item.colors.bottom-background-color}} 50%,{{item.colors.top-background-color}} 0%);}
+
+  #content-blocks-{{forloop.index0}} .heading-color
+    {color: {{item.colors.heading-color}};}
+
+  #content-blocks-{{forloop.index0}} .heading-font
+    {font-family: {{item.fonts.heading-font}};}
+
+  #content-blocks-{{forloop.index0}} .niche-font
+    {font-family: {{item.fonts.niche-font}};}
+
+  #content-blocks-{{forloop.index0}} .niche-color
+    {color: {{item.colors.niche-color}};}
+
+  #content-blocks-{{forloop.index0}} .media-kit-line-color
+    {border-top: 1px solid {{item.colors.line-color}};}
+
+  #content-blocks-{{forloop.index0}} .reach-font
+    {font-family: {{item.fonts.reach-font}};}
     
-  #content-blocks-{{forloop.index0}} .media-kit 
-    { z-index: 2;    }
+  #content-blocks-{{forloop.index0}} .reach-color
+    {color: {{item.colors.reach-color}};}
+
+  #content-blocks-{{forloop.index0}} .text-font
+    {font-family: {{item.fonts.text-font}};}
+
+  #content-blocks-{{forloop.index0}} .text-color
+    {color: {{item.colors.text-color}};}
+
+  #content-blocks-{{forloop.index0}} .demographics-number-fonts
+    {font-family: {{item.fonts.demographics-number-fonts}};}
+
+
+  #content-blocks-{{forloop.index0}} .demographics-number-color
+    {color: {{item.colors.demographics-number-color}};}
+
+  #content-blocks-{{forloop.index0}} .demographics-text-font
+    {font-family: {{item.fonts.demographics-text-font}};}
+
+  #content-blocks-{{forloop.index0}} .media-kit-border
+    { border: 2px solid {{item.colors.demographics-number-color}};}
+
+  #content-blocks-{{forloop.index0}} .demographics-text-color
+    {color: {{item.colors.demographics-text-color}};}
     
 </style>
     
@@ -11,33 +51,32 @@
   <section data-cms-bind class="padded grid-center background-color">
     <div class="col-4 media-kit padded" style="background-image:url('{{item.image}}')"></div>
       <div class="col-8 grid-center padded">
-        <h3 class="col-12 center editable">{{item.heading}}</h3>
-        <h4 class="col-12 center  niche-font niche-color editable ">{{item.niche}}</h4>
-        <p class="col-12 center number-font number-color editable">{{item.follower-count}}</p>
-        <p class="col-12 center editable"> {{item.followers}}</p>
-        <p class="col-12 center username editable">{{item.username}}</p>
+        <h3 class="col-12 center editable heading-font heading-color">{{item.heading}}</h3>
+        <h4 class="col-12 center niche-font niche-color editable no-margin media-kit-padded-bottom ">{{item.niche}}</h4>
+        <div class="col-6 media-kit-line-color"> </div>
+        <p class="col-12 center reach-font reach-color editable no-margin follower-number">{{item.follower-count}}</p>
+        <p class="col-12 center editable text-font text-color media-kit-line-height"> {{item.followers}}</p>
+        <p class="col-12 center no-margin username editable text-font text-color padded-top">{{item.username}}</p>
         <div class="grid-center center col-9">
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.location-percentage}}</p>
-            <p class="col-12 center editable">{{item.demographics.top-location}}</p>
+            <p class="col-12-center number center radius media-kit-border editable demographics-number-fonts demographics-number-color"> {{item.demographics.location-percentage}}</p>
+            <p class="col-12 center editable demographics-text-font demographics-text-color ">{{item.demographics.top-location}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.reach-in-numbers}}</p>
-            <p class="col-12 center editable">{{item.demographics.reach}}</p>
+            <p class="col-12-center number center radius media-kit-border editable demographics-number-fonts demographics-number-color"> {{item.demographics.reach-in-numbers}}</p>
+            <p class="col-12 center editable demographics-text-font demographics-text-color">{{item.demographics.reach}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.gender-percentage}}</p>
-            <p class="col-12 center editable">{{item.demographics.gender}}</p>
+            <p class="col-12-center number center radius media-kit-border editable demographics-number-fonts demographics-number-color"> {{item.demographics.gender-percentage}}</p>
+            <p class="col-12 center editable demographics-text-font demographics-text-color">{{item.demographics.gender}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.engagement-rate-percentage}}</p>
-            <p class="col-12 center editable">From UK</p>
+            <p class="col-12-center number center radius media-kit-border editable demographics-number-fonts demographics-number-color"> {{item.demographics.engagement-rate-percentage}}</p>
+            <p class="col-12 center editable demographics-text-font demographics-text-color">From UK</p>
           </div>
         </div>
+        <h4 class="col-12 left editable subheading-color subheadingfont">{{item.subheader}}</h4>
+        <p class="col-12 left editable textarea-color textarea-font">{{item.textarea_html}}</p>
       </div>  
-  </section>
-  <section class="grid padded-sides">
-      <h4 class="col-12 left editable">{{item.subheader}}</h4>
-      <p class="col-12 left editable">{{item.textarea_html}}</p>
   </section>
 </section>
