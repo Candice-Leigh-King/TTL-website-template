@@ -832,6 +832,11 @@ footer {
   .padded-top-botton-left {padding: 5% 0%;}
   
   }
+
+/* -------MEDIA KIT---------   */
+
+.number 
+  {font-size: 1.5rem;}
   
 @media(max-width:576px) {
 
