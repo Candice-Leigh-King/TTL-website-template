@@ -8,6 +8,9 @@
   #content-blocks-{{forloop.index0}} .border-hover-image 
    {border: 4px solid {{item.colors.border-color}};}
 
+  #content-blocks-{{forloop.index0}} .border-mob 
+    {border: 4px solid {{item.colors.border-color}};}
+
   #content-blocks-{{forloop.index0}} .hover-container 
    {background-color: {{item.colors.background-color}};}
 
@@ -69,7 +72,7 @@
       </div> 
       <div class="col-6_sm-12-middle desktop-hide">
         <div class="hover-container-mobile padded">
-          <div class="hover-image border" style="background-image:url('{{item.left.background-image}}'); ">
+          <div class="hover-image border-mob" style="background-image:url('{{item.left.background-image}}'); ">
             <div class="container-color grid-middle">
               <h3 class="col-12 subheading-font subheading-color padded"> {{item.left.subheading}}  
                 <p class="col-12 padded centered" onclick="myFunction()" id="myBtn-1"> 

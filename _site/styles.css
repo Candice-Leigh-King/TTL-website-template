@@ -744,6 +744,8 @@ footer {
 .mob-hide
   {display: none;}
 
+.desktop-hide {display: inline;}
+
   
 .hamburger 
     {
@@ -875,8 +877,6 @@ footer {
   .ig {padding: 5px 11px;}
   .tt {padding: 5px 10px;}
   .yt {padding: 5px 10px;}
-  .desktop-hide {display: inline;}
-
 
   } /* end media query */
   

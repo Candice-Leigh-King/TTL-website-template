@@ -7,6 +7,9 @@
   #content-blocks-{{forloop.index0}} .border-hover-image 
    {border: 4px solid {{item.colors.border-color}};}
 
+  #content-blocks-{{forloop.index0}} .border-mob 
+    {border: 4px solid {{item.colors.border-color}};}
+
   #content-blocks-{{forloop.index0}} .hover-container 
    {background-color: {{item.colors.background-color}};}
 
@@ -68,9 +71,9 @@
         <div class="hover-image radius border-hover-image " style="background-image:url('{{item.right.background-image}}'); ">
           <div class="hover-overlay hover-text-color ">
             <div class="hover-inner">
-              <h3 class=" subheading-font"> {{item.right.subheading}} </h3>
+              <h3 class="subheading-font"> {{item.right.subheading}} </h3>
               <p class="textarea-font padded"> {{item.right.textarea_html}}</p> 
-                <a href="{{item.right.button-link}}" class=" button-color"> <b>{{item.right.button}}</b></a>
+                <a href="{{item.right.button-link}}" class="button-color"> <b>{{item.right.button}}</b></a>
             </div>
           </div>
         </div> 
@@ -82,14 +85,14 @@
           <div class="container-color radius grid-middle">
             <h3 class="col-12 subheading-font subheading-color padded"> {{item.right.subheading}}  
               <p class="col-12 padded centered" onclick="myFunction()" id="myBtn"> 
-                 Read more
+                <a href="#read-more">{{item.right.read-more-button-for-mobile}}</a>
               </p>
             </h3>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-12 hover-container-mobile padded desktop-hide" >
+    <div id="read-more" class=" col-12 hover-container-mobile padded desktop-hide" >
       <p><span id="dots"></span><span id="more">{{item.right.textarea_html}}  </span></p>
     </div>
   </div>    
