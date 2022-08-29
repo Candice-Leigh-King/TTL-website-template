@@ -174,8 +174,8 @@ _array_structures:
             subheading-font:
             text-font: 
             button-font:
-      - label: Form
-        icon: email
+      - label: Media Kit
+        icon: business_center
         value:
           - _section-type: media-kit
             image: 
