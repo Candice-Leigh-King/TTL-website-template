@@ -11,33 +11,33 @@
   <section data-cms-bind class="padded grid-center background-color">
     <div class="col-4 media-kit padded" style="background-image:url('{{item.image}}')"></div>
       <div class="col-8 grid-center padded">
-        <h3 class="col-12 center">{{item.heading}}</h3>
-        <h4 class="col-12 center  niche-font niche-color">{{item.niche}}</h4>
-        <p class="col-12 center number-font number-color">{{item.follower-count}}</p>
-        <p class="col-12 center"> {{item.followers}}</p>
-        <p class="col-12 center username">{{item.username}}</p>
+        <h3 class="col-12 center editable">{{item.heading}}</h3>
+        <h4 class="col-12 center  niche-font niche-color editable ">{{item.niche}}</h4>
+        <p class="col-12 center number-font number-color editable">{{item.follower-count}}</p>
+        <p class="col-12 center editable"> {{item.followers}}</p>
+        <p class="col-12 center username editable">{{item.username}}</p>
         <div class="grid-center center col-9">
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border"> {{item.demographics.location-percentage}}</p>
-            <p class="col-12 center">{{item.demographics.top-location}}</p>
+            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.location-percentage}}</p>
+            <p class="col-12 center editable">{{item.demographics.top-location}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border"> {{item.demographics.reach-in-numbers}}</p>
+            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.reach-in-numbers}}</p>
             <p class="col-12 center editable">{{item.demographics.reach}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border"> {{item.demographics.gender-percentage}}</p>
-            <p class="col-12 center">{{item.demographics.gender}}</p>
+            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.gender-percentage}}</p>
+            <p class="col-12 center editable">{{item.demographics.gender}}</p>
           </div>
           <div class="grid-center center col-3 padded ">
-            <p class="col-12-center number center radius media-kit-border"> {{item.demographics.engagement-rate-percentage}}</p>
-            <p class="col-12 center">From UK</p>
+            <p class="col-12-center number center radius media-kit-border editable"> {{item.demographics.engagement-rate-percentage}}</p>
+            <p class="col-12 center editable">From UK</p>
           </div>
         </div>
       </div>  
   </section>
   <section class="grid padded-sides">
-      <h4 class="col-12 left">{{item.subheader}}</h4>
-      <p class="col-12 left">{{item.textarea_html}}</p>
+      <h4 class="col-12 left editable">{{item.subheader}}</h4>
+      <p class="col-12 left editable">{{item.textarea_html}}</p>
   </section>
 </section>
