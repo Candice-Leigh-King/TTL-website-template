@@ -1,6 +1,7 @@
 <style>
   #content-blocks-{{forloop.index0}} .background-color 
     {background: linear-gradient(0deg,{{item.colors.bottom-background-color}} 50%,{{item.colors.top-background-color}} 0%);}
+  #content-blocks-{{forloop.index0}} .border {border: solid 4px {{item.colors.image-border-color}};}
 
   #content-blocks-{{forloop.index0}} .heading-color
     {color: {{item.colors.heading-color}};}
@@ -44,15 +45,21 @@
 
   #content-blocks-{{forloop.index0}} .demographics-text-color
     {color: {{item.colors.demographics-text-color}};}
+
+  #content-blocks-{{forloop.index0}} .subheading-color
+    {color: {{item.colors.subheading-color}};}
+
+  #content-blocks-{{forloop.index0}} .subheading-font
+    {font-family: {{item.fonts.subheading-font}};}
     
 </style>
     
 <section id="content-blocks-{{forloop.index0}}" class="center media-kit">
   <section data-cms-bind class="padded grid-center background-color">
-    <div class="col-4_xs-12 media-kit padded" style="background-image:url('{{item.image}}')"></div>
+    <div class="col-4_xs-12 media-kit padded border" style="background-image:url('{{item.image}}')"></div>
       <div class="col-8_xs-12 grid-center padded">
-        <h3 class="col-12 center   heading-font heading-color">{{item.heading}}</h3>
-        <h4 class="col-12 center niche-font niche-color   no-margin media-kit-padded-bottom ">{{item.niche}}</h4>
+        <h3 class="col-12 center  heading-font heading-color">{{item.heading}}</h3>
+        <h4 class="col-12 center niche-font niche-color  no-margin media-kit-padded-bottom ">{{item.niche}}</h4>
         <div class="col-6 media-kit-line-color"> </div>
         <p class="col-12 center reach-font reach-color   no-margin follower-number">{{item.follower-count}}</p>
         <p class="col-12 center   text-font text-color media-kit-line-height"> {{item.followers}}</p>
@@ -75,7 +82,7 @@
             <p class="col-12 center   demographics-text-font demographics-text-color">{{item.demographics.engagement}}</p>
           </div>
         </div>
-        <h4 class="col-12 left   subheading-color subheading-font ">{{item.subheader}}</h4>
+        <h4 class="col-12 left   subheading-color subheading-font ">{{item.subheading}}</h4>
         <p class="col-12 left   textarea-color textarea-font">{{item.textarea_html}}</p>
       </div>  
   </section>

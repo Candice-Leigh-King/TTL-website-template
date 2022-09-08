@@ -232,9 +232,6 @@ font-family: 'Shrikhand', cursive;*/
   margin-bottom:0;
   }
 
-
-
-
 /* ----------------CAROUSEL---------------- */
 
 .carousel-background-color
@@ -437,6 +434,8 @@ font-family: 'Shrikhand', cursive;*/
   background-repeat: no-repeat;
   }
 
+  /* ----------MEDIA KIT---------- */
+
 .media-kit 
   {
   background-size: cover;
@@ -474,6 +473,13 @@ font-family: 'Shrikhand', cursive;*/
 .media-kit-padded-bottom {padding-bottom: 20px;}
 
 .number {font-size: 2rem;}
+
+.media-kit img 
+  {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  }
 
 
 
@@ -781,6 +787,18 @@ footer {
 
 .desktop-hide {display: none;}
 
+/* ---------READ MORE--------- */
+
+.read-more-button span::after {content: "more";}
+
+.read-more-button.active span::after {content: "less";}
+
+.link-background-color {padding: 0px 6px;}
+
+.hidden {display: none;}
+
+
+
 /* Smaller than laptop */
 @media(max-width:768px) {
 
@@ -837,6 +855,7 @@ footer {
 
 .number 
   {font-size: 1.5rem;}
+
   
 @media(max-width:576px) {
 
@@ -919,6 +938,13 @@ footer {
    .radius-leaf {border-radius: 100px 0px 100px 0px;}
    .carousel-symbols-color {font-size: 1.5rem;}
    .carousel-subheading-font {font-size: 1.5rem;}
+
+   /* -----------MEDIA-KIT---------- */
+   .media-kit img 
+    {height: 170px;}
+
+   .padded-1 
+    {padding: 4px;}
   
   .socials a {font-size: 1.5rem;}
   .fb {padding: 5px 17px;}
