@@ -34,10 +34,12 @@ font-family: 'Shrikhand', cursive;*/
   box-sizing: border-box;
   }
   
-  html {
+  html 
+    {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
     overflow-x: hidden;
-  }
+    touch-action: manipulation;
+    }
   
   img {
     max-width: 100%; /* this ensures images never break their container */
@@ -448,7 +450,7 @@ font-family: 'Shrikhand', cursive;*/
 .media-kit .text-font 
   {
   font-size: 1.5rem;
-  }  
+  } 
 
 .media-kit-line-height {line-height: 0;}
 
@@ -479,6 +481,19 @@ font-family: 'Shrikhand', cursive;*/
   width: 100%;
   height: 370px;
   object-fit: cover;
+  }
+
+  
+
+.square-media
+  {
+  padding-bottom: 340px; 
+  display: block; 
+  border: 4px solid white;
+  background-size: cover;
+  background-position: center;
+  background-color: #BCCACA;
+  background-repeat: no-repeat;
   }
 
 
@@ -893,6 +908,8 @@ footer {
 
   h4 {font-size: 1.5rem;}
 
+  .niche-font {font-size: 1rem;}
+
   h5 {font-size: 1.3rem;}
 
   .vertical-form-text {font-size: 1.4rem;}
@@ -942,6 +959,8 @@ footer {
    /* -----------MEDIA-KIT---------- */
    .media-kit img 
     {height: 170px;}
+
+   .square-media {padding-bottom: 50%;} 
 
    .padded-1 
     {padding: 4px;}
