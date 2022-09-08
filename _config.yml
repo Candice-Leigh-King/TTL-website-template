@@ -139,7 +139,7 @@ _array_structures:
           fonts:
             heading-font: 
       - label: Gallery with Links
-        icon:
+        icon: link
         value:
           _section-type: gallery-with-links
           content-block-link:
