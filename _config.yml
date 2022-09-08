@@ -156,10 +156,12 @@ _array_structures:
             fourth-link: 
           colors:
             background-color: 
-            subheading-color:
-            text-background-color:
+            subheading-color: 
+            text-color: 
+            text-background-color: 
           fonts:
-            subheading-font:       
+            subheading-font:
+            text-font:
       - label: Form
         icon: email
         value:
