@@ -510,7 +510,7 @@ header
   padding-top: 20px;
   }
 
-.z-index {z-index: 9900;}
+.z-index {z-index: 1000;}
 
 .hamburger 
   {
