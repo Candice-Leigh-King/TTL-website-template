@@ -16,7 +16,7 @@ _array_structures:
           hero:
           hero-color:
           hero-font:
-      - label: Textarea
+      - label: Text Area
         icon: article
         value:
           _section-type: textarea
