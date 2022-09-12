@@ -510,6 +510,8 @@ header
   padding-top: 20px;
   }
 
+.z-index {z-index: 1000;}
+
 .hamburger 
   {
   right: 6px;
