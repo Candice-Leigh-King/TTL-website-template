@@ -74,7 +74,6 @@
 
           /* --------------NAVIGATION------------ */
 
-          --editor-panel-zindex: 90;
           --hamburgerColor: {{site.data.navigation.colors.hamburger-color}};
           --backgroundColor: {{site.data.navigation.colors.background-color}};
           --textareaBackgroundColor: {{site.data.navigation.colors.textarea-background-color}};
@@ -210,17 +209,17 @@
   </head>
   <body>
 
-    <header class="grid-center  ">
+    <header class="grid-center">
       <div class=" col-11 center mob-hide">
         <a href="/" class="logo-home center "> 
           <img src="{{site.data.general.basics.logo_image}}" alt="{{site.data.general.basics.logo-alt}}" /></a>
       </div>
       <p class=" col-1-middle fixed z-index hamburger-color hamburger"> ☰
       </p>
-      <nav class="grid-middle navigation-background-color page-nav mobile-menu banner">
+      <nav class="grid-middle navigation-background-color page-nav mobile-menu banner" style="background-image: url('{{site.data.colors.navigation-colors.navigation-background_image}}');">
         <p class="cross exit right col-12"> ╳
         </p>
-        <div class=" textarea-background-color radius-arch banner col-12 grid-middle">
+        <div class=" textarea-background-color radius-arch banner col-12 grid-middle" style="background-image: url('{{site.data.colors.navigation-colors.navigation-arch-background_image}}');">
          
           <div class=" col-12 grid-center ">
             <a href="/" class="logo center grow col-12-middle exit"> 
