@@ -22,7 +22,7 @@ _array_structures:
           _section-type: textarea
           content-block-link:
           textarea_html:
-          subheading_html:
+          subheading:
           colors:
             background-color: 
             text-color: 
@@ -66,13 +66,10 @@ _array_structures:
           content-block-link:
           left:
             heading:
-            textarea_html:
             background-image:
-            button: 
-            button-link:
           right:
             subheading:
-            textarea_html:
+            textarea:
             background-image: 
             button: 
             button-link:
@@ -82,6 +79,8 @@ _array_structures:
             border-color: 
             heading-color: 
             hover-text-color: 
+            subheading-color:
+            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text.
             button-background-color:
             button-text-color: 
           fonts:
@@ -95,13 +94,13 @@ _array_structures:
           content-block-link:
           left:
             subheading:
-            textarea_html:
+            textarea:
             background-image: 
             button:
             button-link: 
           right:
             subheading: 
-            textarea_html:
+            textarea:
             background-image:
             button: 
             button-link: 
