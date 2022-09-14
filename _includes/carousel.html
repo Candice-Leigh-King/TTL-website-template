@@ -2,8 +2,8 @@
   #content-blocks-{{forloop.index0}} .carousel-background-color 
     {background-color: {{item.colors.background-color}};}
 
-  #content-blocks-{{forloop.index0}} .heading-color {color: 
-    {{item.colors.heading-color}};}
+  #content-blocks-{{forloop.index0}} .heading-color 
+    {color: {{item.colors.heading-color}};}
 
   #content-blocks-{{forloop.index0}} .heading-font 
     {font-family: {{item.fonts.heading-font}};}
@@ -35,10 +35,16 @@
     {font-family: {{item.fonts.subheading-font}};}
 
   #content-blocks-{{forloop.index0}} h1
-    {font-family: {{item.fonts.heading-font}};}
+    {
+    font-family: {{item.fonts.heading-font}};
+    color: {{item.colors.heading-color}};
+    }
 
   #content-blocks-{{forloop.index0}} h2, h3, h4, h5, h6 
-    {font-family: {{item.fonts.subheading-font}};}
+    {
+    font-family: {{item.fonts.subheading-font}};
+    color: {{item.colors.subheading-color}};
+    }
 
   #content-blocks-{{forloop.index0}} h1 
    {font-size: 3.5rem;}
