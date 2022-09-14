@@ -875,12 +875,13 @@ footer {
 @media(max-width:576px) {
 
   header {margin-bottom: 0rem !important ;}
+  
   .hamburger 
     {
     right: 23px;
     top: 25px;
     font-size: 2.2rem;
-   }
+    }
 
   .mobile-menu 
     {
