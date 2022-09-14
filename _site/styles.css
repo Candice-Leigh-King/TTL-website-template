@@ -545,7 +545,8 @@ header
 
 
 .cross 
-  {cursor: pointer;}
+  {cursor: pointer;
+    z-index: 10;}
 
 .mobile-menu 
   {display: none;}
