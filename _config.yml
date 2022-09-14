@@ -16,28 +16,6 @@ _array_structures:
           hero:
           hero-color:
           hero-font:
-          _select_data:
-              - Cyrene
-              - La Obrige
-              - Lineal Simples
-              - Maglony
-              - Mak
-              - Misto
-              - Brushwell
-              - Open Sans, sans-serif
-              - Shrikhand, cursive
-              - Dream Avenue
-              - Amatic SC, cursive
-              - Barlow Condensed, sans-serif
-              - Belleza, sans-serif
-              - Kaushan Script, cursive
-              - Montserrat, sans-serif
-              - Oooh Baby, cursive
-              - Playfair Display, serif
-              - Poppins, sans-serif
-              - Quicksand, sans-serif
-              - Raleway, sans-serif
-              - Roboto, sans-serif
       - label: Text Area
         icon: article
         value:
