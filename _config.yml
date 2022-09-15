@@ -20,9 +20,6 @@ _array_structures:
         icon: article
         value:
           _section-type: textarea
-          content-block-link:
-          textarea_html:
-          subheading:
           colors:
             background-color: 
             text-color: 
@@ -34,17 +31,13 @@ _array_structures:
           fonts:
             subheading-font: 
             text-font:   
+          content-block-link:
+          textarea_html:
+          subheading:
       - label: Carousel
         icon: view_carousel
         value:
           _section-type: carousel
-          content-block-link:
-          background_image:
-          heading:
-          carousel:
-            textarea_html:
-            symbols:
-            ending:
           colors:
             carousel-background-color: 
             carousel-textarea-background-color: 
@@ -59,20 +52,17 @@ _array_structures:
             carousel-heading-font:
             carousel-subheading-font:
             carousel-text-font: 
+          content-block-link:
+          background_image:
+          heading:
+          carousel:
+            textarea_html:
+            symbols:
+            ending:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
           _section-type: fig-hover-block
-          content-block-link:
-          left:
-            heading:
-            background-image:
-          right:
-            subheading:
-            textarea:
-            background-image: 
-            button: 
-            button-link:
           colors:
             overlay-color: 
             background-color:
@@ -87,23 +77,20 @@ _array_structures:
             heading-font:
             subheading-font:
             textarea-font: 
+          content-block-link:
+          left:
+            heading:
+            background-image:
+          right:
+            subheading:
+            textarea:
+            background-image: 
+            button: 
+            button-link:
       - label: Zuko Hover Block
         icon: pets
         value: 
           _section-type: zuko-hover-block
-          content-block-link:
-          left:
-            subheading:
-            textarea:
-            background-image: 
-            button:
-            button-link: 
-          right:
-            subheading: 
-            textarea:
-            background-image:
-            button: 
-            button-link: 
           colors:
             overlay-color: 
             background-color:
@@ -116,11 +103,29 @@ _array_structures:
           fonts:
             heading-font:
             subheading-font:
-            textarea-font:          
+            textarea-font:
+          content-block-link:
+          left:
+            subheading:
+            textarea:
+            background-image: 
+            button:
+            button-link: 
+          right:
+            subheading: 
+            textarea:
+            background-image:
+            button: 
+            button-link:           
       - label: Gallery
         icon: photo_camera
         value:
           _section-type: gallery
+          colors:
+            background-color:
+            heading-color:
+          fonts:
+            heading-font:
           content-block-link:
           heading: Gallery
           left:
@@ -131,16 +136,19 @@ _array_structures:
             bottom-image: 
           right:
             top-image:
-            bottom-image:
-          colors:
-            background-color:
-            heading-color:
-          fonts:
-            heading-font: 
+            bottom-image: 
       - label: Gallery with Links
         icon: link
         value:
-          _section-type: gallery-with-links
+          _section-type: gallery-with-links 
+          colors:
+            background-color: 
+            subheading-color: 
+            text-color: 
+            text-background-color: 
+          fonts:
+            subheading-font:
+            text-font:
           content-block-link:
           subheading:
           images: 
@@ -152,19 +160,24 @@ _array_structures:
             first-link:
             second-link: 
             third-link:  
-            fourth-link: 
-          colors:
-            background-color: 
-            subheading-color: 
-            text-color: 
-            text-background-color: 
-          fonts:
-            subheading-font:
-            text-font:
+            fourth-link:
       - label: Form
         icon: email
         value:
           _section-type: form
+          colors:
+            background-color:
+            textarea-background-color: 
+            border-color: 
+            heading-color:
+            subheading-color:
+            text-color:
+            button-color: 
+            button-text-color:
+          fonts:
+            heading-font:
+            subheading-font:
+            text-font:
           content-block-link:
           background_image:
           heading:
@@ -182,42 +195,12 @@ _array_structures:
             option-2: 
             option-3:
             option-4: 
-          button:
-          colors:
-            background-color:
-            textarea-background-color: 
-            border-color: 
-            heading-color:
-            subheading-color:
-            text-color:
-            button-color: 
-            button-text-color:
-          fonts:
-            heading-font:
-            subheading-font:
-            text-font: 
+          button: 
             button-font:
       - label: Media Kit
         icon: business_center
         value:
-          _section-type: media-kit
-          image: 
-          heading: 
-          niche: 
-          follower-count:
-          followers: 
-          username: 
-          subheading: 
-          textarea_html: 
-          demographics:
-            top-location:
-            location-percentage: 
-            reach: 
-            reach-in-numbers: 
-            gender:  
-            gender-percentage: 
-            engagement:
-            engagement-rate-percentage: 
+          _section-type: media-kit 
           colors:
             top-background-color: 
             bottom-background-color: 
@@ -238,7 +221,24 @@ _array_structures:
             demographics-number-fonts: 
             demographics-text-font: 
             subheading-font: 
-            textarea-font: 
+            textarea-font:
+          image: 
+          heading: 
+          niche: 
+          follower-count:
+          followers: 
+          username: 
+          subheading: 
+          textarea_html: 
+          demographics:
+            top-location:
+            location-percentage: 
+            reach: 
+            reach-in-numbers: 
+            gender:  
+            gender-percentage: 
+            engagement:
+            engagement-rate-percentage: 
 fonts:
 _select_data:
   fonts:
