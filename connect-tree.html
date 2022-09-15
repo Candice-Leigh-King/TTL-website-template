@@ -13,5 +13,42 @@ seo:
     brands.
   url: https://kingcode.uk/
   social-share_image: /images/website-template-by-chas.jpg
+top-image:
+  image: /images/through-the-lyns-content.jpeg
+  background-color: '#EFEBE6'
+  border: '#FFFFFF'
+  
 ---
 
+<style>
+  .connect-tree {background-color: {{page.top-image.background-color}};}
+  .border-hover-image {border: 2.5px solid {{page.top-image.border}};}
+</style>
+
+<section class="grid-middle">
+  <div class="col-12 grid-left">
+    <div class="col-6-right">
+      <div class="connect-tree padded">
+        <div class="connect-tree-image radius border-hover-image " style="background-image:url('{{page.top-image.image}}'); ">
+          </div>
+        </div> 
+      </div>
+    </div>  
+  </div>
+  <div class="col-12 grid-center">
+    <div class="col-12-center editable connect-tree-links padded">
+      <p class=""><a href="">Youtube</a></p>
+      <p class=""><a href="">TikTok</a></p>
+      <p class=""><a href="">Media Kit</a></p>
+    </div>
+  </div>  
+  <div class="col-12 grid-right">
+    <div class="col-6">
+      <div class="connect-tree padded">
+        <div class="connect-tree-image radius border-hover-image " style="background-image:url('{{page.top-image.image}}'); ">
+          </div>
+        </div> 
+      </div>
+    </div>  
+  </div>
+</section>  
