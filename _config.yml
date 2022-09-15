@@ -241,27 +241,27 @@ _array_structures:
             textarea-font: 
             _select_data:
               fonts:
-                  - Cyrene
-                  - La Obrige
-                  - Lineal Simples
-                  - Maglony
-                  - Mak
-                  - Misto
-                  - Brushwell
-                  - Open Sans, sans-serif
-                  - Shrikhand, cursive
-                  - Dream Avenue
-                  - Amatic SC, cursive
-                  - Barlow Condensed, sans-serif
-                  - Belleza, sans-serif
-                  - Kaushan Script, cursive
-                  - Montserrat, sans-serif
-                  - Oooh Baby, cursive
-                  - Playfair Display, serif
-                  - Poppins, sans-serif
-                  - Quicksand, sans-serif
-                  - Raleway, sans-serif
-                  - Roboto, sans-serif
+                - Cyrene
+                - La Obrige
+                - Lineal Simples
+                - Maglony
+                - Mak
+                - Misto
+                - Brushwell
+                - Open Sans, sans-serif
+                - Shrikhand, cursive
+                - Dream Avenue
+                - Amatic SC, cursive
+                - Barlow Condensed, sans-serif
+                - Belleza, sans-serif
+                - Kaushan Script, cursive
+                - Montserrat, sans-serif
+                - Oooh Baby, cursive
+                - Playfair Display, serif
+                - Poppins, sans-serif
+                - Quicksand, sans-serif
+                - Raleway, sans-serif
+                - Roboto, sans-serif
 
       #  description: >-
       #   If you would like that awesome scroll feature that happens when someone
