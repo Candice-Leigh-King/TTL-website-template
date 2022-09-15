@@ -11,11 +11,11 @@ _array_structures:
         icon: star
         value:
           _section-type: hero
+          hero-color:
+          hero-font:
           content-block-link:
           hero-image:
           hero:
-          hero-color:
-          hero-font:
       - label: Text Area
         icon: article
         value:
