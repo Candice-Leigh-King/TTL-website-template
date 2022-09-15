@@ -21,7 +21,6 @@ _array_structures:
         value:
           _section-type: textarea
           content-block-link:
-          comment: Link this content block to your navigation
           textarea_html:
           subheading:
           colors:
