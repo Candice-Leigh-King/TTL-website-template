@@ -20,7 +20,7 @@ _array_structures:
         icon: article
         value:
           _section-type: textarea
-          comment: Link this content block to your navigation
+            comment: Link this content block to your navigation
           content-block-link:
           textarea_html:
           subheading:
