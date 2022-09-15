@@ -421,11 +421,12 @@ font-family: 'Shrikhand', cursive;*/
   color: #2f3031;
   border: 1px solid #CE967A;
   padding: .8rem 2rem .6rem;
+  border-radius: 100px;
   }
 
 .connect-tree-links p
   {
-  padding: 2%;  
+  padding: 3%;  
   }
 
   

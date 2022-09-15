@@ -13,23 +13,44 @@ seo:
     brands.
   url: https://kingcode.uk/
   social-share_image: /images/website-template-by-chas.jpg
+background-color: '#bccaca'
 top-image:
   image: /images/through-the-lyns-content.jpeg
-  background-color: '#EFEBE6'
+  border: '#FFFFFF'
+links:
+  background-color: '#FFFFFF'
+  border: '#D2966D'
+  text-color: '#D2966D'
+  fonts: Shrikhand, cursive 
+bottom-image:
+  image: /images/website-template-by-chas-x-king-code.jpeg
   border: '#FFFFFF'
   
 ---
 
 <style>
-  .connect-tree {background-color: {{page.top-image.background-color}};}
-  .border-hover-image {border: 2.5px solid {{page.top-image.border}};}
+
+  .connect-tree {background-color: {{page.background-color}};}
+
+  .top-image-border {border: 2.5px solid {{page.top-image.border}};}
+
+  .bottom-image-border {border: 2.5px solid {{page.bottom-image.border}};}
+
+  .connect-tree-links a 
+    {
+    border: 2.5px solid {{page.links.border}};
+    background-color: {{page.links.background-color}};
+    color: {{page.links.text-color}};
+    font-family: {{page.links.fonts}};
+    }
 </style>
 
-<section class="grid-middle">
+<body class="connect-tree grid-middle">
+
   <div class="col-12 grid-left">
     <div class="col-6-right">
-      <div class="connect-tree padded">
-        <div class="connect-tree-image radius border-hover-image " style="background-image:url('{{page.top-image.image}}'); ">
+      <div class="connect-tree top-image padded">
+        <div class="connect-tree-image radius border-hover-image top-image-border " style="background-image:url('{{page.top-image.image}}'); ">
           </div>
         </div> 
       </div>
@@ -37,18 +58,20 @@ top-image:
   </div>
   <div class="col-12 grid-center">
     <div class="col-12-center editable connect-tree-links padded">
-      <p class=""><a href="">Youtube</a></p>
-      <p class=""><a href="">TikTok</a></p>
-      <p class=""><a href="">Media Kit</a></p>
+      <p><a href="">TikTok</a></p>
+      <p><a href="">Youtube</a></p>
+      <p><a href="">Website</a></p>
+      <p><a href="">Media Kit</a></p>
     </div>
   </div>  
   <div class="col-12 grid-right">
     <div class="col-6">
       <div class="connect-tree padded">
-        <div class="connect-tree-image radius border-hover-image " style="background-image:url('{{page.top-image.image}}'); ">
+        <div class="connect-tree-image border-hover-image bottom-image-border " style="background-image:url('{{page.bottom-image.image}}'); ">
           </div>
         </div> 
       </div>
     </div>  
   </div>
-</section>  
+ 
+</body>
