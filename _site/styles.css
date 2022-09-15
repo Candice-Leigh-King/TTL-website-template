@@ -429,6 +429,10 @@ font-family: 'Shrikhand', cursive;*/
   padding: 3%;  
   }
 
+  .connect-tree-links a:hover
+  {
+  background-color: transparent;
+
   
   
 /* ---------------- FORM -------------- */
