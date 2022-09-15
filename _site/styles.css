@@ -211,7 +211,6 @@ font-family: 'Shrikhand', cursive;*/
   h3  { font-size: 1.8rem;  }
   h4  { font-size: 1.4rem;  }
   h5  { font-size: 1.2rem;  }
-  h6  { font-size: 1rem;}
   p   { font-size: 1rem;  }
   
   p, ul 
@@ -400,6 +399,36 @@ font-family: 'Shrikhand', cursive;*/
     transition: all 0.3s;
     padding: .8rem 2rem .6rem;
     }
+
+/* ---------CONNTECT TREE-------- */
+.connect-tree 
+    {
+    background-size: cover;
+    background-position: center;
+    }
+
+.connect-tree .connect-tree-image 
+    {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+    }
+
+.connect-tree-links a 
+  {
+  background-color: #CE967A;
+  color: #2f3031;
+  border: 1px solid #CE967A;
+  padding: .8rem 2rem .6rem;
+  }
+
+.connect-tree-links p
+  {
+  padding: 2%;  
+  }
+
+  
   
 /* ---------------- FORM -------------- */
 
@@ -514,7 +543,7 @@ header
 .hamburger 
   {
   right: 6px;
-  z-index: 100;
+  z-index: 10;
   font-size: 3rem;
   position: fixed;
   padding-left: 1%;
@@ -535,7 +564,7 @@ header
   left:600px;
   bottom: 10;
   padding: 30% 10% 10% 10%;
-  z-index: 100;
+  z-index: 10;
   color: #2f3031;
   padding: 1.2rem;
   display: block;
@@ -876,13 +905,12 @@ footer {
 @media(max-width:576px) {
 
   header {margin-bottom: 0rem !important ;}
-  
   .hamburger 
     {
     right: 23px;
     top: 25px;
     font-size: 2.2rem;
-    }
+   }
 
   .mobile-menu 
     {
