@@ -18,9 +18,9 @@
   #content-blocks-{{forloop.index0}} .text-color 
     {color: {{item.colors.text-color}};}
 
-  #content-blocks-{{forloop.index0}} a {color: {{item.colors.link-color}};}
+  #content-blocks-{{forloop.index0}} .text-color a {color: {{item.colors.link-color}};}
 
-  #content-blocks-{{forloop.index0}} a:hover {color: {{item.colors.link-hover-color}};}
+  #content-blocks-{{forloop.index0}} .text-color a:hover {color: {{item.colors.link-hover-color}};}
 
   #content-blocks-{{forloop.index0}} .text-font
     {font-family: {{item.fonts.text-font}};}
@@ -107,7 +107,7 @@
       {% for carousel in item.carousel %}
       <div class="grid-center radius-leaf carousel-border-color textarea-background-color centered">
         <div class="grid-center padded ">
-          <div class = "col-9_xs-12 padded ">
+          <div class = "col-9_xs-12 padded text-color text-font ">
             <p class="text-color text-font">{{carousel.textarea_html}} <br />
               <span class="carousel-symbols-color"> {{carousel.symbols}} </span>
             </p>
