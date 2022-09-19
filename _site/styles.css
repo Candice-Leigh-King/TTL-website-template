@@ -399,40 +399,6 @@ font-family: 'Shrikhand', cursive;*/
     transition: all 0.3s;
     padding: .8rem 2rem .6rem;
     }
-
-/* ---------CONNTECT TREE-------- */
-.connect-tree 
-    {
-    background-size: cover;
-    background-position: center;
-    }
-
-.connect-tree .connect-tree-image 
-    {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 100%;
-    }
-
-.connect-tree-links a 
-  {
-  background-color: #CE967A;
-  color: #2f3031;
-  border: 1px solid #CE967A;
-  padding: .8rem 2rem .6rem;
-  border-radius: 100px;
-  }
-
-.connect-tree-links p
-  {
-  padding: 3%;  
-  }
-
-  .connect-tree-links a:hover
-  {background-color: transparent;}
-
-  
   
 /* ---------------- FORM -------------- */
 
