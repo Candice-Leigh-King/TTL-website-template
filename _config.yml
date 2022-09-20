@@ -197,12 +197,12 @@ _array_structures:
           bottom:
             subheading: 
             message:
-          option-box:
-            subject:
-            option-1: 
-            option-2: 
-            option-3:
-            option-4: 
+            option-box:
+              subject:
+              option-1: 
+              option-2: 
+              option-3:
+              option-4: 
           button: 
       - label: Media Kit
         icon: business_center
