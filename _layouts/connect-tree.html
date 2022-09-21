@@ -73,11 +73,15 @@
         :root {
 
           /* --------------NAVIGATION------------ */
-
+        
           --hamburgerColor: {{site.data.navigation.colors.hamburger-color}};
           --backgroundColor: {{site.data.navigation.colors.background-color}};
           --textareaBackgroundColor: {{site.data.navigation.colors.textarea-background-color}};
           --BorderColor: {{site.data.navigation.colors.border-color}};
+          --topLeftCorner: {{site.data.navigation.border-radius.top-left-corner}};
+          --topRightCorner: {{site.data.navigation.border-radius.top-right-corner}};
+          --bottomLeftCorner: {{site.data.navigation.border-radius.bottom-left-corner}};
+          --bottomRightCorner: {{site.data.navigation.border-radius.bottom-right-corner}};
           --linkColor: {{site.data.navigation.colors.link-color}};
           --linkFont: {{site.data.navigation.fonts.link-font}};
           --HoverLinkColor: {{site.data.navigation.colors.hover-link-color}};
@@ -112,6 +116,10 @@
           {
           background-color: var(--textareaBackgroundColor);
           border: 4px solid var(--BorderColor);
+          border-top-left-radius: var(--topLeftCorner);
+          border-top-right-radius: var(--topRightCorner);
+          border-bottom-left-radius: var(--bottomLeftCorner);
+          border-bottom-right-radius: var(--bottomRightCorner);
           }
           
         .navigation-links a

@@ -7,6 +7,11 @@ colors:
   hover-link-color: '#ffffff'
   exit-color: '#2f3031'
   exit-hover-color: '#ffffff'
+border-radius:
+  top-left-corner: 100%
+  top-right-corner: 100%
+  bottom-left-corner: 0%
+  bottom-right-corner: 0%
 fonts: 
   link-font: 'Shrikhand, cursive;'
 social-link-colors:
