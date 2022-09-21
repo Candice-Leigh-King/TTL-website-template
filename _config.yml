@@ -94,6 +94,11 @@ _array_structures:
             description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text.
             button-background-color:
             button-text-color: 
+          border-radius:
+            top-left-corner: 
+            top-right-corner:
+            bottom-left-corner:
+            bottom-right-corner: 
           fonts:
             heading-font:
             subheading-font:
