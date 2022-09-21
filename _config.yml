@@ -63,6 +63,11 @@ _array_structures:
             carousel-symbols-color:
             link-color:
             link-hover-color:
+          border-radius:
+            top-left-corner:
+            top-right-corner:
+            bottom-left-corner:
+            bottom-right-corner:  
           fonts:
             carousel-heading-font:
             carousel-subheading-font:
