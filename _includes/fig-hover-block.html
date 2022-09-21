@@ -3,7 +3,13 @@
     {border: 4px solid {{item.colors.background-color}};} 
     
   #content-blocks-{{forloop.index0}} .border-hover-image 
-   {border: 4px solid {{item.colors.border-color}};}
+   {
+   border: 4px solid {{item.colors.border-color}};
+   border-top-left-radius: {{item.border-radius.top-left-corner}};
+   border-top-right-radius: {{item.border-radius. top-right-corner}};
+   border-bottom-left-radius: {{item.border-radius. bottom-left-corner}};
+   border-bottom-right-radius: {{item.border-radius. bottom-right-corner}};
+  }
 
   #content-blocks-{{forloop.index0}} .border-mob 
     {border: 4px solid {{item.colors.border-color}};}
