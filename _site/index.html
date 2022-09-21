@@ -205,6 +205,55 @@
         </style>
   </head>
 
+<style>
+
+  .connect-tree {background-color: ;}
+
+  .top-image-border {border: 2.5px solid ;}
+
+  .bottom-image-border {border: 2.5px solid ;}
+
+  .padded {padding: 5%;}
+
+  .connect-tree 
+    {
+    background-size: cover;
+    background-position: center;
+    }
+
+  .connect-tree .connect-tree-image 
+    {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+    }
+
+  .connect-tree-links p
+    {padding: 3%;  }
+
+  .connect-tree-links a:hover
+    {background-color: transparent;}
+
+
+  .connect-tree-links a 
+    {
+    padding: .8rem 2rem .6rem;
+    border-radius: 100px;
+    border: 2.5px solid ;
+    background-color: ;
+    color: ;
+    font-family: ;
+    }
+
+  .connect-tree-links a:hover 
+    {
+    color: ;
+    border: 2.5px solid ;
+    }
+
+</style>
+
   <body>
 
     <header class="grid-center">
@@ -280,9 +329,9 @@
       <style>
   #content-blocks-2 .background-color {background-color: #ffffff;}
 
-  #content-blocks-2 a {color: #d2966d;}
+  #content-blocks-2 .textarea-color a {color: #d2966d;}
 
-  #content-blocks-2 a:hover {color: #859f9f;}
+  #content-blocks-2 .textarea-color a:hover {color: #859f9f;}
 
   #content-blocks-2 .textarea-color {color: #2f3031;}
 
@@ -653,9 +702,9 @@
   #content-blocks-5 .text-color 
     {color: #2f3031;}
 
-  #content-blocks-5 a {color: #859f9f;}
+  #content-blocks-5 .text-color a {color: #859f9f;}
 
-  #content-blocks-5 a:hover {color: #FFFFFF;}
+  #content-blocks-5 .text-color a:hover {color: #FFFFFF;}
 
   #content-blocks-5 .text-font
     {font-family: Poppins, sans-serif;}
@@ -742,7 +791,7 @@
       
       <div class="grid-center radius-leaf carousel-border-color textarea-background-color centered">
         <div class="grid-center padded ">
-          <div class = "col-9_xs-12 padded ">
+          <div class = "col-9_xs-12 padded text-color text-font ">
             <p class="text-color text-font"><p>Candy &amp; Jonty took photos of my holiday home in Diani Beach during their <a href="">stay</a> with us. Working with them was great from start to finish. They offered great advice on best shots for different uses (social media, advertisement, website etc).</p> <br />
               <span class="carousel-symbols-color"> ★★★★★ </span>
             </p>
@@ -753,7 +802,7 @@
       
       <div class="grid-center radius-leaf carousel-border-color textarea-background-color centered">
         <div class="grid-center padded ">
-          <div class = "col-9_xs-12 padded ">
+          <div class = "col-9_xs-12 padded text-color text-font ">
             <p class="text-color text-font">It was honestly a great experience hosting you and your partner at Tembo House Hotel. Top professionals, very friendly and open to idea's, charmed us all the very first moment you entered. We have worked with many social media bloggers, by far you and your partner were the top we have come across, a true pleasure to work with. Thank you once again for giving us the opportunity to work with you, and providing us with great content, from shots to videography to promote our hotel. <br />
               <span class="carousel-symbols-color"> ★★★★★ </span>
             </p>
@@ -764,7 +813,7 @@
       
       <div class="grid-center radius-leaf carousel-border-color textarea-background-color centered">
         <div class="grid-center padded ">
-          <div class = "col-9_xs-12 padded ">
+          <div class = "col-9_xs-12 padded text-color text-font ">
             <p class="text-color text-font">Candy, and Loris did an amazing job on our NamKhan Project & Ecolodge property. For 2 weeks they were very professional, adapting to our booking schedule, weather conditions and staff presence. I would highly recommend the Candy and the King team as they were incredible, their work resulted in additional bookings, increased social media exposure and social media skills. <br />
               <span class="carousel-symbols-color"> ★★★★★ </span>
             </p>
@@ -827,8 +876,14 @@
  #content-block-7 .form-heading-font
   {font-family: Shrikhand, cursive;;}
 
- #content-block-7 .form-border-color
-  {border: solid 4px #859F9F;}
+  #content-block-7 .form-border-color
+  {
+  border: solid 4px #859F9F;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  }
 
  #content-block-7 .textarea-background-color
   {background-color: #FFFFFF;}
@@ -980,11 +1035,11 @@
 
           <div class="floating-input  ">
             <select class="input-text" name="services " id="services" required="">
-              <option class="input-text form-text-color">What services do you require?</option>
-              <option class="input-text form-text-color" value="Content Creation">Content Creation</option>
-              <option class="input-text form-text-color" value="Social Media Management">Social Media Management</option>
-              <option class="input-text form-text-color" value="Influencer Marketing">Influencer Marketing</option>
-              <option class="input-text form-text-color" value="Other">Other</option>
+              <option class="input-text form-text-color"></option>
+              <option class="input-text form-text-color" value=""></option>
+              <option class="input-text form-text-color" value=""></option>
+              <option class="input-text form-text-color" value=""></option>
+              <option class="input-text form-text-color" value=""></option>
             </select>
           </div>
           </div>
