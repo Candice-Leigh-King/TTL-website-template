@@ -9,8 +9,14 @@
  #content-block-{{forloop.index0}} .form-heading-font
   {font-family: {{item.fonts.heading-font}};}
 
- #content-block-{{forloop.index0}} .form-border-color
-  {border: solid 4px {{item.colors.border-color}};}
+  #content-block-{{forloop.index0}} .form-border-color
+  {
+  border: solid 4px {{item.colors.border-color}};
+  border-top-left-radius: {{item.border-radius.top-left-corner}};
+  border-top-right-radius: {{item.border-radius. top-right-corner}};
+  border-bottom-left-radius: {{item.border-radius. bottom-left-corner}};
+  border-bottom-right-radius: {{item.border-radius. bottom-right-corner}};
+  }
 
  #content-block-{{forloop.index0}} .textarea-background-color
   {background-color: {{item.colors.textarea-background-color}};}

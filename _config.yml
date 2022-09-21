@@ -194,6 +194,11 @@ _array_structures:
             text-color:
             button-color: 
             button-text-color:
+          border-radius:
+            top-left-corner:
+            top-right-corner:
+            bottom-left-corner:
+            bottom-right-corner:
           fonts:
             heading-font:
             subheading-font:
