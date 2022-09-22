@@ -21,12 +21,63 @@ links:
   background-color: '#FFFFFF'
   border: '#D2966D'
   text-color: '#D2966D'
-  fonts: Shrikhand, cursive 
+  font: Shrikhand, cursive 
 bottom-image:
   image: /images/website-template-by-chas-x-king-code.jpeg
   border: '#FFFFFF'
 content-blocks:
 ---
+
+
+<style>
+
+  .connect-tree {background-color: {{page.background-color}};}
+
+  .top-image-border {border: 2.5px solid {{page.top-image.border}};}
+
+  .bottom-image-border {border: 2.5px solid {{page.bottom-image.border}};}
+
+  .padded {padding: 5%;}
+
+  .connect-tree 
+    {
+    background-size: cover;
+    background-position: center;
+    }
+
+  .connect-tree .connect-tree-image 
+    {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+    }
+
+  .connect-tree-links p
+    {padding: 3%;  }
+
+  .connect-tree-links a:hover
+    {background-color: transparent;}
+
+
+  .connect-tree-links a 
+    {
+    padding: .8rem 2rem .6rem;
+    border-radius: 100px;
+    border: 2.5px solid {{page.links.border}};
+    background-color: {{page.links.background-color}};
+    color: {{page.links.text-color}};
+    font-family: {{page.links.font}};
+    }
+
+  .connect-tree-links a:hover 
+    {
+    color: {{page.links.background-color}};
+    border: 2.5px solid {{page.links.background-color}};
+    }
+
+</style>
+
 <body class="connect-tree grid-middle padded">
 
   <div class="col-12 grid-left">
