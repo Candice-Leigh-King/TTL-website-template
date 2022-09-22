@@ -41,7 +41,7 @@ _array_structures:
             top-line-color: 
             left-line-color:
             link-color:
-            hover-color:
+            link-hover-color:
           fonts:
             subheading-font: 
             text-font: 
