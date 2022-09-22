@@ -77,9 +77,9 @@ _array_structures:
           background_image:
           heading:
           carousel:
-            textarea_html:
-            symbols:
-            ending:
+            - textarea_html:
+              symbols: 
+              ending:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
