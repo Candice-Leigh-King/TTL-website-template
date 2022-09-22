@@ -247,41 +247,50 @@ _array_structures:
           colors:
             top-background-color: 
             bottom-background-color: 
-            heading-color: 
-            niche-color: 
+            image-border-color: 
             line-color: 
-            reach-color: 
-            text-color: 
-            demographics-number-color: 
-            demographics-text-color: 
+            title-1-color: 
+            title-2-color: 
+            title-3-color: 
+            title-4-color: 
+            title-5-color: 
+            statistic-data-color: 
+            statistic-title-color: 
             subheading-color: 
             textarea-color: 
           fonts:
-            heading-font: 
-            niche-font: 
-            reach-font: 
-            text-font:
-            demographics-number-fonts: 
-            demographics-text-font: 
-            subheading-font: 
-            textarea-font:
+            title-1-font: 
+            title-2-font: 
+            title-3-font:
+            title-4-font: 
+            title-5-font: 
+            statistic-data-font: 
+            statistic-title-font: 
+            subheading-font:
+            textarea-font: 
           image: 
-          heading: 
-          niche: 
-          follower-count:
-          followers: 
-          username: 
-          subheading: 
-          textarea_html: 
-          demographics:
-            top-location:
-            location-percentage: 
-            reach: 
-            reach-in-numbers: 
-            gender:  
-            gender-percentage: 
-            engagement:
-            engagement-rate-percentage: 
+          info:
+            title-1: 
+            title-2: 
+            title-3:
+            title-4: 
+            title-5: 
+          statistics:
+            bubble-1:
+              data: 
+              title: 
+            bubble-2:
+              data: 
+              title:
+            bubble-3:
+              data: 
+              title: 
+            bubble-4:
+              data: 
+              title:
+          text-area:
+            subheading:
+            textarea_html:
 fonts:
 _select_data:
   fonts:
