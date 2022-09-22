@@ -54,13 +54,13 @@ _array_structures:
         value:
           _section-type: carousel
           colors:
-            carousel-background-color: 
-            carousel-textarea-background-color: 
-            carousel-border-color: 
-            carousel-heading-color: 
-            carousel-subheading-color: 
-            carousel-text-color: 
-            carousel-symbols-color:
+            background-color: 
+            textarea-background-color: 
+            border-color: 
+            heading-color: 
+            subheading-color: 
+            text-color: 
+            symbols-color:
             link-color:
             link-hover-color:
           border-radius:
@@ -69,9 +69,9 @@ _array_structures:
             bottom-left-corner:
             bottom-right-corner:  
           fonts:
-            carousel-heading-font:
-            carousel-subheading-font:
-            carousel-text-font:
+            heading-font:
+            subheading-font:
+            text-font:
           description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.  
           content-block-link:
           background_image:
