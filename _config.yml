@@ -79,18 +79,18 @@ _array_structures:
               top-right-corner: 
               bottom-left-corner: 
               bottom-right-corner:    
-            fonts:
-              heading-font:
-              subheading-font:
-              text-font: 
-            description:
-            content-block-link: reviews
-            background_image:
-            heading: 
-            carousel:
-              - textarea_html:
-                symbols: 
-                ending:
+          fonts:
+            heading-font:
+            subheading-font:
+            text-font: 
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.
+          content-block-link: reviews
+          background_image:
+          heading: 
+          carousel:
+            - textarea_html:
+              symbols: 
+              ending:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
