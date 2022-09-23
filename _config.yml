@@ -247,21 +247,21 @@ _array_structures:
             button-color: 
             button-text-color:
           border-radius:
-           laptop:  
-             top-left-corner:
-             top-right-corner: 
-             bottom-left-corner: 
-             bottom-right-corner: 
-          tablet: 
-            top-left-corner: 
-            top-right-corner: 
-            bottom-left-corner: 
-            bottom-right-corner: 
-          mobile:
-            top-left-corner: 
-            top-right-corner: 
-            bottom-left-corner: 
-            bottom-right-corner: 
+            laptop:  
+              top-left-corner:
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
+            tablet: 
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
+            mobile:
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
           fonts:
             heading-font:
             subheading-font:
