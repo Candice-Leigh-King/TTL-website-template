@@ -55,30 +55,37 @@ _array_structures:
           _section-type: carousel
           colors:
             background-color: 
+            heading-color: 
             textarea-background-color: 
             border-color: 
-            heading-color: 
             subheading-color: 
             text-color: 
-            symbols-color:
-            link-color:
-            link-hover-color:
+            symbols-color: 
+            link-color: 
+            link-hover-color: 
           border-radius:
-            top-left-corner:
-            top-right-corner:
+            top-left-corner: 
+            top-right-corner: 
             bottom-left-corner:
-            bottom-right-corner:  
+            bottom-right-corner: 
           fonts:
-            heading-font:
-            subheading-font:
-            text-font:
-          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.  
-          content-block-link:
+            heading-font: Shrikhand, cursive
+            subheading-font: Brushwell
+            text-font: Poppins, sans-serif
+          description: >-
+            If you would like this section to be linked through the navigation, then
+            you'll need to add an ID. The ID can be added in the below box labeled
+            "content block link". Your ID is 1 word describing the section it is
+            leading to. For example- about. For more detailed instructions on how to
+            link your pages and content blocks to the navigation, please go to
+            kingcode.uk FaQs. If you don't want this section to link from the
+            navigation, you can simply leave it out.
+          content-block-link: reviews
           background_image:
-          heading:
+          heading: Reviews
           carousel:
             - textarea_html:
-              symbols: 
+              symbols:
               ending:
       - label: Fig Hover Block
         icon: emoji_nature
