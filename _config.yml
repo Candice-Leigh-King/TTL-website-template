@@ -106,22 +106,22 @@ _array_structures:
             text-color-on-mobile:
             button-background-color:
             button-text-color:
-            border-radius:
-              laptop:  
-                top-left-corner:
-                top-right-corner:
-                bottom-left-corner:
-                bottom-right-corner:
-              tablet: 
-                top-left-corner:
-                top-right-corner: 
-                bottom-left-corner: 
-                bottom-right-corner: 
-              mobile:
-                top-left-corner:
-                top-right-corner: 
-                bottom-left-corner: 
-                bottom-right-corner:  
+          border-radius:
+            laptop:  
+              top-left-corner:
+              top-right-corner:
+              bottom-left-corner:
+              bottom-right-corner:
+            tablet: 
+              top-left-corner:
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
+            mobile:
+              top-left-corner:
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner:  
           fonts:
             heading-font:
             subheading-font:
