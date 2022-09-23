@@ -3,16 +3,18 @@
     {border: 4px solid {{item.colors.background-color}};} 
     
   #content-blocks-{{forloop.index0}} .border-hover-image 
-   {
-   border: 4px solid {{item.colors.border-color}};
-   border-top-left-radius: {{item.border-radius.top-left-corner}};
-   border-top-right-radius: {{item.border-radius. top-right-corner}};
-   border-bottom-left-radius: {{item.border-radius. bottom-left-corner}};
-   border-bottom-right-radius: {{item.border-radius. bottom-right-corner}};
-   }
+   {border: 4px solid {{item.colors.border-color}};}
 
   #content-blocks-{{forloop.index0}} .border-mob 
     {border: 4px solid {{item.colors.border-color}};}
+
+  #content-blocks-{{forloop.index0}} .border-hover-image
+      {
+      border-top-left-radius: {{item.border-radius.laptop.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.laptop.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
+      }  
 
   #content-blocks-{{forloop.index0}} .hover-container 
    {background-color: {{item.colors.background-color}};}
@@ -38,10 +40,8 @@
     {font-family: {{item.fonts.heading-font}};}
 
   #content-blocks-{{forloop.index0}} .textarea-color 
-    {colors: {{item.colors.textarea-color}};}
+    {color: {{item.colors.textarea-color}};}
 
-  #content-blocks-{{forloop.index0}} .textarea-font 
-    {font-family: {{item.fonts.textarea-font}};}
   
   #content-blocks-{{forloop.index0}} .subheading-color
     {color: {{item.colors.subheading-color}};}
@@ -60,7 +60,28 @@
   background-color: {{item.colors.button-background-color}};
   color: {{item.colors.button-text-color}};
   }
-  
+ 
+@media(max-width:768px) 
+  {
+    #content-blocks-{{forloop.index0}} .border-hover-image
+      {
+      border-top-left-radius: {{item.border-radius.tablet.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.tablet.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.tablet.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.tablet.bottom-right-corner}};
+      }  
+  }
+
+@media(max-width:576px) 
+  {
+    #content-blocks-{{forloop.index0}} .border-hover-image
+      {
+      border-top-left-radius: {{item.border-radius.mobile.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.mobile.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.mobile.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.mobile.bottom-right-corner}};
+      } 
+  }
 
 </style>
 
@@ -84,7 +105,7 @@
           <div class="hover-image border-mob" style="background-image:url('{{item.left.background-image}}'); ">
             <div class="container-color grid-middle">
               <h3 class="col-12 subheading-font subheading-color padded"> {{item.left.subheading}}  
-                <p class="col-12 padded centered read-more-button" data-target="read-more-section-{{forloop.index0}}">Read <span></span>
+                <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-1-{{forloop.index0}}">Read <span></span>
                 </p>
               </h3>
             </div>
@@ -92,7 +113,7 @@
         </div>
       </div>
       <div class="col-12 hover-container-mobile padded-sides desktop-hide" >
-        <p class="hidden read-more-section" id="read-more-section-{{forloop.index0}}" data-section="read-more-section-{{forloop.index0}}"> {{item.right.textarea}}<br>
+        <p class="hidden textarea-color textarea-font read-more-section" id="read-more-section-1-{{forloop.index0}}" data-section="read-more-section-1-{{forloop.index0}}"> {{item.left.textarea}}<br>
           <a href="{{item.left.button-link}}" class=" button-color link-background-color"> <b>{{item.left.button}}</b></a>
         </p>
       </div>
@@ -103,7 +124,7 @@
               <div class="hover-overlay hover-text-color ">
                 <div class="hover-inner">
                   <h3 class="subheading-font"> {{item.right.subheading}} </h3>
-                  <p class="textarea-font padded"> {{item.right.textarea}}</p> 
+                  <p class=" textarea-font padded"> {{item.right.textarea}}</p> 
                     <a href="{{item.right.button-link}}" class=" button-color "> <b>{{item.right.button}}</b></a>
                 </div>
               </div>
@@ -115,7 +136,7 @@
             <div class="hover-image" style="background-image:url('{{item.right.background-image}}'); ">
               <div class="container-color grid-middle">
                 <h3 class="col-12 subheading-font subheading-color padded"> {{item.right.subheading}}  
-                  <p class="col-12 padded centered read-more-button" data-target="read-more-section-2-{{forloop.index0}}">Read <span></span>
+                  <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-2-{{forloop.index0}}">Read <span></span>
                   </p>
                 </h3>
               </div>
@@ -123,7 +144,7 @@
           </div>
         </div>
         <div class="col-12 hover-container-mobile padded-sides desktop-hide" >
-          <p class="hidden read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}"> {{item.right.textarea}}<br>
+          <p class="hidden textarea-color textarea-font read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}"> {{item.right.textarea}}<br>
             <a href="{{item.right.button-link}}" class=" button-color link-background-color"> <b>{{item.right.button}}</b></a>
           </p>
           

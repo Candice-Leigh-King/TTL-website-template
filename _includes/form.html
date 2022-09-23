@@ -12,10 +12,10 @@
   #content-block-{{forloop.index0}} .form-border-color
   {
   border: solid 4px {{item.colors.border-color}};
-  border-top-left-radius: {{item.border-radius.top-left-corner}};
-  border-top-right-radius: {{item.border-radius. top-right-corner}};
-  border-bottom-left-radius: {{item.border-radius. bottom-left-corner}};
-  border-bottom-right-radius: {{item.border-radius. bottom-right-corner}};
+  border-top-left-radius: {{item.border-radius.laptop.top-left-corner}};
+  border-top-right-radius: {{item.border-radius.laptop.top-right-corner}};
+  border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
+  border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
   }
 
  #content-block-{{forloop.index0}} .textarea-background-color
@@ -122,6 +122,28 @@
 
  #content-block-{{forloop.index0}} .button-color:hover
   {background-color: transparent;}
+
+@media(max-width:768px) 
+  {
+    #content-blocks-{{forloop.index0}} .form-border-color
+      {
+      border-top-left-radius: {{item.border-radius.tablet.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.tablet.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.tablet.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.tablet.bottom-right-corner}};
+      }  
+  }
+
+@media(max-width:576px) 
+  {
+    #content-blocks-{{forloop.index0}} .form-border-color
+      {
+      border-top-left-radius: {{item.border-radius.mobile.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.mobile.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.mobile.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.mobile.bottom-right-corner}};
+      } 
+  }  
  
 
 </style>

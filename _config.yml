@@ -41,7 +41,7 @@ _array_structures:
             top-line-color: 
             left-line-color:
             link-color:
-            link-hover-color:
+            hover-color:
           fonts:
             subheading-font: 
             text-font: 
@@ -55,38 +55,42 @@ _array_structures:
           _section-type: carousel
           colors:
             background-color: 
-            heading-color: 
+            heading-color:
             textarea-background-color: 
             border-color: 
-            subheading-color: 
+            subheading-color:
             text-color: 
             symbols-color: 
             link-color: 
             link-hover-color: 
           border-radius:
-            top-left-corner: 
-            top-right-corner: 
-            bottom-left-corner:
-            bottom-right-corner: 
-          fonts:
-            heading-font: Shrikhand, cursive
-            subheading-font: Brushwell
-            text-font: Poppins, sans-serif
-          description: >-
-            If you would like this section to be linked through the navigation, then
-            you'll need to add an ID. The ID can be added in the below box labeled
-            "content block link". Your ID is 1 word describing the section it is
-            leading to. For example- about. For more detailed instructions on how to
-            link your pages and content blocks to the navigation, please go to
-            kingcode.uk FaQs. If you don't want this section to link from the
-            navigation, you can simply leave it out.
-          content-block-link: reviews
-          background_image:
-          heading: Reviews
-          carousel:
-            - textarea_html:
-              symbols:
-              ending:
+            laptop:
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner:
+            tablet: 
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
+            mobile:
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner:    
+            fonts:
+              heading-font:
+              subheading-font:
+              text-font: 
+            description:
+            content-block-link: reviews
+            background_image:
+            heading: 
+            carousel:
+              - textarea_html:
+                symbols: 
+                ending:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
@@ -95,17 +99,29 @@ _array_structures:
             overlay-color: 
             background-color:
             border-color: 
-            heading-color: 
-            hover-text-color: 
+            heading-color:
+            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
             subheading-color:
-            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text.
+            hover-text-color: 
+            text-color-on-mobile:
             button-background-color:
-            button-text-color: 
-          border-radius:
-            top-left-corner: 
-            top-right-corner:
-            bottom-left-corner:
-            bottom-right-corner: 
+            button-text-color:
+            border-radius:
+              laptop:  
+                top-left-corner:
+                top-right-corner:
+                bottom-left-corner:
+                bottom-right-corner:
+              tablet: 
+                top-left-corner:
+                top-right-corner: 
+                bottom-left-corner: 
+                bottom-right-corner: 
+              mobile:
+                top-left-corner:
+                top-right-corner: 
+                bottom-left-corner: 
+                bottom-right-corner:  
           fonts:
             heading-font:
             subheading-font:
@@ -128,19 +144,31 @@ _array_structures:
           colors:
             overlay-color: 
             background-color:
+            hover-overlay-color:
             border-color: 
-            heading-color: 
-            hover-overlay-color: 
-            textarea-color:
-            subheading-color:
+            heading-color:
             description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
+            subheading-color: 
+            hover-text-color: 
+            text-color-on-mobile: 
             button-background-color:
-            button-text-color: 
+            button-text-color:
           border-radius:
-            top-left-corner:
-            top-right-corner:
-            bottom-left-corner:
-            bottom-right-corner: 
+            laptop:  
+              top-left-corner: 
+              top-right-corner:
+              bottom-left-corner:
+              bottom-right-corner:
+            tablet: 
+              top-left-corner:
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner: 
+            mobile:
+              top-left-corner: 
+              top-right-corner: 
+              bottom-left-corner: 
+              bottom-right-corner:    
           fonts:
             heading-font:
             subheading-font:
@@ -219,16 +247,26 @@ _array_structures:
             button-color: 
             button-text-color:
           border-radius:
-            top-left-corner:
-            top-right-corner:
-            bottom-left-corner:
-            bottom-right-corner:
+           laptop:  
+             top-left-corner:
+             top-right-corner: 
+             bottom-left-corner: 
+             bottom-right-corner: 
+          tablet: 
+            top-left-corner: 
+            top-right-corner: 
+            bottom-left-corner: 
+            bottom-right-corner: 
+          mobile:
+            top-left-corner: 
+            top-right-corner: 
+            bottom-left-corner: 
+            bottom-right-corner: 
           fonts:
             heading-font:
             subheading-font:
             text-font:
             button-font:
-          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.
           content-block-link:
           background_image:
           heading:
@@ -246,7 +284,7 @@ _array_structures:
               option-2: 
               option-3:
               option-4: 
-          button: 
+          button:         
       - label: Media Kit
         icon: business_center
         value:
@@ -260,44 +298,53 @@ _array_structures:
             title-2-color: 
             title-3-color: 
             title-4-color: 
-            title-5-color: 
+            title-5-color:
             statistic-data-color: 
             statistic-title-color: 
             subheading-color: 
             textarea-color: 
           fonts:
-            title-1-font: 
+            title-1-font:
             title-2-font: 
             title-3-font:
             title-4-font: 
-            title-5-font: 
+            title-5-font:
             statistic-data-font: 
             statistic-title-font: 
-            subheading-font:
+            subheading-font: 
             textarea-font: 
-          image: 
+          image:
           info:
             title-1: 
             title-2: 
-            title-3:
-            title-4: 
+            title-3: 
+            title-4:
             title-5: 
           statistics:
-            bubble-1:
-              data: 
-              title: 
+            bubble-1: 
+              data:
+              title:
             bubble-2:
               data: 
-              title:
+              title: 
             bubble-3:
               data: 
-              title: 
+              title:
             bubble-4:
               data: 
               title:
           text-area:
-            subheading:
-            textarea_html:
+            subheading: 
+            textarea_html: 
+          demographics:
+            top-location:
+            location-percentage: 
+            reach: 
+            reach-in-numbers: 
+            gender:  
+            gender-percentage: 
+            engagement:
+            engagement-rate-percentage: 
 fonts:
 _select_data:
   fonts:
