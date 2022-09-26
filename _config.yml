@@ -337,15 +337,6 @@ _array_structures:
           text-area:
             subheading: 
             textarea_html: 
-          demographics:
-            top-location:
-            location-percentage: 
-            reach: 
-            reach-in-numbers: 
-            gender:  
-            gender-percentage: 
-            engagement:
-            engagement-rate-percentage: 
 fonts:
 _select_data:
   fonts:
