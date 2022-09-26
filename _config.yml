@@ -41,7 +41,7 @@ _array_structures:
             top-line-color: 
             left-line-color:
             link-color:
-            hover-color:
+            link-hover-color:
           fonts:
             subheading-font: 
             text-font: 
@@ -103,7 +103,7 @@ _array_structures:
             description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
             subheading-color:
             hover-text-color: 
-            text-color-on-mobile:
+            on-mobile-text-color:
             button-background-color:
             button-text-color:
           border-radius:
@@ -150,7 +150,7 @@ _array_structures:
             description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
             subheading-color: 
             hover-text-color: 
-            text-color-on-mobile: 
+            on-mobile-text-color: 
             button-background-color:
             button-text-color:
           border-radius:
