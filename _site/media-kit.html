@@ -86,6 +86,8 @@
           --linkFont: Shrikhand, cursive;;
           --HoverLinkColor: #ffffff;
           --iconColor: #859f9f;
+          --navSocialsBorderTopRight: 0px;
+          --navSocialsBorderTopLeft: 100px;
           --iconBackgroundColor: #ffffff;
           --iconBorderColor: #d2966d;
           --iconHoverColor: #d2966d;
@@ -131,9 +133,16 @@
           background-color: var(--iconBackgroundColor);
           border: 1px solid var(--iconBorderColor);
           }
-
+          
         .navigation-socials a { color: var(--iconColor);} 
         .navigation-socials a:hover   {color:var(--iconHoverColor);}
+        .navigation-socials
+          {
+          border-top-right-radius: {border-right: var(--navSocialsBorderTopRight);} 
+          border-top-left-radius: {border-left: var(--navSocialsBorderTopRight);} 
+          border-bottom-left-radius: ;
+          border-bottom-right-radius: ;
+          }  
 
         .exit {color: var(--exitColor);}
 

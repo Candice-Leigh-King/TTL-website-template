@@ -23,3 +23,8 @@ social-link-colors:
   background-color: '#ffffff'
   border-color: '#d2966d'
   icon-hover-color: '#d2966d'
+icons:
+  border-radius:
+    laptop:
+      top-left-corner: 100px
+      top-right-corner: 0px
