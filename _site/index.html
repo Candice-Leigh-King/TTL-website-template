@@ -98,10 +98,6 @@
           --socialIconsBackgroundColor: #D2966D;
           --subfooterHoverColor: #859F9F;
           --subfooterFont: Raleway, sans-serif;
-          
-          
-          --mediaKitButton: ;
-          --mediaKitButtonHover: ;
 
           --editor-panel-zindex: 90;
       
@@ -194,22 +190,6 @@
 
         .built a:hover {color: var(--subfooterHoverColor);}
 
-
-        .media-kit-button
-          {
-          background-color: transparent;
-          border: 1px solid var(--mediaKitButton);
-          }
-
-        .media-kit-button:hover {border: 1px solid var(--linksHover);}
-
-        .media-kit-button
-          {
-          background-color: transparent;
-          border: 1px solid var(--mediaKitButton);
-          }
-
-        .media-kit-button:hover {border: 1px solid var(--linksHover);}
         </style>
   </head>
 
@@ -264,7 +244,7 @@
 
   <body>
 
-    <header class="grid-center">
+    <!-- <header class="grid-center">
       <div class=" col-11 center mob-hide">
         <a href="/" class="logo-home center "> 
           <img src="/images/logo.png" alt="Through the Lyns Logo" /></a>
@@ -285,6 +265,38 @@
               <p><a class="" href="/#reviews">reviews</a></p>
               <p><a class="" href="/#gallery">gallery</a></p>
               <p><a class="" href="/#contact">contact</a></p>
+            </div>
+            <div class=" col-6_xs-9 grid-center navigation-socials">
+              <a class="padded-s" href="https://www.instagram.com/candy_and_the_king/"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
+              <a class="padded-s" href="https://www.facebook.com/candy.and.the.king/"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
+              <a class="padded-s" href="//www.tiktok.com/@candy_and_the_king"><span class="iconify" data-icon="brandico:facebook"></span></a>
+              <a class="padded-s" href="https://www.youtube.com/c/candyandtheking"><span class="iconify" data-icon="dashicons:youtube"></span></a> 
+
+          </div>
+            
+           </div>
+        </div>
+      </nav>
+    </header> -->
+
+    <header class="grid-center">
+      <div class=" col-11 center mob-hide">
+        <a href="/" class="logo-home center "> 
+          <img src="/images/logo.png" alt="Through the Lyns Logo" /></a>
+      </div>
+      <p class=" col-1-middle fixed hamburger-color hamburger padded" style="z-index: 100;"> ☰
+      </p>
+      <nav class="grid-middle navigation-background-color page-nav mobile-menu banner" style="background-image: url(''); z-index: 100;">
+        <p class="cross exit right col-12"> ╳
+        </p>
+        <div class=" textarea-background-color radius-arch banner col-12 grid-middle" style="background-image: url('');">
+         
+          <div class=" col-12 grid-center  ">
+            <a href="/" class="logo center grow col-12-middle exit"> 
+              <img src="/images/logo.png" alt="Through the Lyns Logo" />
+            </a>
+            <div class="editable col-12 padded-sides text-med exit navigation-links">
+              <p></p>
             </div>
             <div class=" col-6_xs-9 grid-center navigation-socials">
               <a class="padded-s" href="https://www.instagram.com/candy_and_the_king/"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
@@ -626,7 +638,7 @@
   #content-blocks-4 .hover-text-color:hover {color: #2f3031;}
 
   #content-blocks-4 .hover-overlay:hover 
-   {background-color:#ffffff;}
+   {background-color:;}
 
   #content-blocks-4 .heading-color 
     {color: #ffffff;}
@@ -762,7 +774,7 @@
     
 
   #content-blocks-5 .textarea-background-color 
-    {background-color: #bccaca;}
+    {background-color: #ffffff;}
 
   #content-blocks-5 .carousel-border-color
     {
@@ -963,261 +975,222 @@
         <span class="cms-editor-button"></span>
       <style>
 
- #content-block-7 .form-background-color
-  {background-color: #FFFFFF;}
-
- #content-block-7 .form-heading-color
-  {color: #859F9F;}
-
- #content-block-7 .form-heading-font
-  {font-family: Shrikhand, cursive;;}
-
-  #content-block-7 .form-border-color
-  {
-  border: solid 4px #859F9F;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 400px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  }
-
-  @media(max-width:768px) 
-  {
-    #content-block-7 .form-border-color
-      {
-      border-top-left-radius: 0px;
-      border-top-right-radius: 150px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      }  
-  }
-
-@media(max-width:576px) 
-  {
-    #content-block-7 .carousel-border-color
-    {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    } 
-  }
-
- #content-block-7 .textarea-background-color
-  {background-color: #FFFFFF;}
-
- #content-block-7 .form-subheading-font
-  {font-family: Poppins, sans-serif;}
-
- #content-block-7 .form-subheading-color
-  {color: #D2966D;}
-
-
- #content-block-7 .input-text 
-  {border-bottom: solid 2px #859F9F; }
-
-  #content-block-7 .input-text:focus 
-  {border-bottom: solid 2px #D2966D; }
+  #content-block-7 .form-background-color
+   {background-color: #FFFFFF;}
  
-  /* Chrome/Opera/Safari */
- #content-block-7 input::-webkit-input-placeholder 
-  { 
-  color: #859F9F;
-  font-family: Poppins, sans-serif;
-  }
-
-  /* Chrome/Opera/Safari */
- #content-block-7 input::-webkit-input-placeholder:focus 
-  {border-bottom: solid 2px #D2966D; }
-
-  /* Firefox 19+ */
- #content-block-7 input::-moz-placeholder 
-    {color: #859F9F;}
-
- #content-block-7 input::-moz-placeholder:focus
-  {border-bottom: solid 2px #D2966D; }
-
-  /* IE 10+ */
- #content-block-7 input::-ms-input-placeholder 
-    {
-    color: #859F9F;
-    font-family: Poppins, sans-serif;
-    }
-
- #content-block-7 input::-ms-input-placeholder:focus
-  {border-bottom: solid 2px #D2966D; }  
-
-  /* Firefox 18- */
- #content-block-7 input::-moz-placeholder 
-    {
-    color: #859F9F;
-    font-family: Poppins, sans-serif;
-    }
-  
-  #content-block-7 input::-moz-placeholder:focus 
-    {border-bottom: solid 2px #D2966D; }
-
- #content-block-7 input::-moz-placeholder
-  {
-  color: #859F9F;
-  font-family: Poppins, sans-serif;
-  }
+  #content-block-7 .form-heading-color
+   {color: #859F9F;}
  
- #content-block-7 input::placeholder:focus
-    {border-bottom: solid 2px #D2966D; }
-
- #content-block-7 input::placeholder 
-    {
-    color: #859F9F;
-    font-family: Poppins, sans-serif;
-    }
-
- #content-block-7 input, textarea, select, option
-    {
-    color: #859F9F;
-    font-family: Poppins, sans-serif;
-    }
+  #content-block-7 .form-heading-font
+   {font-family: Shrikhand, cursive;;}
+ 
+   #content-block-7 .form-border-color
+   {
+   border: solid 4px #859F9F;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 400px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   }
+ 
+   @media(max-width:768px) 
+   {
+     #content-block-7 .form-border-color
+       {
+       border-top-left-radius: 0px;
+       border-top-right-radius: 150px;
+       border-bottom-left-radius: 0px;
+       border-bottom-right-radius: 0px;
+       }  
+   }
+ 
+ @media(max-width:576px) 
+   {
+     #content-block-7 .carousel-border-color
+     {
+     border-top-left-radius: 0px;
+     border-top-right-radius: 150px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     } 
+   }
+ 
+  #content-block-7 .textarea-background-color
+   {background-color: #FFFFFF;}
+ 
+  #content-block-7 .form-subheading-font
+   {font-family: Poppins, sans-serif;}
+ 
+  #content-block-7 .form-subheading-color
+   {color: #D2966D;}
+ 
+ 
+  #content-block-7 .input-text 
+   {border-bottom: solid 2px #859F9F; }
+ 
+   #content-block-7 .input-text:focus 
+   {border-bottom: solid 2px #D2966D; }
   
- #content-block-7  input:focus, textarea:focus,
-    {border-bottom: 2px solid #D2966D;}
+   /* Chrome/Opera/Safari */
+  #content-block-7 input::-webkit-input-placeholder 
+   { 
+   color: #859F9F;
+   font-family: Poppins, sans-serif;
+   }
+ 
+   /* Chrome/Opera/Safari */
+  #content-block-7 input::-webkit-input-placeholder:focus 
+   {border-bottom: solid 2px #D2966D; }
+ 
+   /* Firefox 19+ */
+  #content-block-7 input::-moz-placeholder 
+     {color: #859F9F;}
+ 
+  #content-block-7 input::-moz-placeholder:focus
+   {border-bottom: solid 2px #D2966D; }
+ 
+   /* IE 10+ */
+  #content-block-7 input::-ms-input-placeholder 
+     {
+     color: #859F9F;
+     font-family: Poppins, sans-serif;
+     }
+ 
+  #content-block-7 input::-ms-input-placeholder:focus
+   {border-bottom: solid 2px #D2966D; }  
+ 
+   /* Firefox 18- */
+  #content-block-7 input::-moz-placeholder 
+     {
+     color: #859F9F;
+     font-family: Poppins, sans-serif;
+     }
+   
+   #content-block-7 input::-moz-placeholder:focus 
+     {border-bottom: solid 2px #D2966D; }
+ 
+  #content-block-7 input::-moz-placeholder
+   {
+   color: #859F9F;
+   font-family: Poppins, sans-serif;
+   }
+  
+  #content-block-7 input::placeholder:focus
+     {border-bottom: solid 2px #D2966D; }
+ 
+  #content-block-7 input::placeholder 
+     {
+     color: #859F9F;
+     font-family: Poppins, sans-serif;
+     }
+ 
+  #content-block-7 input, textarea, select, option
+     {
+     color: #859F9F;
+     font-family: Poppins, sans-serif;
+     }
+   
+  #content-block-7  input:focus, textarea:focus,
+     {border-bottom: 2px solid #D2966D;}
+ 
+  #content-block-7 textarea::placeholder 
+   {
+   color: #859F9F;
+   font-family: Poppins, sans-serif;
+   }
+ 
+  #content-block-7 .button-text-color
+   {
+   color: #FFFFFF;
+   font-family: Poppins, sans-serif;
+   }
+ 
+  #content-block-7 .button-font 
+   {font-family: Poppins, sans-serif;} 
+ 
+  #content-block-7 .button-text-color:hover
+   {color: #D2966D;}
+ 
+  #content-block-7 .button-color
+   {
+   background-color: #D2966D;
+   border: 1px solid #D2966D;
+   }
+ 
+  #content-block-7 .button-color:hover
+   {background-color: transparent;}
+ </style>
+ 
+ <section id="content-block-7"> 
+   <section id="contact" class="padded grid-center form-background-color banner" style="background-image: url('');">
+     <h2 class="reveal form-heading-color form-heading-font  fade-up">Work with me</h2>
+     <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
+       <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" >
+         <div class="grid padded-sides">
+           <div class="col-1_sm-12 relative reveal fade-left">
+             <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> basic info</h3>
+           </div>
+ 
+         <div class="col-10_sm-12 form-padded">
+           <div class="floating-input ">
+             <input type="text" name="Your Name" placeholder="Your Name" class=" input-text form-text-color" required="" />
+             <label class="input-label">Your Name</label>
+           </div>
+ 
+           <div class="floating-input ">
+             <input type="text" name="Your Email Address" placeholder="Your Email Address" class="input-text form-text-color" required="" />
+             <label class="input-label">Your Email Address</label>
+           </div>
+ 
+           <div class="floating-input ">
+             <input type="text" name="Your WhatsApp (if preferred)" placeholder="Your WhatsApp (if preferred)" class="input-text form-text-color" />
+             <label class="input-label">Your WhatsApp (if preferred)</label>
+           </div>
+ 
+         </div>
+       </div>
+       <div class="grid padded-sides">
+ 
+         <div class="col-1_sm-12 relative reveal fade-left">
+           <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">your brand </h3>
+         </div>
+ 
+         <div class="col-10_sm-12 form-padded form-text-color">
+           <div class="floating-input ">
+             <textarea name="Tell us a little bit about your business or brand" placeholder="Tell us a little bit about your business or brand" class="input-text form-text-color"></textarea>
+             <label class="input-label">Tell us a little bit about your business or brand</label>
+           </div>
+ 
+           <div class="floating-input  ">
+             <select class="input-text" name="services " id="services" required="">
+               <option class="input-text form-text-color">What services do you require?</option>
+               <option class="input-text form-text-color" value="Content Creation">Content Creation</option>
+               <option class="input-text form-text-color" value="Social Media Management">Social Media Management</option>
+               <option class="input-text form-text-color" value="Influencer Marketing">Influencer Marketing</option>
+               <option class="input-text form-text-color" value="Other">Other</option>
+             </select>
+           </div>
+           </div>
+         </div>
+         <div class="padded grid-center">
+           <input type="hidden" name="inbox_key" value="hello@kingcode.uk">
+           <input type="text" name="_gotcha" style="display: none;" />
+           <input type="submit" value="SEND MESSAGE" class="center button-solid button-font button-color button-text-color" />
+         </div>
+       </div>
+     </form>
+   </section>
+ </section>
 
- #content-block-7 textarea::placeholder 
-  {
-  color: #859F9F;
-  font-family: Poppins, sans-serif;
-  }
-
- #content-block-7 .button-text-color
-  {
-  color: #FFFFFF;
-  font-family: Poppins, sans-serif;
-  }
-
- #content-block-7 .button-font 
-  {font-family: Poppins, sans-serif;} 
-
- #content-block-7 .button-text-color:hover
-  {color: #D2966D;}
-
- #content-block-7 .button-color
-  {
-  background-color: #D2966D;
-  border: 1px solid #D2966D;
-  }
-
- #content-block-7 .button-color:hover
-  {background-color: transparent;}
-</style>
-
-<section id="content-block-7"> 
-  <section id="contact" class="padded grid-center form-background-color banner" style="background-image: url('');">
-    <h2 class="reveal form-heading-color form-heading-font  fade-up">Work with me</h2>
-    <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-      <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" >
-        <div class="grid padded-sides">
-          <div class="col-1_sm-12 relative reveal fade-left">
-            <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> basic info</h3>
-          </div>
-
-        <div class="col-10_sm-12 form-padded">
-          <div class="floating-input ">
-            <input type="text" name="Your Name" placeholder="Your Name" class=" input-text form-text-color" required="" />
-            <label class="input-label">Your Name</label>
-          </div>
-
-          <div class="floating-input ">
-            <input type="text" name="Your Email Address" placeholder="Your Email Address" class="input-text form-text-color" required="" />
-            <label class="input-label">Your Email Address</label>
-          </div>
-
-          <div class="floating-input ">
-            <input type="text" name="Your WhatsApp (if preferred)" placeholder="Your WhatsApp (if preferred)" class="input-text form-text-color" />
-            <label class="input-label">Your WhatsApp (if preferred)</label>
-          </div>
-
-        </div>
-      </div>
-      <div class="grid padded-sides">
-
-        <div class="col-1_sm-12 relative reveal fade-left">
-          <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">your brand </h3>
-        </div>
-
-        <div class="col-10_sm-12 form-padded form-text-color">
-          <div class="floating-input ">
-            <textarea name="Tell us a little bit about your business or brand" placeholder="Tell us a little bit about your business or brand" class="input-text form-text-color"></textarea>
-            <label class="input-label">Tell us a little bit about your business or brand</label>
-          </div>
-
-          <div class="floating-input  ">
-            <select class="input-text" name="services " id="services" required="">
-              <option class="input-text form-text-color"></option>
-              <option class="input-text form-text-color" value=""></option>
-              <option class="input-text form-text-color" value=""></option>
-              <option class="input-text form-text-color" value=""></option>
-              <option class="input-text form-text-color" value=""></option>
-            </select>
-          </div>
-          </div>
-        </div>
-        <div class="padded grid-center">
-          <input type="hidden" name="inbox_key" value="hello@kingcode.uk">
-          <input type="text" name="_gotcha" style="display: none;" />
-          <input type="submit" value="SEND MESSAGE" class="center button-solid button-font button-color button-text-color" />
-        </div>
-      </div>
-    </form>
-  </section>
-</section>
-
-<!-- <style>
-  :root {
-       
-    /* --------------------FORM ----------------*/
-
-    --headingColor: 
-    --headingFont: 
-    --subheadingColor: 
-    --subheadingFont: 
-    --textareaBackgroundColor:
-    --borderColor: 
-    --textColor: ;
-    --buttonColor:
-    --buttonTextColor: 
-    --buttonFont: ;
-    
-  }
-
-.background-color {background-color: var(--backgroundColor);}
-.textarea-background-color {background-color: var(--textareaBackgroundColor);}
-.border-color {border: solid 4px var(--borderColor);}
-.heading-color {color: var(--headingColor);}
-.heading-font {font-family: var(--headingFont);}
-.subheading-color {color: var(--subheadingColor);}
-.subheading-font {font-family: var(--subheadingFont);}
-.text-color {color: var(--textColor);}
-.input-text{border-bottom: solid 2px var(--textColor);}
-  input::placeholder {color: var(--textColor);}
-  textarea::placeholder {color: var(--textColor);}
-  input, select, option, textarea {color: var(--textColor);}
-.button-text-color {color: var(--buttonTextColor);}
-.button-color {
-  background-color: var(--buttonColor);
-  border: 1px solid var(--buttonColor);}
-.button-color:hover {
-  background-color: transparent;
-  color: var(--buttonColor);
-  border: 1px solid var(--buttonColor);}
-.button-font {font-family: var(--buttonFont);} -->
-
+ 
     
 
     <footer class="grid-center padded-top footer-background-color featured-bg">
       <div class="col-12 social-icons-color socials">
-        <a href="" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
-        <a href="" class="margin fb "><span class="iconify" data-icon="brandico:facebook"></span></a>
-        <a href="" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
-        <a href="" class="margin yt "><span class="iconify" data-icon="dashicons:youtube"></span></a>
+        <a href="https://www.instagram.com/candy_and_the_king/" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
+        <a href="https://www.facebook.com/candy.and.the.king/" class="margin fb "><span class="iconify" data-icon="brandico:facebook"></span></a>
+        <a href="//www.tiktok.com/@candy_and_the_king" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
+        <a href="https://www.youtube.com/c/candyandtheking" class="margin yt "><span class="iconify" data-icon="dashicons:youtube"></span></a>
       </div>
     </footer>
 
@@ -1236,4 +1209,4 @@
 
       <script src="/main.js" type="text/javascript"></script>
       <script src="/slick/slick.min.js"></script>
-  </div>
+  </div></body>
