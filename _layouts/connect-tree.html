@@ -86,8 +86,10 @@
           --linkFont: {{site.data.navigation.fonts.link-font}};
           --HoverLinkColor: {{site.data.navigation.colors.hover-link-color}};
           --iconColor: {{site.data.navigation.social-link-colors.icon-color}};
-          --navSocialsBorderTopRight: {{site.data.navigation.icons.border-radius.laptop.top-right-corner}};
-          --navSocialsBorderTopLeft: {{site.data.navigation.icons.border-radius.laptop.top-left-corner}};
+          --navSocialsBorderTopRight: {{site.data.navigation.icons.border-radius.top-right-corner}};
+          --navSocialsBorderTopLeft: {{site.data.navigation.icons.border-radius.top-left-corner}};
+          --navSocialsBorderBottomRight: {{site.data.navigation.icons.border-radius.bottom-right-corner}};
+          --navSocialsBorderBottomLeft: {{site.data.navigation.icons.border-radius.bottom-left-corner}};
           --iconBackgroundColor: {{site.data.navigation.social-link-colors.background-color}};
           --iconBorderColor: {{site.data.navigation.social-link-colors.border-color}};
           --iconHoverColor: {{site.data.navigation.social-link-colors.icon-hover-color}};
@@ -138,10 +140,10 @@
         .navigation-socials a:hover   {color:var(--iconHoverColor);}
         .navigation-socials
           {
-          border-top-right-radius: {border-right: var(--navSocialsBorderTopRight);} 
-          border-top-left-radius: {border-left: var(--navSocialsBorderTopRight);} 
-          border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
-          border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
+          border-top-right-radius: var(--navSocialsBorderTopRight);
+          border-top-left-radius:  var(--navSocialsBorderTopLeft);
+          border-bottom-left-radius:  var(--navSocialsBorderBottomLeft);
+          border-bottom-right-radius:  var(--navSocialsBorderBottomRight);
           }  
 
         .exit {color: var(--exitColor);}

@@ -88,6 +88,8 @@
           --iconColor: #859f9f;
           --navSocialsBorderTopRight: 0px;
           --navSocialsBorderTopLeft: 100px;
+          --navSocialsBorderBottomRight: 100px;
+          --navSocialsBorderBottomLeft: 0px;
           --iconBackgroundColor: #ffffff;
           --iconBorderColor: #d2966d;
           --iconHoverColor: #d2966d;
@@ -138,10 +140,10 @@
         .navigation-socials a:hover   {color:var(--iconHoverColor);}
         .navigation-socials
           {
-          border-top-right-radius: {border-right: var(--navSocialsBorderTopRight);} 
-          border-top-left-radius: {border-left: var(--navSocialsBorderTopRight);} 
-          border-bottom-left-radius: ;
-          border-bottom-right-radius: ;
+          border-top-right-radius: var(--navSocialsBorderTopRight);
+          border-top-left-radius:  var(--navSocialsBorderTopLeft);
+          border-bottom-left-radius:  var(--navSocialsBorderBottomLeft);
+          border-bottom-right-radius:  var(--navSocialsBorderBottomRight);
           }  
 
         .exit {color: var(--exitColor);}

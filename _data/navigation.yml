@@ -25,6 +25,7 @@ social-link-colors:
   icon-hover-color: '#d2966d'
 icons:
   border-radius:
-    laptop:
-      top-left-corner: 100px
-      top-right-corner: 0px
+    top-left-corner: 100px
+    top-right-corner: 0px
+    bottom-left-corner: 0px
+    bottom-right-corner: 100px
