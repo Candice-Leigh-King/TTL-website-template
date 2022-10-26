@@ -15,7 +15,7 @@ defaults:
 _inputs:
   content-block-link:
     comment: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box. Your ID is 1 word describing the section it is leading to. For example - about. For more detailed instructions on how to link your pages and content blocks to the navigation, please visit our YouTube tutorial here - https://www.youtube.com/watch?v=odzPwMfEaxU. If you don't want this section to link from the navigation, you can simply leave it out.
-  fig-hover-block.colors.subheading-color:
+  colors.subheading-color.fig-hover-block:
   comment: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
 
 page_blocks: []
