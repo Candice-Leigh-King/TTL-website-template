@@ -107,7 +107,6 @@ _array_structures:
             hover-text-color:
             button-background-color:
             button-text-color:
-            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
             subheading-color-mobile: 
             on-mobile-text-color:
           border-radius:
@@ -153,8 +152,7 @@ _array_structures:
             hover-text-color:   
             button-background-color:
             button-text-color:
-            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text. 
-            subheading-color:
+            subheading-color-mobile:
             on-mobile-text-color:
           border-radius:
             laptop:  
