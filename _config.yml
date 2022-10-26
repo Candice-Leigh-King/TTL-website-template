@@ -12,9 +12,8 @@ defaults:
     values:
       layout: "connect-tree" # overrides previous default layout
 
-_content-blocks:
-  title:
-    type: content-block-link
+_inputs:
+  content-block-link:
     comment: Large text at the top of the page
 
 page_blocks: []
