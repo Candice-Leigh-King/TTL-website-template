@@ -31,6 +31,7 @@ _array_structures:
           hero-image:
           hero:
       - label: Text Area
+      comment: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.  
         icon: article
         value:
           _section-type: textarea
@@ -44,8 +45,7 @@ _array_structures:
             link-hover-color:
           fonts:
             subheading-font: 
-            text-font: 
-          comment: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.   
+            text-font:  
           content-block-link:
           textarea_html:
           subheading_html:
