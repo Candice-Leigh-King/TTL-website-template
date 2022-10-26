@@ -26,6 +26,7 @@ _array_structures:
         icon: groups
         value: 
           _section-type: floating-socials
+          floating-socials:
           description: To change the colors, go to data → general → social links. To change the colors, go to data → navigation → social link colors
       - label: Hero
         icon: star
