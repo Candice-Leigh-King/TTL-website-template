@@ -28,6 +28,8 @@
   
   #content-blocks-{{forloop.index0}} .hover-text-color:hover {color: {{item.colors.hover-text-color}};}
 
+  #content-blocks-{{forloop.index0}} .on-mobile-text-color {color: {{item.colors.on-mobile-text-color}};} 
+
   #content-blocks-{{forloop.index0}} .hover-overlay:hover 
    {background-color:{{item.colors.background-color}};}
 
@@ -125,7 +127,7 @@
       </div>
     </div>
     <div id="read-more" class=" col-12 hover-container-mobile padded desktop-hide" >
-      <p class="hidden read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}">{{item.right.textarea}}<br>
+      <p class="hidden on-mobile-text-color  read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}">{{item.right.textarea}}<br>
         <a href="{{item.right.button-link}}" class="button-color link-background-color"> <b>{{item.right.button}}</b></a>
       </p>
     </div>
