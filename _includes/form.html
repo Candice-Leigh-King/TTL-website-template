@@ -51,10 +51,15 @@
  
  
   #content-block-{{forloop.index0}} .input-text 
-   {border-bottom: solid 2px {{item.colors.text-color}}; }
+   {border-bottom: solid 2px {{item.colors.text-color}}; 
+   background-color:  {{item.colors.textarea-background-color}};}
+  
+  }
  
    #content-block-{{forloop.index0}} .input-text:focus 
    {border-bottom: solid 2px {{item.colors.subheading-color}}; }
+
+
   
    /* Chrome/Opera/Safari */
   #content-block-{{forloop.index0}} input::-webkit-input-placeholder 
