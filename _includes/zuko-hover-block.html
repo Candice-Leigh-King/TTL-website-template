@@ -15,8 +15,6 @@
    border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
    }
  
-    
-
 
   #content-blocks-{{forloop.index0}} .border-mob 
     {border: 4px solid {{item.colors.border-color}};}
@@ -58,8 +56,8 @@
   #content-blocks-{{forloop.index0}} .textarea-color 
     {color: {{item.colors.textarea-color}};}
     
-#content-blocks-3 .hover-overlay:hover {
-    background-color: #EFEBE6;
+  #content-blocks-{{forloop.index0}} .hover-overlay:hover 
+    {background-color: #EFEBE6;}
   
   #content-blocks-{{forloop.index0}} .subheading-color
     {color: {{item.colors.subheading-mobile-color}};}
@@ -74,10 +72,10 @@
    }
 
   #content-blocks-{{forloop.index0}} .link-background-color   
-  {
-  background-color: {{item.colors.button-background-color}};
-  color: {{item.colors.button-text-color}};
-  }
+   {
+   background-color: {{item.colors.button-background-color}};
+   color: {{item.colors.button-text-color}};
+   }
  
 @media(max-width:768px) 
   {
