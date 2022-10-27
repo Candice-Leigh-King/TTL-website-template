@@ -329,221 +329,319 @@
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[0]">
         <span class="cms-editor-button"></span>
       <style>
+  #content-blocks-0 .hover-container .hover-image:hover 
+  {
+  box-shadow: inset 0px 0px 0px 4px #020202;
+  box-sizing: border-box;
+  } 
+    
+  #content-blocks-0 .border-hover-image 
+   { 
+   box-shadow: inset 0px 0px 0px 4px #9fd08f;
+   box-sizing: border-box;
+   border-top-left-radius: ;
+   border-top-right-radius: ;
+   border-bottom-left-radius: ;
+   border-bottom-right-radius: ;
+   }
 
-  #content-block-0 .form-background-color
-   {background-color: ;}
- 
-  #content-block-0 .form-heading-color
-   {color: #ab1515;}
- 
-  #content-block-0 .form-heading-font
+  #content-blocks-0 .border-mob 
+    {border: 4px solid #9fd08f;}
+
+  #content-blocks-0 .hover-container 
+   {background-color: #020202;}
+
+  #content-blocks-0 .hover-container-mobile 
+   {background-color: #020202;}
+  
+  #content-blocks-0 .hover-container-mobile p 
    {font-family: ;}
- 
-   #content-block-0 .form-border-color
+
+  #content-blocks-0 .top-hover-overlay 
+   {background-color: rgba(0, 0, 0, 0.5);}
+  
+  #content-blocks-0 .hover-text-color:hover {color: #d080cd;}
+
+  #content-blocks-0 .on-mobile-text-color {color: #2449e6;} 
+
+  #content-blocks-0 .hover-overlay:hover 
+   {background-color:#020202;}
+
+  #content-blocks-0 .heading-color 
+   {color: #0a7289;}
+
+  #content-blocks-0 .heading-font 
+   {font-family: ;}
+
+  #content-blocks-0 .textarea-color 
+   {colors: ;}
+
+  #content-blocks-0 .textarea-font 
+   {font-family: ;}
+  
+  #content-blocks-0 .subheading-color
+   {color: #000000;}
+
+  #content-blocks-0 .subheading-font
+   {font-family: ;}
+   
+  #content-blocks-0 .button-color:hover
    {
-   border: solid 4px #fdc8c8;
-   border-top-left-radius: 10px;
+   background-color: ;
+   color: #ce1641;
+   } 
+
+  #content-blocks-0 .link-background-color   
+    {
+    background-color: ;
+    color: #ce1641;
+    }
+
+@media(max-width:768px) 
+  {
+    #content-blocks-0 .border-hover-image 
+      {
+      border-top-left-radius: ;
+      border-top-right-radius: ;
+      border-bottom-left-radius: ;
+      border-bottom-right-radius: ;
+      }  
+  }
+
+@media(max-width:576px) 
+  {
+    #content-blocks-0 .border-hover-image 
+      {
+      border-top-left-radius: ;
+      border-top-right-radius: ;
+      border-bottom-left-radius: ;
+      border-bottom-right-radius: ;
+      } 
+  }
+  
+  
+</style>
+
+<section id="content-blocks-0" class="center">
+  <div id="" class="grid">
+    <div class="col-6_sm-12">
+      <div class="hover-container" style="background-image:url('/images/through-the-lyns-content.jpeg')">
+        <div class="top-hover-overlay">
+          <div class="hover-inner">
+            <h2 class="heading-color heading-font"> test </h2>
+            <p class="textarea-color textarea-font padded"> </p> 
+              <a href="" class=" button-color"> <b></b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6_sm-12 mob-hide ">
+      <div class="hover-container padded">
+        <div class="hover-image radius inner-border border-hover-image " style="background-image:url('/images/media-kit-isopure.jpg'); ">
+          <div class="hover-overlay  hover-text-color ">
+            <div class="hover-inner">
+              <h3 class="subheading-font"> right </h3>
+              <p class="textarea-font padded"> test</p> 
+                <a href="/" class="button-color"> <b>butt</b></a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="col-6_sm-12-middle desktop-hide">
+      <div class="hover-container-mobile padded">
+        <div class="hover-image radius border-mob" style="background-image:url('/images/media-kit-isopure.jpg'); ">
+          <div class="container-color radius grid-middle">
+            <h3 class="col-12 subheading-font subheading-color padded"> right  
+              <p class="col-12 padded textarea-font centered read-more-button" data-target="read-more-section-2-0"> Read <span></span>
+              </p>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="read-more" class=" col-12 hover-container-mobile padded desktop-hide" >
+      <p class="hidden on-mobile-text-color  read-more-section" id="read-more-section-2-0" data-section="read-more-section-2-0">test<br>
+        <a href="/" class="button-color link-background-color"> <b>butt</b></a>
+      </p>
+    </div>
+  </div>    
+</section>
+
+
+    
+    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[1]">
+        <span class="cms-editor-button"></span>
+      <style>
+  #content-blocks-1 .hover-container .hover-image:hover 
+  {
+  box-shadow: inset 0px 0px 0px 4px #dc5050;
+  box-sizing: border-box;
+  } 
+    
+  #content-blocks-1 .border-hover-image 
+   { 
+   box-shadow: inset 0px 0px 0px 4px #b88787;
+   box-sizing: border-box;
+   border-top-left-radius: ;
    border-top-right-radius: ;
    border-bottom-left-radius: ;
    border-bottom-right-radius: ;
    }
  
-   @media(max-width:768px) 
-   {
-     #content-block-0 .form-border-color
-       {
-       border-top-left-radius: 50%;
-       border-top-right-radius: ;
-       border-bottom-left-radius: ;
-       border-bottom-right-radius: ;
-       }  
-   }
- 
- @media(max-width:576px) 
-   {
-     #content-block-0 .carousel-border-color
-     {
-     border-top-left-radius: 100%;
-     border-top-right-radius: ;
-     border-bottom-left-radius: ;
-     border-bottom-right-radius: ;
-     } 
-   }
- 
-  #content-block-0 .textarea-background-color
-   {background-color: #d4d4d4;}
- 
-  #content-block-0 .form-subheading-font
-   {font-family: ;}
- 
-  #content-block-0 .form-subheading-color
-   {color: #6fc213;}
- 
- 
-  #content-block-0 .input-text 
-   {border-bottom: solid 2px #2badba; 
-   }
-  
-  #content-block-0 .dropdown
-  {background-color: #d4d4d4;} ;}
- 
-   #content-block-0 .input-text:focus 
-   {border-bottom: solid 2px #6fc213; }
+
+  #content-blocks-1 .border-mob 
+    {border: 4px solid #b88787;}
 
 
+  #content-blocks-1 .hover-container 
+   {background-color: #dc5050;}
+
+   #content-blocks-1 .hover-container hover 
+   {background-color:#000000;}
+
+  #content-blocks-1 .hover-container-mobile 
+   {background-color: #dc5050;}
   
-   /* Chrome/Opera/Safari */
-  #content-block-0 input::-webkit-input-placeholder 
-   { 
-   color: #2badba;
-   font-family: ;
-   }
- 
-   /* Chrome/Opera/Safari */
-  #content-block-0 input::-webkit-input-placeholder:focus 
-   {border-bottom: solid 2px #6fc213; }
- 
-   /* Firefox 19+ */
-  #content-block-0 input::-moz-placeholder 
-     {color: #2badba;}
- 
-  #content-block-0 input::-moz-placeholder:focus
-   {border-bottom: solid 2px #6fc213; }
- 
-   /* IE 10+ */
-  #content-block-0 input::-ms-input-placeholder 
-     {
-     color: #2badba;
-     font-family: ;
-     }
- 
-  #content-block-0 input::-ms-input-placeholder:focus
-   {border-bottom: solid 2px #6fc213; }  
- 
-   /* Firefox 18- */
-  #content-block-0 input::-moz-placeholder 
-     {
-     color: #2badba;
-     font-family: ;
-     }
+  #content-blocks-1 .hover-container-mobile p 
+   {font-family: Belleza, sans-serif;}
+
+  #content-blocks-1 .textarea-font 
+   {font-family: Belleza, sans-serif;}
+
+  #content-blocks-1 .hover-image a
+   {font-family: Belleza, sans-serif;}
+
+  #content-blocks-1 .top-hover-overlay 
+   {background-color: rgba(255, 242, 204, 0.5);}
+  
+  #content-blocks-1 .hover-text-color:hover {color: #46c206;}
+
+  #content-blocks-1 .hover-overlay:hover {background-color: #000000;}
+
+  #content-blocks-1 .on-mobile-text-color {color: #d10731;}
+
+  #content-blocks-1 .heading-color 
+    {color: ;}
+
+  #content-blocks-1 .heading-font 
+    {font-family: Roboto, sans-serif;}
+
+  #content-blocks-1 .textarea-color 
+    {color: ;}
+    
+  #content-blocks-1 .hover-overlay:hover 
+    {background-color: #EFEBE6;}
+  
+  #content-blocks-1 .subheading-color
+    {color: #1a89be;}
+
+  #content-blocks-1 .subheading-font
+    {font-family: Lineal Simples;}
    
-   #content-block-0 input::-moz-placeholder:focus 
-     {border-bottom: solid 2px #6fc213; }
- 
-  #content-block-0 input::-moz-placeholder
+  #content-blocks-1 .button-color:hover
    {
-   color: #2badba;
-   font-family: ;
+   background-color: #1daccc;
+   color: ;
    }
-  
-  #content-block-0 input::placeholder:focus
-     {border-bottom: solid 2px #6fc213; }
- 
-  #content-block-0 input::placeholder 
-     {
-     color: #2badba;
-     font-family: ;
-     }
- 
-  #content-block-0 input, textarea, select, option
-     {
-     color: #2badba;
-     font-family: ;
-     }
-   
-  #content-block-0  input:focus, textarea:focus,
-     {border-bottom: 2px solid #6fc213;}
- 
-  #content-block-0 textarea::placeholder 
-   {
-   color: #2badba;
-   font-family: ;
-   }
- 
-  #content-block-0 .button-text-color
-   {
-   color: #000000;
-   font-family: ;
-   }
- 
-  #content-block-0 .button-font 
-   {font-family: ;} 
- 
-  #content-block-0 .button-text-color:hover
-   {color: #860cb8;}
- 
-  #content-block-0 .button-color
-   {
-   background-color: #860cb8;
-   border: 1px solid #860cb8;
-   }
- 
-  #content-block-0 .button-color:hover
-   {background-color: transparent;}
- </style>
- 
- <section id="content-block-0"> 
-   <section id="" class="padded grid-center form-background-color banner" style="background-image: url('/explore-cropped.jpg');">
-     <h2 class="reveal form-heading-color form-heading-font  fade-up">test</h2>
-     <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-       <div class=" form-border-color textarea-background-color col-8_md-9_sm-12 padded radius-quarter" >
-         <div class="grid padded-sides">
-           <div class="col-1_sm-12 relative reveal fade-left">
-             <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text "> test top</h3>
-           </div>
- 
-         <div class="col-10_sm-12 form-padded">
-           <div class="floating-input ">
-             <input type="text" name="Text Option 1" placeholder="Text Option 1" class=" input-text form-text-color" required="" />
-             <label class="input-label">Text Option 1</label>
-           </div>
- 
-           <div class="floating-input ">
-             <input type="text" name="Text Option 2" placeholder="Text Option 2" class="input-text form-text-color" required="" />
-             <label class="input-label">Text Option 2</label>
-           </div>
- 
-           <div class="floating-input ">
-             <input type="text" name="Text Option 3" placeholder="Text Option 3" class="input-text form-text-color" />
-             <label class="input-label">Text Option 3</label>
-           </div>
- 
-         </div>
-       </div>
-       <div class="grid padded-sides">
- 
-         <div class="col-1_sm-12 relative reveal fade-left">
-           <h3 class="sm-bold form-subheading-color form-subheading-font vertical-form-text">test bottom </h3>
-         </div>
- 
-         <div class="col-10_sm-12 form-padded form-text-color">
-           <div class="floating-input ">
-             <textarea name="test message" placeholder="test message" class="input-text form-text-color"></textarea>
-             <label class="input-label">test message</label>
-           </div>
- 
-           <div class="floating-input  ">
-             <select class="input-text" name="services " id="services" required="">
-               <option class="input-text form-text-color dropdown">subject</option>
-               <option class="input-text form-text-color dropdown" value="Option 1">Option 1</option>
-               <option class="input-text form-text-color dropdown" value="Option 2">Option 2</option>
-               <option class="input-text form-text-color dropdown" value="Option 3">Option 3</option>
-               <option class="input-text form-text-color dropdown" value="Option 4">Option 4</option>
-             </select>
-           </div>
-           </div>
-         </div>
-         <div class="padded grid-center">
-           <input type="hidden" name="inbox_key" value="hello@kingcode.uk">
-           <input type="text" name="_gotcha" style="display: none;" />
-           <input type="submit" value="test button" class="center button-solid button-font button-color button-text-color" />
-         </div>
-       </div>
-     </form>
-   </section>
- </section>
 
+  #content-blocks-1 .link-background-color   
+   {
+   background-color: #1daccc;
+   color: ;
+   }
  
+@media(max-width:768px) 
+  {
+    #content-blocks-1 .border-hover-image
+      {
+      border-top-left-radius: ;
+      border-top-right-radius: ;
+      border-bottom-left-radius: ;
+      border-bottom-right-radius: ;
+      }  
+  }
+
+@media(max-width:576px) 
+  {
+    #content-blocks-1 .border-hover-image
+      {
+      border-top-left-radius: ;
+      border-top-right-radius: ;
+      border-bottom-left-radius: ;
+      border-bottom-right-radius: ;
+      } 
+  }
+
+</style>
+
+<section id="content-blocks-1" class="center">
+    <div id="" class="grid">
+      <div class="col-6_sm-12 mob-hide">
+        <div class="hover-container padded">
+          <div class="hover-image border-hover-image " style="background-image:url('/images/websites-for-content-creators.jpeg'); ">
+            <div class="hover-overlay hover-text-color ">
+              <div class="hover-inner">
+                <h3 class=" subheading-font"> left </h3>
+                <p class="textarea-font padded"> test </p>
+                  <a href="/media-kit.html" class=" button-color"> <b>test b</b></a> 
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+      <div class="col-6_sm-12-middle desktop-hide">
+        <div class="hover-container-mobile padded">
+          <div class="hover-image border-mob" style="background-image:url('/images/websites-for-content-creators.jpeg'); ">
+            <div class="container-color grid-middle">
+              <h3 class="col-12 subheading-font subheading-color padded"> left  
+                <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-1-1">Read <span></span>
+                </p>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 hover-container-mobile padded desktop-hide" >
+        <p class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-1-1" data-section="read-more-section-1-1"> test<br>
+          <a href="/media-kit.html" class=" button-color link-background-color"> <b>test b</b></a>
+        </p>
+      </div>
+      
+        <div class="col-6_sm-12 mob-hide ">
+          <div style="background-image:url('/images/media-kit-leafico.jpg')" class="hover-container">
+            <div class="hover-image" style="background-color: rgba(255, 242, 204, 0.5); border: none">
+              <div class="hover-overlay hover-text-color ">
+                <div class="hover-inner">
+                  <h3 class="subheading-font"> right </h3>
+                  <p class=" textarea-font padded"> test b b b bb </p> 
+                    <a href="/success.html" class=" button-color "> <b>butttttttt</b></a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-6_sm-12-middle desktop-hide">
+          <div class="hover-container-mobile">
+            <div class="hover-image" style="background-image:url('/images/media-kit-leafico.jpg'); ">
+              <div class="container-color grid-middle">
+                <h3 class="col-12 subheading-font subheading-color padded"> right  
+                  <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-2-1">Read <span></span>
+                  </p>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 hover-container-mobile padded desktop-hide" >
+          <p class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-2-1" data-section="read-more-section-2-1"> test b b b bb <br>
+            <a href="/success.html" class=" button-color link-background-color"> <b>butttttttt</b></a>
+          </p>
+          
+        </div>
+      </div>
+    </div>    
+  </section>
     
 
     <footer class="grid-center padded-top footer-background-color featured-bg">
