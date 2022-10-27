@@ -207,10 +207,16 @@ font-family: 'Shrikhand', cursive;*/
     font-family: 'Shrikhand', cursive;
     }
   
-  h2  { font-size: 4rem;  }
-  h3  { font-size: 1.8rem;  }
-  h4  { font-size: 1.4rem;  }
-  h5  { font-size: 1.2rem;  }
+  .fig-and-zuko h2 { font-size: 4rem;  }
+  .fig-and-zuko h3  { font-size: 1.8rem;  }
+  .fig-and-zuko  h4  { font-size: 1.4rem;  }
+  .fig-and-zuko h5  { font-size: 1.2rem;  }
+  
+  h2  { font-size: 3rem;  }
+  h3  { font-size: 2.8rem;  }
+  h4  { font-size: 2.4rem;  }
+  h5  { font-size: 2rem;  }
+  h6  { font-size: 1.5rem;  }
   p   { font-size: 1rem;  }
   
   p, ul 
