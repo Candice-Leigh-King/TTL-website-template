@@ -107,6 +107,7 @@ _array_structures:
             border-color: 
             heading-color:
             hover-text-color:
+            hover-overlay-color:
             button-background-color:
             button-text-color:
             subheading-mobile-color: 
