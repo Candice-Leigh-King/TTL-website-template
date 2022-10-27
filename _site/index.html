@@ -474,16 +474,20 @@
         <span class="cms-editor-button"></span>
       <style>
   #content-blocks-3 .hover-container .hover-image:hover 
-    {border: 4px solid #EFEBE6;} 
+  {
+  box-shadow: inset 0px 0px 0px 4px #EFEBE6;
+  box-sizing: border-box;
+  } 
     
   #content-blocks-3 .border-hover-image 
-   {
-   border: 4px solid #FFFFFF;
+   { 
+   box-shadow: inset 0px 0px 0px 4px #FFFFFF;
+   box-sizing: border-box;
    border-top-left-radius: 100%;
    border-top-right-radius: 100%;
    border-bottom-left-radius: 100%;
    border-bottom-right-radius: 100%;
-  }
+   }
 
   #content-blocks-3 .border-mob 
     {border: 4px solid #FFFFFF;}
@@ -577,8 +581,8 @@
     </div>
     <div class="col-6_sm-12 mob-hide ">
       <div class="hover-container padded">
-        <div class="hover-image radius border-hover-image " style="background-image:url('/images/content-creators-website-template.jpg'); ">
-          <div class="hover-overlay hover-text-color ">
+        <div class="hover-image radius inner-border border-hover-image " style="background-image:url('/images/content-creators-website-template.jpg'); ">
+          <div class="hover-overlay  hover-text-color ">
             <div class="hover-inner">
               <h3 class="subheading-font"> Photography </h3>
               <p class="textarea-font padded"> This content block is perfect to showcase your services. It can also be used as an about section, a call to action (CTA) or to redirect to any page you'd like. 
@@ -618,24 +622,33 @@ You also have creative freedom here to turn this circle into a square, rectangle
         <span class="cms-editor-button"></span>
       <style>
   #content-blocks-4 .hover-container .hover-image:hover 
-    {border: 4px solid #ffffff;} 
+  {
+  box-shadow: inset 0px 0px 0px 4px #ffffff;
+  box-sizing: border-box;
+  } 
     
   #content-blocks-4 .border-hover-image 
-   {border: 4px solid #ffffff;}
+   { 
+   box-shadow: inset 0px 0px 0px 4px #ffffff;
+   box-sizing: border-box;
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
+   border-bottom-left-radius: 0%;
+   border-bottom-right-radius: 0%;
+   }
+ 
+    
+
 
   #content-blocks-4 .border-mob 
     {border: 4px solid #ffffff;}
 
-  #content-blocks-4 .border-hover-image
-      {
-      border-top-left-radius: 0%;
-      border-top-right-radius: 0%;
-      border-bottom-left-radius: 0%;
-      border-bottom-right-radius: 0%;
-      }  
 
   #content-blocks-4 .hover-container 
    {background-color: #ffffff;}
+
+   #content-blocks-4 .hover-container hover 
+   {background-color:;}
 
   #content-blocks-4 .hover-container-mobile 
    {background-color: #ffffff;}
@@ -654,8 +667,7 @@ You also have creative freedom here to turn this circle into a square, rectangle
   
   #content-blocks-4 .hover-text-color:hover {color: #2f3031;}
 
-  #content-blocks-4 .hover-overlay:hover 
-   {background-color:;}
+  #content-blocks-4 .hover-overlay:
 
   #content-blocks-4 .on-mobile-text-color {color: #2f3031;}
 
@@ -667,7 +679,9 @@ You also have creative freedom here to turn this circle into a square, rectangle
 
   #content-blocks-4 .textarea-color 
     {color: ;}
-
+    
+#content-blocks-3 .hover-overlay:hover {
+    background-color: #EFEBE6;
   
   #content-blocks-4 .subheading-color
     {color: #2f3031;}

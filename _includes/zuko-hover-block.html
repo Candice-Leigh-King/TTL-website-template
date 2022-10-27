@@ -1,23 +1,32 @@
 <style>
   #content-blocks-{{forloop.index0}} .hover-container .hover-image:hover 
-    {border: 4px solid {{item.colors.background-color}};} 
+  {
+  box-shadow: inset 0px 0px 0px 4px {{item.colors.background-color}};
+  box-sizing: border-box;
+  } 
     
   #content-blocks-{{forloop.index0}} .border-hover-image 
-   {border: 4px solid {{item.colors.border-color}};}
+   { 
+   box-shadow: inset 0px 0px 0px 4px {{item.colors.border-color}};
+   box-sizing: border-box;
+   border-top-left-radius: {{item.border-radius.laptop.top-left-corner}};
+   border-top-right-radius: {{item.border-radius.laptop.top-right-corner}};
+   border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
+   border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
+   }
+ 
+    
+
 
   #content-blocks-{{forloop.index0}} .border-mob 
     {border: 4px solid {{item.colors.border-color}};}
 
-  #content-blocks-{{forloop.index0}} .border-hover-image
-      {
-      border-top-left-radius: {{item.border-radius.laptop.top-left-corner}};
-      border-top-right-radius: {{item.border-radius.laptop.top-right-corner}};
-      border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
-      border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
-      }  
 
   #content-blocks-{{forloop.index0}} .hover-container 
    {background-color: {{item.colors.background-color}};}
+
+   #content-blocks-{{forloop.index0}} .hover-container hover 
+   {background-color:{{item.colors.hover-overlay-color}};}
 
   #content-blocks-{{forloop.index0}} .hover-container-mobile 
    {background-color: {{item.colors.background-color}};}
@@ -36,8 +45,7 @@
   
   #content-blocks-{{forloop.index0}} .hover-text-color:hover {color: {{item.colors.hover-text-color}};}
 
-  #content-blocks-{{forloop.index0}} .hover-overlay:hover 
-   {background-color:{{item.colors.hover-overlay-color}};}
+  #content-blocks-{{forloop.index0}} .hover-overlay:
 
   #content-blocks-{{forloop.index0}} .on-mobile-text-color {color: {{item.colors.on-mobile-text-color}};}
 
@@ -49,7 +57,9 @@
 
   #content-blocks-{{forloop.index0}} .textarea-color 
     {color: {{item.colors.textarea-color}};}
-
+    
+#content-blocks-3 .hover-overlay:hover {
+    background-color: #EFEBE6;
   
   #content-blocks-{{forloop.index0}} .subheading-color
     {color: {{item.colors.subheading-mobile-color}};}

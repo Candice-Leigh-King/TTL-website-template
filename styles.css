@@ -336,7 +336,7 @@ font-family: 'Shrikhand', cursive;*/
 
 
   .hover-container .hover-image:hover 
-    {border: transparent }
+    {border: transparent; }
 
   .hover-overlay 
     {

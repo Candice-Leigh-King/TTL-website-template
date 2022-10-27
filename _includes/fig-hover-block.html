@@ -1,15 +1,19 @@
 <style>
   #content-blocks-{{forloop.index0}} .hover-container .hover-image:hover 
-    {border: 4px solid {{item.colors.background-color}};} 
+  {
+  box-shadow: inset 0px 0px 0px 4px {{item.colors.background-color}};
+  box-sizing: border-box;
+  } 
     
   #content-blocks-{{forloop.index0}} .border-hover-image 
-   {
-   border: 4px solid {{item.colors.border-color}};
+   { 
+   box-shadow: inset 0px 0px 0px 4px {{item.colors.border-color}};
+   box-sizing: border-box;
    border-top-left-radius: {{item.border-radius.laptop.top-left-corner}};
    border-top-right-radius: {{item.border-radius.laptop.top-right-corner}};
    border-bottom-left-radius: {{item.border-radius.laptop.bottom-left-corner}};
    border-bottom-right-radius: {{item.border-radius.laptop.bottom-right-corner}};
-  }
+   }
 
   #content-blocks-{{forloop.index0}} .border-mob 
     {border: 4px solid {{item.colors.border-color}};}
@@ -103,8 +107,8 @@
     </div>
     <div class="col-6_sm-12 mob-hide ">
       <div class="hover-container padded">
-        <div class="hover-image radius border-hover-image " style="background-image:url('{{item.right.background-image}}'); ">
-          <div class="hover-overlay hover-text-color ">
+        <div class="hover-image radius inner-border border-hover-image " style="background-image:url('{{item.right.background-image}}'); ">
+          <div class="hover-overlay  hover-text-color ">
             <div class="hover-inner">
               <h3 class="subheading-font"> {{item.right.subheading}} </h3>
               <p class="textarea-font padded"> {{item.right.textarea}}</p> 
