@@ -808,7 +808,7 @@ footer {
 
 .read-more-button.active span::after {content: "less";}
 
-.link-background-color {padding: 0px 6px;}
+.link-background-color {padding: 5px 10px;}
 
 .hidden {display: none;}
 
