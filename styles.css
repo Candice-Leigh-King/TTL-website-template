@@ -147,6 +147,8 @@ font-family: 'Shrikhand', cursive;*/
   min-height: 101vh;
   }
 
+
+
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   .radius {border-radius: 500px 500px;}
@@ -405,7 +407,24 @@ font-family: 'Shrikhand', cursive;*/
     transition: all 0.3s;
     padding: .8rem 2rem .6rem;
     }
+
+  .resources-button
+    {
+    background-color: #C1B9AC;
+    color: #766C5B;
+    border: 1px solid #C1B9AC;
+    padding: .8rem 2rem .6rem;
+    font-family: mak;
+    }
   
+  .resources-button:hover 
+   {
+   background-color: transparent; 
+   color: #766C5B;
+   border: 1px solid #766C5B;
+   }
+
+  .resources-bg {background-color: #f3f1ed;}
 /* ---------------- FORM -------------- */
 
 .form-background-color
