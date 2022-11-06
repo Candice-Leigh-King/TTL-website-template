@@ -33,11 +33,11 @@ _array_structures:
         icon: star
         value:
           _section-type: hero
+          hero:
+          hero-image:
           hero-color:
           hero-font: 
           content-block-link:
-          hero-image:
-          hero:
       - label: Text Area
         icon: article
         value:
@@ -60,6 +60,12 @@ _array_structures:
         icon: view_carousel
         value:
           _section-type: carousel
+          heading:
+          carousel:
+            - textarea_html:
+              symbols: 
+              ending:
+          background_image:          
           colors:
             background-color: 
             heading-color:
@@ -91,12 +97,6 @@ _array_structures:
             subheading-font:
             text-font: 
           content-block-link: reviews
-          background_image:
-          heading: 
-          carousel:
-            - textarea_html:
-              symbols: 
-              ending:
       - label: Fig Hover Block
         icon: emoji_nature
         value: 
