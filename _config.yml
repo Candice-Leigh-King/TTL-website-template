@@ -42,6 +42,8 @@ _array_structures:
         icon: article
         value:
           _section-type: textarea
+          textarea_html:
+          subheading_html:
           colors:
             background-color: 
             text-color: 
@@ -54,8 +56,6 @@ _array_structures:
             subheading-font: 
             text-font:  
           content-block-link: 
-          textarea_html:
-          subheading_html:
       - label: Carousel
         icon: view_carousel
         value:
