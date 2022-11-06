@@ -290,6 +290,29 @@ _array_structures:
         icon: business_center
         value:
           _section-type: media-kit 
+          info:
+            title-1: 
+            title-2: 
+            title-3: 
+            title-4:
+            title-5: 
+          statistics:
+            bubble-1: 
+              data:
+              title:
+            bubble-2:
+              data: 
+              title: 
+            bubble-3:
+              data: 
+              title:
+            bubble-4:
+              data: 
+              title:
+          text-area:
+            subheading: 
+            textarea_html: 
+          image:
           colors:
             top-background-color: 
             bottom-background-color: 
@@ -314,29 +337,6 @@ _array_structures:
             statistic-title-font: 
             subheading-font: 
             textarea-font: 
-          image:
-          info:
-            title-1: 
-            title-2: 
-            title-3: 
-            title-4:
-            title-5: 
-          statistics:
-            bubble-1: 
-              data:
-              title:
-            bubble-2:
-              data: 
-              title: 
-            bubble-3:
-              data: 
-              title:
-            bubble-4:
-              data: 
-              title:
-          text-area:
-            subheading: 
-            textarea_html: 
 fonts:
 _select_data:
   fonts:
