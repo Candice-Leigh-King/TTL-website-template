@@ -238,6 +238,23 @@ _array_structures:
         icon: email
         value:
           _section-type: form
+          heading:
+          top:
+            subheading:
+            text-option-1:
+            text-option-2:
+            text-option-3:
+          bottom:
+            subheading: 
+            message:
+            option-box:
+              subject:
+              option-1: 
+              option-2: 
+              option-3:
+              option-4: 
+          button: 
+          background_image:        
           colors:
             background-color:
             textarea-background-color: 
@@ -269,23 +286,6 @@ _array_structures:
             text-font:
             button-font:
           content-block-link:
-          background_image:
-          heading:
-          top:
-            subheading:
-            text-option-1:
-            text-option-2:
-            text-option-3:
-          bottom:
-            subheading: 
-            message:
-            option-box:
-              subject:
-              option-1: 
-              option-2: 
-              option-3:
-              option-4: 
-          button:         
       - label: Media Kit
         icon: business_center
         value:
