@@ -101,6 +101,15 @@ _array_structures:
         icon: emoji_nature
         value: 
           _section-type: fig-hover-block
+          left:
+            heading:
+            background-image:
+          right:
+            subheading:
+            textarea:
+            background-image: 
+            button: 
+            button-link:
           colors:
             overlay-color: 
             background-color:
@@ -133,15 +142,6 @@ _array_structures:
             subheading-font:
             textarea-font: 
           content-block-link:
-          left:
-            heading:
-            background-image:
-          right:
-            subheading:
-            textarea:
-            background-image: 
-            button: 
-            button-link:
       - label: Zuko Hover Block
         icon: pets
         value: 
