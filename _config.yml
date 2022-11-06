@@ -194,12 +194,6 @@ _array_structures:
         icon: photo_camera
         value:
           _section-type: gallery
-          colors:
-            background-color:
-            heading-color:
-          fonts:
-            heading-font:
-          content-block-link:
           heading: Gallery
           left:
             top-image:  
@@ -210,6 +204,12 @@ _array_structures:
           right:
             top-image:
             bottom-image: 
+          colors:
+            background-color:
+            heading-color:
+          fonts:
+            heading-font:
+          content-block-link:
       - label: Gallery with Links
         icon: link
         value:
