@@ -710,6 +710,7 @@ textarea::placeholder {color: #cbcbcb;}
   margin: 0;
   width: 100%;
   border: none;
+  border-radius: 0px;
   transition: all .5s;
   padding: .7rem 0 .5rem;
   background-color: rgba(0,0,0,0);
