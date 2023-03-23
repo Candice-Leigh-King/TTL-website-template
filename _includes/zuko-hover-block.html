@@ -27,7 +27,6 @@
      border-bottom-right-radius: {{item.border-radius.mobile.bottom-right-corner}};
     }
 
-
   #content-blocks-{{forloop.index0}} .hover-container 
    {background-color: {{item.colors.background-color}};}
 
@@ -84,6 +83,15 @@
  
 @media(max-width:768px) 
   {
+     #content-blocks-{{forloop.index0}} .border-mob
+      {
+      border-top-left-radius: {{item.border-radius.tablet.top-left-corner}};
+      border-top-right-radius: {{item.border-radius.tablet.top-right-corner}};
+      border-bottom-left-radius: {{item.border-radius.tablet.bottom-left-corner}};
+      border-bottom-right-radius: {{item.border-radius.tablet.bottom-right-corner}};
+      }  
+      
+      
     #content-blocks-{{forloop.index0}} .border-hover-image 
       {
       border-top-left-radius: {{item.border-radius.tablet.top-left-corner}};
